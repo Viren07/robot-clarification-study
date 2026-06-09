@@ -1,0 +1,63 @@
+[
+  {
+    "instruction": "Pick up the red cup on the left side of the kitchen counter and place it in the sink",
+    "category": "unambiguous",
+    "plan": [
+      "walk_to(kitchen_counter)",
+      "pick_up(red_cup)",
+      "walk_to(sink)",
+      "place(red_cup, sink)"
+    ],
+    "parsed": true
+  },
+  {
+    "instruction": "Clean up the kitchen",
+    "category": "goal_ambiguous",
+    "plan": [
+      "walk_to(kitchen_counter)",
+      "pick_up(red_cup)",
+      "walk_to(sink)",
+      "place(red_cup, sink)",
+      "walk_to(kitchen_counter)",
+      "pick_up(blue_cup)",
+      "walk_to(sink)",
+      "place(blue_cup, sink)",
+      "walk_to(kitchen_counter)",
+      "pick_up(plate)",
+      "walk_to(sink)",
+      "place(plate, sink)"
+    ],
+    "parsed": true
+  },
+  {
+    "instruction": "Get me something to drink",
+    "category": "goal_ambiguous",
+    "plan": [
+      "walk_to(kitchen_counter)",
+      "pick_up(water_bottle)",
+      "walk_to(cup)",
+      "pour(water_bottle, cup)"
+    ],
+    "parsed": true
+  },
+  {
+    "instruction": "Put it away",
+    "category": "referential_ambiguous",
+    "plan": [
+      "walk_to(table)",
+      "pick_up(red_cup)",
+      "walk_to(kitchen_counter)",
+      "place(red_cup, kitchen_counter)"
+    ],
+    "parsed": true
+  },
+  {
+    "instruction": "Turn off the lamp next to the green couch in the living room",
+    "category": "unambiguous",
+    "plan": [
+      "walk_to(lamp)",
+      "switch_off(lamp)"
+    ],
+    "parsed": true
+  }
+]
