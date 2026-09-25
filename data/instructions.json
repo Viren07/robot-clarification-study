@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "unamb_001",
+    "instruction": "Pick up the red cup on the left side of the kitchen counter and place it in the sink",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen counter has one red cup on the left side and one blue cup on the right side. Sink is directly ahead.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_002",
+    "instruction": "Turn off the floor lamp next to the blue couch in the living room",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Living room has one blue couch and one floor lamp positioned immediately to its left. No other lamps in the room.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_003",
+    "instruction": "Open the top drawer of the brown dresser in the bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Bedroom contains one brown dresser with three drawers. No other dressers in the room.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_004",
+    "instruction": "Pick up the white plate on the dining table and place it in the kitchen sink",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Dining table has one white plate and one bowl. Kitchen sink is in the adjacent kitchen.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_005",
+    "instruction": "Walk to the kitchen and turn on the coffee maker on the right side of the counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen counter has one coffee maker on the right side and a microwave on the left side.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_006",
+    "instruction": "Pick up the blue book on the second shelf of the bookcase and place it on the desk",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Bookcase has four shelves. Second shelf contains one blue book and one red book. One desk is in the room.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_007",
+    "instruction": "Close the window above the kitchen sink",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen has one window positioned directly above the sink. No other windows in the kitchen. Window is currently open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_008",
+    "instruction": "Turn on the bedside lamp on the left side of the bed",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Bedroom has one bed with one bedside lamp on the left side currently off and one bedside lamp on the right side currently on.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_009",
+    "instruction": "Pick up the orange juice carton from the top shelf of the refrigerator and place it on the kitchen counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Refrigerator top shelf contains one orange juice carton and one milk carton. Refrigerator door is open. Kitchen counter is directly adjacent.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_010",
+    "instruction": "Walk to the bathroom and turn off the light switch next to the door",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "House has one bathroom. Bathroom has one light switch positioned on the wall immediately to the right of the door. Light is currently on.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_011",
+    "instruction": "Pick up the green apple on the kitchen counter and place it in the fruit bowl on the dining table",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen counter has one green apple and one banana. Dining table has one fruit bowl. No other fruit bowls in the room.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_012",
+    "instruction": "Close the top drawer of the white desk in the study room",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Study room contains one white desk with three drawers. Top drawer is currently open. No other desks in the room.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_013",
+    "instruction": "Turn off the television in the living room by pressing the power button on the remote control on the coffee table",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Living room has one television currently on. One remote control is sitting on top of the coffee table. Television power button is clearly labeled on the remote.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_014",
+    "instruction": "Pick up the red pillow on the right side of the sofa and place it on the armchair next to the window",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Sofa has one red pillow on the right side and one blue pillow on the left side. One armchair is positioned next to the only window in the room.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_015",
+    "instruction": "Walk to the kitchen and open the refrigerator door",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen contains one refrigerator positioned against the left wall. Refrigerator door is currently closed.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_016",
+    "instruction": "Pick up the yellow banana on the kitchen counter and place it in the fruit bowl next to the microwave",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen counter has one yellow banana and one green apple. One fruit bowl is positioned immediately to the right of the microwave.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_017",
+    "instruction": "Turn on the ceiling light in the bedroom using the light switch next to the bedroom door",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Bedroom has one ceiling light currently off. One light switch is positioned on the wall immediately to the left of the bedroom door.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_018",
+    "instruction": "Pick up the black pen on the left side of the desk and place it in the pencil holder on the right side of the desk",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Desk has one black pen on the left side and one red pen in the center. One pencil holder is on the right side of the desk.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_019",
+    "instruction": "Close the bedroom window on the left wall next to the wardrobe",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Bedroom has two windows. One is on the left wall next to the wardrobe and one is on the right wall above the desk. Window on the left wall is currently open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_020",
+    "instruction": "Pick up the white towel on the bathroom floor and place it on the towel rack next to the shower",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Bathroom floor has one white towel. One towel rack is mounted on the wall immediately next to the shower. Towel rack is currently empty.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_021",
+    "instruction": "Walk to the living room and turn off the ceiling fan using the switch on the right wall next to the door",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Living room has one ceiling fan currently on. One fan switch is on the right wall immediately next to the door.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_022",
+    "instruction": "Pick up the milk carton on the second shelf of the refrigerator and place it on the kitchen counter next to the coffee maker",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Refrigerator second shelf has one milk carton and one juice carton. Refrigerator door is open. Coffee maker is on the right side of the kitchen counter with clear space to its left.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_023",
+    "instruction": "Turn off the bedside lamp on the right side of the bed",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Bedroom has one bed with one bedside lamp on the right side currently switched on and one bedside lamp on the left side currently switched off.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_024",
+    "instruction": "Pick up the brown wooden chair next to the dining table and place it under the desk in the study room",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Dining area has one brown wooden chair and one white plastic chair next to the table. Study room has one desk with open space underneath it.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_025",
+    "instruction": "Walk to the bathroom and turn on the hot water tap on the left side of the sink",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "House has one bathroom. Bathroom sink has two taps. Hot water tap is on the left side and cold water tap is on the right side. Both taps are currently off.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_026",
+    "instruction": "Cut the green apple on the left side of the kitchen stove into slices and place the slices on the white plate on the kitchen counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen stove has one green apple on its left side. One knife is on the cutting board next to the stove. One white plate is on the kitchen counter directly adjacent. No other apples or plates in the scene.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_027",
+    "instruction": "Pick up the vase on the coffee table in the hallway, carry it to the kitchen sink, fill it with water using the tap, and place it back on the coffee table in the hallway",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One vase is on the coffee table in the hallway. The vase is currently empty. Kitchen sink is accessible from the hallway. Kitchen tap is functional. No other vases in the scene.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_028",
+    "instruction": "Pick up the empty water bottle and the crumpled paper on the floor of the master bedroom and place them in the black trash bin under the kitchen counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Master bedroom floor has one empty water bottle and one crumpled piece of paper. One black trash bin is located under the kitchen counter. No other trash bins in the scene.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_029",
+    "instruction": "Pick up all the clothes from the laundry basket beside the washing machine, place them inside the washing machine, add one cap of detergent from the blue detergent bottle on the shelf above the washing machine, close the washing machine door, and press the normal wash button",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One laundry basket with clothes is beside the washing machine. One blue detergent bottle with a cap measure is on the shelf directly above the washing machine. Washing machine door is currently open. Normal wash button is clearly labeled on the machine.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_030",
+    "instruction": "Remove all the clothes from the washing machine against the left wall of the laundry room and place them inside the dryer next to it",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Laundry room has one washing machine against the left wall containing clothes. One dryer is immediately to the right of the washing machine and is currently empty with its door open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_031",
+    "instruction": "Remove all the clothes from the dryer, fold each item, stack them neatly, and place the stack on the left side of the double bed in the master bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One dryer in the laundry room contains clothes and the cycle is complete. Master bedroom has one double bed with clear space on the left side. No other beds in the house.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_032",
+    "instruction": "Remove all the butter packs from the grocery bags on the kitchen counter and place them on the second shelf of the refrigerator",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Two grocery bags are on the kitchen counter containing mixed items including clearly labeled butter packs. Refrigerator second shelf has sufficient empty space. Refrigerator door is open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_033",
+    "instruction": "Walk to the front door and open it",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "House has one front door currently closed. Front door is at the end of the main hallway. No other exterior doors in the scene.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_034",
+    "instruction": "Pick up the vacuum cleaner from the corner of the master bedroom, carry it to the living room, and vacuum the entire floor area of the living room",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One vacuum cleaner is in the right corner of the master bedroom. Living room is adjacent to the master bedroom. Living room floor is fully accessible with no large obstructions.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_035",
+    "instruction": "Remove all the coats hanging in the wardrobe in the master bedroom, fold them, and place them inside the brown cardboard box on the floor of the master bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Master bedroom wardrobe has three coats hanging inside. One brown cardboard box is open on the floor of the master bedroom. No other wardrobes or cardboard boxes in the scene.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_036",
+    "instruction": "Pick up the empty glass on the bedside table on the right side of the bed in the master bedroom, carry it to the kitchen, fill it with water from the kitchen tap, and place it back on the bedside table on the right side of the bed",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Master bedroom has one bed with one bedside table on the right side. One empty glass sits on that bedside table. Kitchen tap is functional. Kitchen is accessible from the master bedroom.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_037",
+    "instruction": "Take the red jacket hanging on the coat hook next to the front door and place it in the wardrobe in the master bedroom on the left side rail",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One red jacket and one blue jacket hang on two separate hooks next to the front door. Master bedroom wardrobe has an empty rail on the left side. Wardrobe door is currently open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_038",
+    "instruction": "Pick up the three books stacked on the floor next to the bookcase in the living room and place them on the top shelf of the bookcase",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Three books are stacked on the floor immediately to the left of the bookcase in the living room. Top shelf of the bookcase is empty and has enough space for three books.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_039",
+    "instruction": "Walk to the kitchen, open the cabinet above the microwave, and take out the white coffee mug from the top shelf of that cabinet",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen has one cabinet directly above the microwave. Top shelf of that cabinet contains one white coffee mug and one blue mug. Cabinet door is currently closed.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_040",
+    "instruction": "Pick up the brown cushion on the floor in front of the sofa in the living room and place it on the right side of the sofa",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Living room floor has one brown cushion directly in front of the sofa. Sofa has space on the right side with no cushion currently there.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_041",
+    "instruction": "Take the wet blue towel hanging on the bathroom door and place it on the towel rack mounted on the right wall of the bathroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One wet blue towel is draped over the bathroom door. One towel rack is mounted on the right wall of the bathroom and is currently empty.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_042",
+    "instruction": "Pick up the cereal box on the top shelf of the kitchen cabinet on the left side of the refrigerator and place it on the kitchen counter next to the toaster",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen has one cabinet to the left of the refrigerator. Top shelf of that cabinet has one cereal box. One toaster is on the kitchen counter with clear space to its right. Cabinet door is currently open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_043",
+    "instruction": "Walk to the study room, turn on the desk lamp on the right side of the desk using the switch on its base, and open the top drawer of the desk",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Study room has one desk with one lamp on the right side. Lamp is currently off. Lamp switch is on the base of the lamp. Desk has three drawers and the top drawer is currently closed.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_044",
+    "instruction": "Pick up the empty pizza box on the dining table, fold it flat, and place it in the recycling bin next to the kitchen counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One empty pizza box is on the dining table and has not yet been folded. One recycling bin is positioned immediately to the left of the kitchen counter.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_045",
+    "instruction": "Take the phone charger plugged into the socket on the right wall of the master bedroom, unplug it, wrap the cable neatly, and place it in the top drawer of the bedside table on the right side of the bed",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One phone charger is plugged into a socket on the right wall of the master bedroom. Bedside table on the right side of the bed has a top drawer that is currently closed and empty.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_046",
+    "instruction": "Turn on the trash disposal switch in the kitchen and turn it off after 3 seconds",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Kitchen has one trash disposal unit installed in the sink. One clearly labeled on and off switch for the trash disposal is on the wall immediately to the right of the sink. Trash disposal is currently off.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_047",
+    "instruction": "Remove the bed sheet and the two pillow covers from the bed and pillows in the master bedroom, place them in the washing machine in the laundry room, close the washing machine door, and press the normal wash button",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Master bedroom has one double bed with one bed sheet and two pillows each with a pillow cover. Washing machine is in the laundry room adjacent to the master bedroom and is currently empty with its door open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_048",
+    "instruction": "From the storage cabinet on the second floor remove the blue pillow covers and blue bed sheet and place them on top of the double bed in the master bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Second floor has one storage cabinet containing one set of blue bed linen including two pillow covers and one bed sheet. Storage cabinet door is currently open. Master bedroom double bed is on the first floor and is currently without linen.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_049",
+    "instruction": "Pick up the vacuum cleaner from the corner of the master bedroom and place it in the storage unit on the first floor",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "One vacuum cleaner is in the right corner of the master bedroom on the first floor. One storage unit is in the hallway on the first floor with sufficient space for the vacuum cleaner. Storage unit door is currently open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "unamb_050",
+    "instruction": "Take the black jacket hanging on the hall tree on the first floor and hang it on the right side rail of the wardrobe in the master bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "scene_context": "Hall tree on the first floor has one black jacket and one grey coat hanging on separate hooks. Master bedroom wardrobe right side rail has empty space. Wardrobe door is currently open.",
+    "paired_with": null,
+    "why_ambiguous": null
+  },
+  {
+    "id": "amb_ref_001",
+    "instruction": "Put the cup away",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Kitchen counter has one red cup on the left side and one blue cup on the right side. Sink is directly ahead.",
+    "paired_with": "unamb_001",
+    "why_ambiguous": "Multiple cups in scene. Robot cannot determine which cup to move or where away means."
+  },
+  {
+    "id": "amb_ref_002",
+    "instruction": "Put the book on the desk",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Bookcase has four shelves. Second shelf contains one blue book and one red book. One desk is in the room.",
+    "paired_with": "unamb_006",
+    "why_ambiguous": "Two books on the same shelf. Robot cannot determine which book the user means."
+  },
+  {
+    "id": "amb_ref_003",
+    "instruction": "Turn on the lamp",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Bedroom has one bed with one bedside lamp on the left side currently off and one bedside lamp on the right side also currently off.",
+    "paired_with": "unamb_008",
+    "why_ambiguous": "Two lamps in the scene both currently off. Robot cannot determine which lamp to turn on."
+  },
+  {
+    "id": "amb_ref_004",
+    "instruction": "Move the pillow to the armchair",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Sofa has one red pillow on the right side and one blue pillow on the left side. One armchair is positioned next to the only window in the room.",
+    "paired_with": "unamb_014",
+    "why_ambiguous": "Two pillows on the sofa. Robot cannot determine which pillow the user wants moved."
+  },
+  {
+    "id": "amb_ref_005",
+    "instruction": "Close the window",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Bedroom has two windows. One is on the left wall next to the wardrobe and one is on the right wall above the desk. Both windows are currently open.",
+    "paired_with": "unamb_019",
+    "why_ambiguous": "Two windows in the bedroom both currently open. Robot cannot determine which window to close."
+  },
+  {
+    "id": "amb_ref_006",
+    "instruction": "Get the carton from the fridge and put it on the counter",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Refrigerator second shelf has one milk carton and one juice carton. Refrigerator door is open. Coffee maker is on the right side of the kitchen counter.",
+    "paired_with": "unamb_022",
+    "why_ambiguous": "Two cartons in the refrigerator. Robot cannot determine which carton the user wants."
+  },
+  {
+    "id": "amb_ref_007",
+    "instruction": "Turn off the lamp",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Bedroom has one bed with one bedside lamp on the right side currently switched on and one bedside lamp on the left side also currently switched on.",
+    "paired_with": "unamb_023",
+    "why_ambiguous": "Two lamps in the scene both currently on. Robot cannot determine which lamp to turn off."
+  },
+  {
+    "id": "amb_ref_008",
+    "instruction": "Move the chair to the study room",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Dining area has one brown wooden chair and one white plastic chair next to the table. Study room has one desk with open space underneath it.",
+    "paired_with": "unamb_024",
+    "why_ambiguous": "Two chairs next to the dining table. Robot cannot determine which chair the user means."
+  },
+  {
+    "id": "amb_ref_009",
+    "instruction": "Hang the jacket in the wardrobe",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "One red jacket and one blue jacket hang on two separate hooks next to the front door. Master bedroom wardrobe has an empty rail on the left side. Wardrobe door is currently open.",
+    "paired_with": "unamb_037",
+    "why_ambiguous": "Two jackets on the coat hooks. Robot cannot determine which jacket to move to the wardrobe."
+  },
+  {
+    "id": "amb_ref_010",
+    "instruction": "Get the mug from the cabinet above the microwave",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Kitchen has one cabinet directly above the microwave. Top shelf of that cabinet contains one white coffee mug and one blue mug. Cabinet door is currently open.",
+    "paired_with": "unamb_039",
+    "why_ambiguous": "Two mugs in the cabinet. Robot cannot determine which mug the user wants."
+  },
+  {
+    "id": "amb_ref_011",
+    "instruction": "Move the towel to the rack",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "One wet blue towel is draped over the bathroom door. One dry white towel is folded on the bathroom counter. One towel rack is mounted on the right wall of the bathroom and is currently empty.",
+    "paired_with": "unamb_041",
+    "why_ambiguous": "Two towels in the bathroom. Robot cannot determine which towel the user wants moved to the rack."
+  },
+  {
+    "id": "amb_ref_012",
+    "instruction": "Take the jacket from the hall tree and put it away",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Hall tree on the first floor has one black jacket and one grey coat hanging on separate hooks. Master bedroom wardrobe right side rail has empty space. Wardrobe door is currently open.",
+    "paired_with": "unamb_050",
+    "why_ambiguous": "Two garments on the hall tree. Robot cannot determine which one the user means by the jacket."
+  },
+  {
+    "id": "amb_ref_013",
+    "instruction": "Turn on something in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Kitchen counter has one coffee maker on the right side and a microwave on the left side. Both are currently off.",
+    "paired_with": "unamb_005",
+    "why_ambiguous": "Two devices in the kitchen both currently off. Robot cannot determine which device the user wants turned on."
+  },
+  {
+    "id": "amb_ref_014",
+    "instruction": "Close something on the desk",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Study room contains one white desk with three drawers. Top drawer is currently open. A notebook is open on the desk surface. No other desks in the room.",
+    "paired_with": "unamb_012",
+    "why_ambiguous": "Multiple closeable things on the desk \u2014 a drawer and a notebook. Robot cannot determine which to close."
+  },
+  {
+    "id": "amb_ref_015",
+    "instruction": "Turn something off in the living room",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Living room has one ceiling fan currently on and one television currently on. One fan switch is on the right wall.",
+    "paired_with": "unamb_021",
+    "why_ambiguous": "Two devices currently on in the living room. Robot cannot determine which to turn off."
+  },
+  {
+    "id": "amb_ref_016",
+    "instruction": "Turn something on in the study room",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "scene_context": "Study room has one desk with one lamp on the right side currently off and one desktop computer on the left side currently off.",
+    "paired_with": "unamb_043",
+    "why_ambiguous": "Two devices currently off in the study room. Robot cannot determine which to turn on."
+  },
+  {
+    "id": "amb_goal_001",
+    "instruction": "Do the laundry",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "One laundry basket with clothes is beside the washing machine. One blue detergent bottle with a cap measure is on the shelf directly above the washing machine. Washing machine door is currently open.",
+    "paired_with": "unamb_029",
+    "why_ambiguous": "Laundry could mean wash only, wash and dry, or wash dry and fold. Robot cannot determine which steps to complete."
+  },
+  {
+    "id": "amb_goal_002",
+    "instruction": "Deal with the clothes in the dryer",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "One dryer in the laundry room contains clothes and the cycle is complete. Master bedroom has one double bed with clear space on the left side.",
+    "paired_with": "unamb_031",
+    "why_ambiguous": "Deal with could mean remove only, remove and fold, or remove fold and put away. Robot cannot determine what done looks like."
+  },
+  {
+    "id": "amb_goal_003",
+    "instruction": "Clean the living room",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "One vacuum cleaner is in the right corner of the master bedroom. Living room is adjacent to the master bedroom. Living room floor is accessible.",
+    "paired_with": "unamb_034",
+    "why_ambiguous": "Clean could mean vacuum only, tidy surfaces, dust, or all of the above. Robot cannot determine what clean means to this user."
+  },
+  {
+    "id": "amb_goal_004",
+    "instruction": "Sort out the wardrobe in the master bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "Master bedroom wardrobe has three coats hanging inside. One brown cardboard box is open on the floor of the master bedroom.",
+    "paired_with": "unamb_035",
+    "why_ambiguous": "Sort out is undefined. Could mean reorganize, remove seasonal items, pack things away, or just straighten."
+  },
+  {
+    "id": "amb_goal_005",
+    "instruction": "Tidy up the bookcase",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "Three books are stacked on the floor immediately to the left of the bookcase in the living room. Top shelf of the bookcase is empty and has space for three books.",
+    "paired_with": "unamb_038",
+    "why_ambiguous": "Tidy up could mean put the floor books on the shelf, reorganize existing books, or both. Goal state is undefined."
+  },
+  {
+    "id": "amb_goal_006",
+    "instruction": "Deal with the mess on the dining table",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "One empty pizza box is on the dining table and has not yet been folded. One recycling bin is positioned immediately to the left of the kitchen counter.",
+    "paired_with": "unamb_044",
+    "why_ambiguous": "Deal with the mess is undefined. Could mean fold and recycle, throw away, or move elsewhere."
+  },
+  {
+    "id": "amb_goal_007",
+    "instruction": "Change the bedding in the master bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "Master bedroom has one double bed with one bed sheet and two pillows each with a pillow cover. Washing machine is in the laundry room adjacent.",
+    "paired_with": "unamb_047",
+    "why_ambiguous": "Change could mean remove only, remove and replace, or remove and wash. Robot cannot determine how far to take the task."
+  },
+  {
+    "id": "amb_goal_008",
+    "instruction": "Prepare the apple in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "Kitchen stove has one green apple on its left side. One knife is on the cutting board next to the stove. One white plate is on the kitchen counter directly adjacent.",
+    "paired_with": "unamb_026",
+    "why_ambiguous": "Prepare is completely undefined. Could mean cut, peel, cook, or plate the apple."
+  },
+  {
+    "id": "amb_goal_009",
+    "instruction": "Clean up the master bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "Master bedroom floor has one empty water bottle and one crumpled piece of paper. One black trash bin is located under the kitchen counter.",
+    "paired_with": "unamb_028",
+    "why_ambiguous": "Clean up is undefined. Could mean pick up visible trash only, vacuum the floor, make the bed, or all of the above."
+  },
+  {
+    "id": "amb_goal_010",
+    "instruction": "Put away the groceries",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "Two grocery bags are on the kitchen counter containing mixed items including clearly labeled butter packs. Refrigerator second shelf has sufficient empty space. Refrigerator door is closed.",
+    "paired_with": "unamb_032",
+    "why_ambiguous": "Put away implies all items not just butter. Robot cannot determine where each item should go."
+  },
+  {
+    "id": "amb_goal_011",
+    "instruction": "Tidy up the living room",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "Living room floor has one brown cushion directly in front of the sofa. Sofa has space on the right side with no cushion currently there.",
+    "paired_with": "unamb_040",
+    "why_ambiguous": "Tidy up is undefined. Could mean just replace the cushion, straighten all furniture, or a full clean."
+  },
+  {
+    "id": "amb_goal_012",
+    "instruction": "Sort out the kitchen cabinet",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "Kitchen has one cabinet to the left of the refrigerator. Top shelf of that cabinet has one cereal box. One toaster is on the kitchen counter with clear space to its right. Cabinet door is currently open.",
+    "paired_with": "unamb_042",
+    "why_ambiguous": "Sort out is undefined. Could mean reorganize contents, move the cereal box, or clear the shelf entirely."
+  },
+  {
+    "id": "amb_goal_013",
+    "instruction": "Put away the cleaning equipment",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "scene_context": "One vacuum cleaner is in the right corner of the master bedroom on the first floor. One storage unit is in the hallway on the first floor with sufficient space.",
+    "paired_with": "unamb_049",
+    "why_ambiguous": "Cleaning equipment could refer to the vacuum only or to other cleaning items not mentioned. Robot cannot determine scope."
+  },
+  {
+    "id": "amb_imp_001",
+    "instruction": "Get me my usual drink from the fridge",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Refrigerator top shelf contains one orange juice carton and one milk carton. Refrigerator door is open. Kitchen counter is directly adjacent.",
+    "paired_with": "unamb_009",
+    "why_ambiguous": "Robot has no memory of user preferences. Cannot determine what the usual drink is."
+  },
+  {
+    "id": "amb_imp_002",
+    "instruction": "Get me my usual snack from the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Kitchen counter has one green apple and one banana. Dining table has one fruit bowl.",
+    "paired_with": "unamb_011",
+    "why_ambiguous": "Robot has no memory of user preferences. Cannot determine what the usual snack is."
+  },
+  {
+    "id": "amb_imp_003",
+    "instruction": "Put the fruit where it belongs",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Kitchen counter has one yellow banana and one green apple. Kitchen has various storage locations including cabinets, counter space, and the refrigerator. No fruit bowl is visible.",
+    "paired_with": "unamb_016",
+    "why_ambiguous": "Where it belongs implies the robot knows the established place for fruit. No visible logical location exists so prior knowledge is genuinely required."
+  },
+  {
+    "id": "amb_imp_004",
+    "instruction": "Set the lighting how I like it in the bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Bedroom has one ceiling light currently off. One light switch is positioned on the wall immediately to the left of the bedroom door.",
+    "paired_with": "unamb_017",
+    "why_ambiguous": "How I like it implies personal preference the robot has never been told."
+  },
+  {
+    "id": "amb_imp_005",
+    "instruction": "Put the towel where it goes",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Bathroom floor has one white towel. One towel rack is mounted on the wall next to the shower. One towel hook is on the back of the bathroom door. Both are currently empty.",
+    "paired_with": "unamb_020",
+    "why_ambiguous": "Where it goes implies the robot knows the established place for this towel. Two possible locations exist and the robot cannot determine which is correct without prior knowledge."
+  },
+  {
+    "id": "amb_imp_006",
+    "instruction": "Take care of the vase the way you did before",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "One vase is on the coffee table in the hallway. The vase is currently empty. Kitchen sink is accessible from the hallway. Kitchen tap is functional.",
+    "paired_with": "unamb_027",
+    "why_ambiguous": "The way you did before assumes the robot has memory of a previous interaction. Robot has no persistent memory."
+  },
+  {
+    "id": "amb_imp_007",
+    "instruction": "Move the laundry to the next step",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Laundry room has one washing machine against the left wall containing clothes. One dryer is immediately to the right currently empty with door open.",
+    "paired_with": "unamb_030",
+    "why_ambiguous": "The next step implies the robot knows the user's laundry workflow. Robot cannot determine whether next step means dryer, hanging, folding, or something else."
+  },
+  {
+    "id": "amb_imp_008",
+    "instruction": "Bring me my usual bedtime drink",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Master bedroom has one bed with one bedside table on the right side. One empty glass sits on that bedside table. Kitchen tap is functional.",
+    "paired_with": "unamb_036",
+    "why_ambiguous": "Usual bedtime drink implies personal preference the robot has never been told."
+  },
+  {
+    "id": "amb_imp_009",
+    "instruction": "Pack up my things on the right wall of the bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "One phone charger is plugged into a socket on the right wall of the master bedroom. Bedside table on the right side has a top drawer that is currently closed and empty.",
+    "paired_with": "unamb_045",
+    "why_ambiguous": "My things is vague and implies the robot knows which items belong to the user. Scope cannot be determined without asking."
+  },
+  {
+    "id": "amb_imp_010",
+    "instruction": "Make the bed the way I like it",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Second floor has one storage cabinet containing one set of blue bed linen. Master bedroom double bed is on the first floor and is currently without linen.",
+    "paired_with": "unamb_048",
+    "why_ambiguous": "The way I like it implies personal preference about linen choice, tucking style, and pillow arrangement the robot has never been told."
+  },
+  {
+    "id": "amb_imp_011",
+    "instruction": "Put my jacket away where it belongs",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Hall tree on the first floor has one black jacket and one grey coat. Master bedroom wardrobe right side rail has empty space. Wardrobe door is currently open.",
+    "paired_with": "unamb_050",
+    "why_ambiguous": "Where it belongs implies the robot knows the established place for this jacket. Robot has no memory of household conventions."
+  },
+  {
+    "id": "amb_imp_012",
+    "instruction": "Run the trash disposal the usual way",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "scene_context": "Kitchen has one trash disposal unit installed in the sink. One clearly labeled switch is on the wall immediately to the right of the sink. Trash disposal is currently off.",
+    "paired_with": "unamb_046",
+    "why_ambiguous": "The usual way implies the robot knows the user's preferred duration and method. Robot has no memory of past interactions."
+  },
+  {
+    "id": "amb_spatial_001",
+    "instruction": "Put the lamp somewhere in the living room",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "Living room has one blue couch and one floor lamp positioned immediately to its left. Various surfaces and floor areas are available in the room.",
+    "paired_with": "unamb_002",
+    "why_ambiguous": "Somewhere in the living room gives no specific destination. Robot cannot determine where exactly to place the lamp."
+  },
+  {
+    "id": "amb_spatial_002",
+    "instruction": "Put the black pen in one of the dresser drawers",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "Bedroom contains one brown dresser with three drawers all currently closed. One black pen is on the top of the dresser.",
+    "paired_with": "unamb_003",
+    "why_ambiguous": "One of the drawers does not specify which drawer. Top, middle, and bottom are all valid options."
+  },
+  {
+    "id": "amb_spatial_003",
+    "instruction": "Put the plate somewhere in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "Dining table has one white plate and one bowl. Kitchen sink, counter, and cabinets are all accessible.",
+    "paired_with": "unamb_004",
+    "why_ambiguous": "Somewhere in the kitchen is too vague. Sink, counter, and cabinet are all valid and the robot cannot determine which is intended."
+  },
+  {
+    "id": "amb_spatial_004",
+    "instruction": "Put the coffee maker somewhere accessible in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "Kitchen counter has one coffee maker on the right side and a microwave on the left side. Various counter spaces and cabinet surfaces are available.",
+    "paired_with": "unamb_005",
+    "why_ambiguous": "Somewhere accessible gives no specific location. Robot cannot determine where accessible means to this user."
+  },
+  {
+    "id": "amb_spatial_005",
+    "instruction": "Turn off the light somewhere in the bathroom",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "House has one bathroom. One light switch on the wall to the right of the door. One additional switch is on the mirror cabinet. Light is currently on.",
+    "paired_with": "unamb_010",
+    "why_ambiguous": "Somewhere in the bathroom with two switches does not specify which switch or fixture the user means."
+  },
+  {
+    "id": "amb_spatial_006",
+    "instruction": "Leave the pen somewhere convenient on the desk",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "Desk has one black pen on the left side and one red pen in the center. One pencil holder is on the right side of the desk. Various clear areas exist on the desk surface.",
+    "paired_with": "unamb_018",
+    "why_ambiguous": "Somewhere convenient is subjective and gives no specific location. Robot cannot determine what convenient means to this user."
+  },
+  {
+    "id": "amb_spatial_007",
+    "instruction": "Put the remote somewhere nearby",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "Living room has one television. One remote control is on the coffee table. Various surfaces including side tables, shelves, and sofa armrests are nearby.",
+    "paired_with": "unamb_013",
+    "why_ambiguous": "Somewhere nearby gives no specific destination. Nearby is relative and the robot cannot determine an exact placement location."
+  },
+  {
+    "id": "amb_spatial_008",
+    "instruction": "Put the cereal box somewhere in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "Kitchen has one cabinet to the left of the refrigerator. One toaster is on the kitchen counter. Various surfaces including counter space, cabinet shelves, and the top of the refrigerator are available.",
+    "paired_with": "unamb_042",
+    "why_ambiguous": "Somewhere in the kitchen gives no specific destination. Counter, cabinet shelf, and top of the refrigerator are all valid options and the robot cannot determine which the user intends."
+  },
+  {
+    "id": "amb_spatial_009",
+    "instruction": "Leave the vacuum somewhere on the ground floor",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "One vacuum cleaner is in the right corner of the master bedroom on the first floor. Various rooms, closets, and hallway storage areas exist on the ground floor.",
+    "paired_with": "unamb_034",
+    "why_ambiguous": "Somewhere on the ground floor gives no specific destination. Hallway, storage unit, bedroom corner, and closet are all valid options and the robot cannot determine which the user intends."
+  },
+  {
+    "id": "amb_spatial_010",
+    "instruction": "Turn on the water somewhere in the bathroom",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "House has one bathroom. Bathroom sink has two taps. Shower also has a separate tap. All water sources are currently off.",
+    "paired_with": "unamb_025",
+    "why_ambiguous": "Somewhere in the bathroom does not specify which tap or fixture. Sink hot tap, sink cold tap, and shower are all valid."
+  },
+  {
+    "id": "amb_spatial_011",
+    "instruction": "Open a door somewhere downstairs",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "House has one front door, one kitchen door, and one living room door on the first floor. All are currently closed.",
+    "paired_with": "unamb_033",
+    "why_ambiguous": "A door somewhere downstairs could mean the front door, kitchen door, or living room door. Robot cannot determine which."
+  },
+  {
+    "id": "amb_spatial_012",
+    "instruction": "Leave the lamp somewhere in the study room",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "Study room has one desk with one lamp on the right side. Various surfaces and floor areas are available in the room.",
+    "paired_with": "unamb_043",
+    "why_ambiguous": "Somewhere in the study room gives no specific destination for the lamp. Robot cannot determine where to place it."
+  },
+  {
+    "id": "amb_spatial_013",
+    "instruction": "Put the vacuum somewhere on the first floor",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "scene_context": "One vacuum cleaner is in the right corner of the master bedroom. One storage unit is in the hallway. Various rooms and closets are on the first floor.",
+    "paired_with": "unamb_049",
+    "why_ambiguous": "Somewhere on the first floor gives no specific destination. Hallway, storage unit, closet, and bedroom corner are all valid."
+  },
+  {
+    "id": "amb_mixed_001",
+    "instruction": "Put that away somewhere safe",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Living room has one red cup on the coffee table, one blue book on the sofa, and one remote control on the floor. Various storage locations exist including shelves, cabinets, and drawers.",
+    "paired_with": "unamb_001",
+    "why_ambiguous": "REFERENTIAL: that could refer to the cup, book, or remote \u2014 three possible objects. SPATIAL: somewhere safe gives no specific location."
+  },
+  {
+    "id": "amb_mixed_002",
+    "instruction": "Get me something to drink and leave it nearby",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Refrigerator top shelf contains one orange juice carton and one milk carton. Kitchen counter has one empty glass and one empty mug. Dining table and coffee table are both accessible.",
+    "paired_with": "unamb_009",
+    "why_ambiguous": "GOAL: something to drink is undefined \u2014 juice, milk, water, or hot drink are all valid. SPATIAL: nearby gives no specific location to leave the drink."
+  },
+  {
+    "id": "amb_mixed_003",
+    "instruction": "Move the laundry somewhere convenient when it is done",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Laundry room has one washing machine against the left wall currently running. One dryer is immediately to the right. Master bedroom and living room are both accessible.",
+    "paired_with": "unamb_030",
+    "why_ambiguous": "IMPLICIT: when it is done assumes the robot knows the cycle time and will monitor it. SPATIAL: somewhere convenient gives no specific destination."
+  },
+  {
+    "id": "amb_mixed_004",
+    "instruction": "Put my things somewhere tidy in the bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Master bedroom has one phone charger on the right wall socket, one jacket on the bed, and one book on the floor. Various surfaces and storage options exist.",
+    "paired_with": "unamb_045",
+    "why_ambiguous": "IMPLICIT: my things assumes the robot knows which items belong to the user. SPATIAL: somewhere tidy gives no specific location."
+  },
+  {
+    "id": "amb_mixed_005",
+    "instruction": "Deal with the stuff on the kitchen counter and put it where it belongs",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Kitchen counter has one cereal box, one butter pack, one apple, and one book. Various storage locations including cabinets, refrigerator, and fruit bowl are available.",
+    "paired_with": "unamb_032",
+    "why_ambiguous": "REFERENTIAL: the stuff is vague \u2014 all four items or just some? IMPLICIT: where it belongs assumes the robot knows the established place for each item."
+  },
+  {
+    "id": "amb_mixed_006",
+    "instruction": "Tidy up a bit and leave things somewhere accessible",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Living room has one brown cushion on the floor, one book on the sofa, and one empty glass on the coffee table. Various surfaces and storage areas exist.",
+    "paired_with": "unamb_040",
+    "why_ambiguous": "GOAL: tidy up a bit is undefined \u2014 which items and to what standard. SPATIAL: somewhere accessible gives no specific destination for any item."
+  },
+  {
+    "id": "amb_mixed_007",
+    "instruction": "Sort out the bedroom the way I like it",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Master bedroom has one unmade bed, one jacket on the floor, and one lamp on the desk. Various storage options including wardrobe and drawers are available.",
+    "paired_with": "unamb_031",
+    "why_ambiguous": "IMPLICIT: the way I like it assumes personal preference the robot has never been told. GOAL: sort out is undefined \u2014 make bed, hang jacket, move lamp, or all of the above."
+  },
+  {
+    "id": "amb_mixed_008",
+    "instruction": "Get the thing from the shelf and put it over there",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Bookcase in the living room has one blue book, one red book, and one small plant on the top shelf. Various surfaces are visible across the room.",
+    "paired_with": "unamb_006",
+    "why_ambiguous": "REFERENTIAL: the thing could be the blue book, red book, or plant \u2014 three possible objects. SPATIAL: over there gives no specific destination."
+  },
+  {
+    "id": "amb_mixed_009",
+    "instruction": "Prepare my usual drink and leave it somewhere I can find it",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Kitchen counter has one coffee maker, one kettle, and one empty glass. Refrigerator contains milk and orange juice. Various surfaces in kitchen and living room are accessible.",
+    "paired_with": "unamb_036",
+    "why_ambiguous": "IMPLICIT: my usual drink assumes personal preference the robot has never been told. SPATIAL: somewhere I can find it gives no specific location."
+  },
+  {
+    "id": "amb_mixed_010",
+    "instruction": "Handle the washing and put it away properly when ready",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "scene_context": "Laundry room has one washing machine containing clothes with cycle complete. One dryer is adjacent. Master bedroom wardrobe and shelves are accessible.",
+    "paired_with": "unamb_047",
+    "why_ambiguous": "GOAL: handle the washing is undefined \u2014 dry only, fold only, or dry fold and store. IMPLICIT: when ready assumes the robot monitors appliance state. SPATIAL: put it away properly gives no specific storage destination."
+  }
+]
