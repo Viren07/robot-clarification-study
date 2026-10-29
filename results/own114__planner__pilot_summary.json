@@ -1,0 +1,49 @@
+{
+  "total": 114,
+  "malformed_count": 1,
+  "confusion_matrix": {
+    "true_positive_caught_ambiguity": 49,
+    "false_negative_missed_ambiguity": 15,
+    "true_negative_correct_execute": 44,
+    "false_positive_unnecessary_ask": 5
+  },
+  "by_ambiguity_type": {
+    "unambiguous": {
+      "total": 50,
+      "correct": 44,
+      "incorrect": 5,
+      "malformed": 1
+    },
+    "referential": {
+      "total": 16,
+      "correct": 15,
+      "incorrect": 1,
+      "malformed": 0
+    },
+    "goal": {
+      "total": 13,
+      "correct": 3,
+      "incorrect": 10,
+      "malformed": 0
+    },
+    "implicit": {
+      "total": 12,
+      "correct": 8,
+      "incorrect": 4,
+      "malformed": 0
+    },
+    "spatial": {
+      "total": 13,
+      "correct": 13,
+      "incorrect": 0,
+      "malformed": 0
+    },
+    "mixed": {
+      "total": 10,
+      "correct": 10,
+      "incorrect": 0,
+      "malformed": 0
+    }
+  },
+  "overall_accuracy": 0.823
+}

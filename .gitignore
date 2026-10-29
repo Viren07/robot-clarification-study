@@ -3,3 +3,10 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# AmbiK data and results derived from it: not redistributed until the AmbiK dataset license is checked
+data/ambik/
+results/ambik_*
+# dry-run test outputs
+results/DRYRUN/
+results/*DRYRUN*

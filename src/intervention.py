@@ -23,18 +23,17 @@ else:
 
 SYSTEM_PROMPT = """You are a robot task planner operating
 in a household environment. Given a natural language
-instruction and the objects currently visible in the scene,
+instruction and a description of the current scene,
 first enumerate every plausible, distinct interpretation
-of the instruction that is groundable in the visible objects
-and scene.
+of the instruction that is groundable in the scene.
 
 Rules for interpretations:
 - Only include interpretations you could actually execute using
-  the visible objects. Do not invent objects or locations not
-  listed.
+  objects and locations described in the scene. Do not invent
+  objects or locations not mentioned.
 - If the instruction assumes information you do not have access
-  to, and no visible object or scene detail resolves it, output
-  zero interpretations.
+  to, and no detail in the scene resolves it, output zero
+  interpretations.
 - If exactly one interpretation is groundable, treat the
   instruction as unambiguous.
 - If more than one distinct interpretation is groundable, treat
@@ -56,9 +55,9 @@ Respond ONLY with valid JSON in this format:
  "action": "clarify" or "execute", "plan": [...] or null,
  "clarifying_question": "..." or null}"""
 
-def plan_task(instruction, visible_objects):
+def plan_task(instruction, scene_context):
     prompt = f"""Instruction: {instruction}
-Visible objects: {', '.join(visible_objects)}
+Scene: {scene_context}
 Respond with the JSON object described in your instructions:"""
 
     response = client.chat.completions.create(
@@ -105,32 +104,33 @@ Respond with the JSON object described in your instructions:"""
             "parsed": False
         }
 
-# Same 5 test cases used for the baseline planner, for direct comparison
+# Same 5 test cases used for the baseline planner, for direct comparison.
+# scene_context now matches the prose style used in data/instructions.json.
 test_cases = [
     {
         "instruction": "Pick up the red cup on the left side of the kitchen counter and place it in the sink",
         "category": "unambiguous",
-        "objects": ["red_cup", "blue_cup", "kitchen_counter", "sink", "plate", "microwave"]
+        "scene_context": "Kitchen counter has one red cup on the left side and one blue cup on the right side. Sink is directly ahead."
     },
     {
         "instruction": "Clean up the kitchen",
         "category": "goal_ambiguous",
-        "objects": ["red_cup", "blue_cup", "kitchen_counter", "sink", "plate", "microwave"]
+        "scene_context": "Kitchen counter has a red cup, a blue cup, and a plate. Sink is directly ahead. Microwave is on the counter."
     },
     {
         "instruction": "Get me something to drink",
         "category": "goal_ambiguous",
-        "objects": ["water_bottle", "juice_carton", "coffee_maker", "cup", "kitchen_counter"]
+        "scene_context": "Kitchen counter has a water bottle, a juice carton, a coffee maker, and an empty cup."
     },
     {
         "instruction": "Put it away",
         "category": "referential_ambiguous",
-        "objects": ["red_cup", "book", "remote_control", "plate", "table"]
+        "scene_context": "Table has a red cup, a book, a remote control, and a plate on it."
     },
     {
         "instruction": "Turn off the lamp next to the green couch in the living room",
         "category": "unambiguous",
-        "objects": ["lamp", "green_couch", "coffee_table", "remote_control", "bookshelf"]
+        "scene_context": "Living room has one green couch with a floor lamp next to it, a coffee table, a remote control, and a bookshelf."
     }
 ]
 
@@ -140,7 +140,7 @@ if __name__ == "__main__":
     for test in test_cases:
         print(f"\nInstruction: {test['instruction']}")
         print(f"Category: {test['category']}")
-        result = plan_task(test['instruction'], test['objects'])
+        result = plan_task(test['instruction'], test['scene_context'])
         print(f"Interpretations: {result['interpretations']}")
         print(f"Num interpretations: {result['num_interpretations']}")
         print(f"Action: {result['action']}")

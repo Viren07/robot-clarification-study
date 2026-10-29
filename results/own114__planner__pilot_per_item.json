@@ -1,0 +1,2187 @@
+[
+  {
+    "id": "unamb_001",
+    "instruction": "Pick up the red cup on the left side of the kitchen counter and place it in the sink",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the red cup located on the left side of the kitchen counter and place it into the sink."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(red cup)",
+      "pick_up(red cup)",
+      "walk_to(sink)",
+      "place(red cup, sink)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_002",
+    "instruction": "Turn off the floor lamp next to the blue couch in the living room",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Turn off the floor lamp that is next to the blue couch in the living room."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(floor lamp)",
+      "switch_off(floor lamp)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_003",
+    "instruction": "Open the top drawer of the brown dresser in the bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Open the top drawer of the brown dresser in the bedroom"
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(brown dresser)",
+      "open(top drawer of brown dresser)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_004",
+    "instruction": "Pick up the white plate on the dining table and place it in the kitchen sink",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the white plate on the dining table and place it in the kitchen sink."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(dining table)",
+      "pick_up(white plate)",
+      "walk_to(kitchen sink)",
+      "place(white plate, kitchen sink)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_005",
+    "instruction": "Walk to the kitchen and turn on the coffee maker on the right side of the counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Walk to the kitchen and switch on the coffee maker on the right side of the counter."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(kitchen)",
+      "switch_on(coffee maker)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_006",
+    "instruction": "Pick up the blue book on the second shelf of the bookcase and place it on the desk",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the blue book on the second shelf of the bookcase and place it on the desk."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(blue book)",
+      "pick_up(blue book)",
+      "walk_to(desk)",
+      "place(blue book, desk)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_007",
+    "instruction": "Close the window above the kitchen sink",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Close the kitchen window that is positioned directly above the sink."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(window)",
+      "close(window)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_008",
+    "instruction": "Turn on the bedside lamp on the left side of the bed",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Turn on the bedside lamp that is located on the left side of the bed."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(bedside_lamp_left)",
+      "switch_on(bedside_lamp_left)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_009",
+    "instruction": "Pick up the orange juice carton from the top shelf of the refrigerator and place it on the kitchen counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the orange juice carton from the top shelf of the refrigerator and place it on the kitchen counter."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(refrigerator)",
+      "pick_up(orange juice carton)",
+      "walk_to(kitchen counter)",
+      "place(orange juice carton, kitchen counter)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_010",
+    "instruction": "Walk to the bathroom and turn off the light switch next to the door",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Walk to the bathroom and switch off the light switch next to the door."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(bathroom)",
+      "switch_off(light switch)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_011",
+    "instruction": "Pick up the green apple on the kitchen counter and place it in the fruit bowl on the dining table",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the green apple on the kitchen counter and place it in the fruit bowl on the dining table."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(kitchen counter)",
+      "pick_up(green apple)",
+      "walk_to(dining table)",
+      "place(green apple, fruit bowl)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_012",
+    "instruction": "Close the top drawer of the white desk in the study room",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Close the top drawer of the white desk in the study room"
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(top drawer)",
+      "close(top drawer)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_013",
+    "instruction": "Turn off the television in the living room by pressing the power button on the remote control on the coffee table",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Turn off the television by pressing the power button on the remote control that is on the coffee table."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(remote_control)",
+      "switch_off(television)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_014",
+    "instruction": "Pick up the red pillow on the right side of the sofa and place it on the armchair next to the window",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the red pillow on the right side of the sofa and place it on the armchair next to the window."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(red pillow)",
+      "pick_up(red pillow)",
+      "walk_to(armchair)",
+      "place(red pillow, armchair)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_015",
+    "instruction": "Walk to the kitchen and open the refrigerator door",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Walk to the kitchen and open the refrigerator door"
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(kitchen)",
+      "open(refrigerator)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_016",
+    "instruction": "Pick up the yellow banana on the kitchen counter and place it in the fruit bowl next to the microwave",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the yellow banana on the kitchen counter and place it in the fruit bowl that is next to the microwave."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(yellow banana)",
+      "pick_up(yellow banana)",
+      "walk_to(fruit bowl)",
+      "place(yellow banana, fruit bowl)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_017",
+    "instruction": "Turn on the ceiling light in the bedroom using the light switch next to the bedroom door",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Use the light switch next to the bedroom door to turn on the ceiling light."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(light_switch)",
+      "switch_on(light_switch)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_018",
+    "instruction": "Pick up the black pen on the left side of the desk and place it in the pencil holder on the right side of the desk",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the black pen on the left side of the desk and place it in the pencil holder on the right side of the desk."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(black pen)",
+      "pick_up(black pen)",
+      "walk_to(pencil holder)",
+      "place(black pen, pencil holder)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_019",
+    "instruction": "Close the bedroom window on the left wall next to the wardrobe",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Close the left-wall bedroom window that is next to the wardrobe"
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(window_left_wall)",
+      "close(window_left_wall)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_020",
+    "instruction": "Pick up the white towel on the bathroom floor and place it on the towel rack next to the shower",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the white towel on the bathroom floor and place it on the towel rack next to the shower."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(white towel)",
+      "pick_up(white towel)",
+      "walk_to(towel rack)",
+      "place(white towel, towel rack)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_021",
+    "instruction": "Walk to the living room and turn off the ceiling fan using the switch on the right wall next to the door",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Walk to the living room, go to the switch on the right wall next to the door, and switch it off to turn off the ceiling fan."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(living room)",
+      "walk_to(switch)",
+      "switch_off(switch)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_022",
+    "instruction": "Pick up the milk carton on the second shelf of the refrigerator and place it on the kitchen counter next to the coffee maker",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the milk carton from the second shelf of the refrigerator and place it on the kitchen counter to the left of the coffee maker."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(refrigerator)",
+      "pick_up(milk carton)",
+      "walk_to(kitchen counter)",
+      "place(milk carton, kitchen counter)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_023",
+    "instruction": "Turn off the bedside lamp on the right side of the bed",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      {
+        "description": "Switch off the bedside lamp that is on the right side of the bed",
+        "action_sequence": [
+          "walk_to(bedside lamp on the right side)",
+          "switch_off(bedside lamp on the right side)"
+        ]
+      }
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(bedside lamp on the right side)",
+      "switch_off(bedside lamp on the right side)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_024",
+    "instruction": "Pick up the brown wooden chair next to the dining table and place it under the desk in the study room",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the brown wooden chair that is next to the dining table and place it under the desk in the study room."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(brown wooden chair)",
+      "pick_up(brown wooden chair)",
+      "walk_to(desk)",
+      "place(brown wooden chair, under desk)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_025",
+    "instruction": "Walk to the bathroom and turn on the hot water tap on the left side of the sink",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Walk to the bathroom and turn on the hot water tap on the left side of the sink."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(bathroom)",
+      "switch_on(hot water tap)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_026",
+    "instruction": "Cut the green apple on the left side of the kitchen stove into slices and place the slices on the white plate on the kitchen counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 0,
+    "interpretations": [],
+    "clarifying_question": "I can pick up the knife and move objects, but I don't have a 'cut' action. Should I place the whole green apple on the white plate instead of slicing it?",
+    "plan": null,
+    "outcome": "incorrect"
+  },
+  {
+    "id": "unamb_027",
+    "instruction": "Pick up the vase on the coffee table in the hallway, carry it to the kitchen sink, fill it with water using the tap, and place it back on the coffee table in the hallway",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the vase from the coffee table in the hallway, carry it to the kitchen sink, fill it with water from the tap, and return it to the coffee table in the hallway."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(vase)",
+      "pick_up(vase)",
+      "walk_to(kitchen sink)",
+      "open(tap)",
+      "pour(tap, vase)",
+      "close(tap)",
+      "walk_to(coffee table)",
+      "place(vase, coffee table)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_028",
+    "instruction": "Pick up the empty water bottle and the crumpled paper on the floor of the master bedroom and place them in the black trash bin under the kitchen counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the empty water bottle and the crumpled paper from the master bedroom floor and place them in the black trash bin under the kitchen counter."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(empty water bottle)",
+      "pick_up(empty water bottle)",
+      "walk_to(crumpled paper)",
+      "pick_up(crumpled paper)",
+      "walk_to(black trash bin)",
+      "place(empty water bottle, black trash bin)",
+      "place(crumpled paper, black trash bin)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_029",
+    "instruction": "Pick up all the clothes from the laundry basket beside the washing machine, place them inside the washing machine, add one cap of detergent from the blue detergent bottle on the shelf above the washing machine, close the washing machine door, and press the normal wash button",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up all clothes from the laundry basket beside the washing machine, place them inside the washing machine, add one cap of detergent from the blue detergent bottle on the shelf above the washing machine, close the washing machine door, and start the normal wash cycle by pressing the normal wash button."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(laundry basket)",
+      "pick_up(clothes)",
+      "walk_to(washing machine)",
+      "place(clothes, washing machine)",
+      "walk_to(blue detergent bottle)",
+      "pour(blue detergent bottle, washing machine)",
+      "close(washing machine door)",
+      "switch_on(normal wash button)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_030",
+    "instruction": "Remove all the clothes from the washing machine against the left wall of the laundry room and place them inside the dryer next to it",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Take all the clothes from the washing machine that is against the left wall of the laundry room and put them into the dryer that is immediately to the right of the washing machine."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(washing machine)",
+      "open(washing machine)",
+      "pick_up(clothes)",
+      "walk_to(dryer)",
+      "place(clothes, dryer)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_031",
+    "instruction": "Remove all the clothes from the dryer, fold each item, stack them neatly, and place the stack on the left side of the double bed in the master bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Take all the clothes out of the dryer, fold each item, stack them neatly, and place the stack on the left side of the double bed in the master bedroom."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(dryer)",
+      "open(dryer)",
+      "pick_up(clothes)",
+      "close(dryer)",
+      "walk_to(master_bedroom)",
+      "place(clothes, left_side_of_double_bed)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_032",
+    "instruction": "Remove all the butter packs from the grocery bags on the kitchen counter and place them on the second shelf of the refrigerator",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": false,
+    "action": null,
+    "num_interpretations": null,
+    "interpretations": [],
+    "clarifying_question": null,
+    "plan": null,
+    "outcome": "malformed"
+  },
+  {
+    "id": "unamb_033",
+    "instruction": "Walk to the front door and open it",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Walk to the front door and open the front door."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(front door)",
+      "open(front door)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_034",
+    "instruction": "Pick up the vacuum cleaner from the corner of the master bedroom, carry it to the living room, and vacuum the entire floor area of the living room",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Pick up the vacuum cleaner, walk to the living room, place the vacuum cleaner on the floor, then switch it on to vacuum the floor.",
+      "Pick up the vacuum cleaner, walk to the living room while holding it, and switch it on while still holding it to vacuum the floor."
+    ],
+    "clarifying_question": "Should I place the vacuum cleaner on the floor in the living room before turning it on, or can I turn it on while still holding it?",
+    "plan": null,
+    "outcome": "incorrect"
+  },
+  {
+    "id": "unamb_035",
+    "instruction": "Remove all the coats hanging in the wardrobe in the master bedroom, fold them, and place them inside the brown cardboard box on the floor of the master bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 0,
+    "interpretations": [],
+    "clarifying_question": "The instruction asks to fold the coats, but I don't have a folding capability. Should I place the coats in the cardboard box without folding them?",
+    "plan": null,
+    "outcome": "incorrect"
+  },
+  {
+    "id": "unamb_036",
+    "instruction": "Pick up the empty glass on the bedside table on the right side of the bed in the master bedroom, carry it to the kitchen, fill it with water from the kitchen tap, and place it back on the bedside table on the right side of the bed",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the empty glass from the bedside table on the right side of the bed in the master bedroom, carry it to the kitchen, fill it with water from the kitchen tap, and place it back on the same bedside table."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(empty glass)",
+      "pick_up(empty glass)",
+      "walk_to(kitchen tap)",
+      "pour(kitchen tap, empty glass)",
+      "walk_to(bedside table)",
+      "place(empty glass, bedside table)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_037",
+    "instruction": "Take the red jacket hanging on the coat hook next to the front door and place it in the wardrobe in the master bedroom on the left side rail",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Take the red jacket from the coat hook next to the front door and place it on the left side rail of the master bedroom wardrobe."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(coat_hook_next_to_front_door)",
+      "pick_up(red_jacket)",
+      "walk_to(wardrobe_left_rail)",
+      "place(red_jacket, wardrobe_left_rail)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_038",
+    "instruction": "Pick up the three books stacked on the floor next to the bookcase in the living room and place them on the top shelf of the bookcase",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Pick up the stack of three books as a single object and place the stack on the top shelf of the bookcase.",
+      "Pick up each of the three books individually and place each book on the top shelf of the bookcase."
+    ],
+    "clarifying_question": "Should I pick up the three books together as a stack or handle each book individually?",
+    "plan": null,
+    "outcome": "incorrect"
+  },
+  {
+    "id": "unamb_039",
+    "instruction": "Walk to the kitchen, open the cabinet above the microwave, and take out the white coffee mug from the top shelf of that cabinet",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Walk to the kitchen, open the cabinet above the microwave, and pick up the white coffee mug from the top shelf."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(kitchen)",
+      "open(cabinet)",
+      "pick_up(white coffee mug)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_040",
+    "instruction": "Pick up the brown cushion on the floor in front of the sofa in the living room and place it on the right side of the sofa",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the brown cushion that is on the floor directly in front of the sofa and place it on the empty right side of the sofa."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(brown cushion)",
+      "pick_up(brown cushion)",
+      "place(brown cushion, right side of sofa)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_041",
+    "instruction": "Take the wet blue towel hanging on the bathroom door and place it on the towel rack mounted on the right wall of the bathroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the wet blue towel from the bathroom door and place it on the towel rack on the right wall."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(wet blue towel)",
+      "pick_up(wet blue towel)",
+      "walk_to(towel rack)",
+      "place(wet blue towel, towel rack)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_042",
+    "instruction": "Pick up the cereal box on the top shelf of the kitchen cabinet on the left side of the refrigerator and place it on the kitchen counter next to the toaster",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the cereal box from the top shelf of the kitchen cabinet located to the left of the refrigerator, then place it on the kitchen counter to the right of the toaster."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(cabinet)",
+      "pick_up(cereal box)",
+      "walk_to(kitchen counter)",
+      "place(cereal box, toaster)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_043",
+    "instruction": "Walk to the study room, turn on the desk lamp on the right side of the desk using the switch on its base, and open the top drawer of the desk",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Walk to the study room, turn on the desk lamp on the right side of the desk using the switch on its base, and open the top drawer of the desk."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(study room)",
+      "switch_on(desk lamp)",
+      "open(top drawer)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_044",
+    "instruction": "Pick up the empty pizza box on the dining table, fold it flat, and place it in the recycling bin next to the kitchen counter",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 0,
+    "interpretations": [],
+    "clarifying_question": "Should I place the pizza box in the recycling bin without folding it?",
+    "plan": null,
+    "outcome": "incorrect"
+  },
+  {
+    "id": "unamb_045",
+    "instruction": "Take the phone charger plugged into the socket on the right wall of the master bedroom, unplug it, wrap the cable neatly, and place it in the top drawer of the bedside table on the right side of the bed",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Take the phone charger that is plugged into the socket on the right wall of the master bedroom, unplug it, wrap the cable neatly, and place it in the top drawer of the bedside table on the right side of the bed."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(socket)",
+      "pick_up(phone charger)",
+      "walk_to(bedside table)",
+      "open(top drawer)",
+      "place(phone charger, top drawer)",
+      "close(top drawer)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_046",
+    "instruction": "Turn on the trash disposal switch in the kitchen and turn it off after 3 seconds",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Turn on the trash disposal switch, wait 3 seconds, then turn it off."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "switch_on(trash_disposal_switch)",
+      "switch_off(trash_disposal_switch)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_047",
+    "instruction": "Remove the bed sheet and the two pillow covers from the bed and pillows in the master bedroom, place them in the washing machine in the laundry room, close the washing machine door, and press the normal wash button",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Take the bed sheet from the double bed and the two pillow covers from the pillows in the master bedroom, carry them to the washing machine in the laundry room, place them inside, close the washing machine door, and start a normal wash cycle."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(bed_sheet)",
+      "pick_up(bed_sheet)",
+      "walk_to(pillow_cover_1)",
+      "pick_up(pillow_cover_1)",
+      "walk_to(pillow_cover_2)",
+      "pick_up(pillow_cover_2)",
+      "walk_to(washing_machine)",
+      "place(bed_sheet, washing_machine)",
+      "place(pillow_cover_1, washing_machine)",
+      "place(pillow_cover_2, washing_machine)",
+      "close(washing_machine)",
+      "switch_on(washing_machine)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_048",
+    "instruction": "From the storage cabinet on the second floor remove the blue pillow covers and blue bed sheet and place them on top of the double bed in the master bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Remove the two blue pillow covers and the blue bed sheet from the open storage cabinet on the second floor and place them on top of the double bed in the master bedroom on the first floor."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(storage cabinet)",
+      "pick_up(blue pillow cover 1)",
+      "pick_up(blue pillow cover 2)",
+      "pick_up(blue bed sheet)",
+      "walk_to(double bed)",
+      "place(blue pillow cover 1, double bed)",
+      "place(blue pillow cover 2, double bed)",
+      "place(blue bed sheet, double bed)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_049",
+    "instruction": "Pick up the vacuum cleaner from the corner of the master bedroom and place it in the storage unit on the first floor",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the vacuum cleaner located in the right corner of the master bedroom and place it inside the open storage unit in the hallway on the first floor."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(vacuum cleaner)",
+      "pick_up(vacuum cleaner)",
+      "walk_to(storage unit)",
+      "place(vacuum cleaner, storage unit)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "unamb_050",
+    "instruction": "Take the black jacket hanging on the hall tree on the first floor and hang it on the right side rail of the wardrobe in the master bedroom",
+    "category": "unambiguous",
+    "ambiguity_type": null,
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Take the black jacket from the hall tree on the first floor and hang it on the right side rail of the master bedroom wardrobe."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(black_jacket)",
+      "pick_up(black_jacket)",
+      "walk_to(master_bedroom_wardrobe)",
+      "place(black_jacket, right_side_rail_of_wardrobe)"
+    ],
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_001",
+    "instruction": "Put the cup away",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Put the red cup away (place the red cup in the sink)",
+      "Put the blue cup away (place the blue cup in the sink)"
+    ],
+    "clarifying_question": "Which cup would you like me to put away, the red cup or the blue cup?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_002",
+    "instruction": "Put the book on the desk",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Pick up the blue book from the second shelf of the bookcase and place it on the desk.",
+      "Pick up the red book from the second shelf of the bookcase and place it on the desk."
+    ],
+    "clarifying_question": "Which book would you like me to put on the desk, the blue one or the red one?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_003",
+    "instruction": "Turn on the lamp",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Turn on the left bedside lamp",
+      "Turn on the right bedside lamp"
+    ],
+    "clarifying_question": "Which bedside lamp would you like me to turn on: the left one or the right one?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_004",
+    "instruction": "Move the pillow to the armchair",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Move the red pillow (on the right side of the sofa) to the armchair.",
+      "Move the blue pillow (on the left side of the sofa) to the armchair."
+    ],
+    "clarifying_question": "Which pillow would you like me to move, the red pillow on the right side of the sofa or the blue pillow on the left side?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_005",
+    "instruction": "Close the window",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Close the left window on the left wall next to the wardrobe.",
+      "Close the right window on the right wall above the desk."
+    ],
+    "clarifying_question": "Which window would you like me to close: the left one near the wardrobe or the right one above the desk?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_006",
+    "instruction": "Get the carton from the fridge and put it on the counter",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      {
+        "object": "milk carton",
+        "description": "Get the milk carton from the fridge and put it on the counter."
+      },
+      {
+        "object": "juice carton",
+        "description": "Get the juice carton from the fridge and put it on the counter."
+      }
+    ],
+    "clarifying_question": "Which carton would you like me to get from the fridge: the milk carton or the juice carton?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_007",
+    "instruction": "Turn off the lamp",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Turn off the right bedside lamp",
+      "Turn off the left bedside lamp"
+    ],
+    "clarifying_question": "Which bedside lamp should I turn off: the one on the right side of the bed or the one on the left side?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_008",
+    "instruction": "Move the chair to the study room",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Move the brown wooden chair from the dining area to the open space under the desk in the study room.",
+      "Move the white plastic chair from the dining area to the open space under the desk in the study room."
+    ],
+    "clarifying_question": "Which chair would you like to move to the study room, the brown wooden chair or the white plastic chair?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_009",
+    "instruction": "Hang the jacket in the wardrobe",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Hang the red jacket in the wardrobe",
+      "Hang the blue jacket in the wardrobe"
+    ],
+    "clarifying_question": "Which jacket would you like me to hang in the wardrobe, the red one or the blue one?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_010",
+    "instruction": "Get the mug from the cabinet above the microwave",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Pick up the white coffee mug from the top shelf of the cabinet above the microwave.",
+      "Pick up the blue mug from the top shelf of the cabinet above the microwave."
+    ],
+    "clarifying_question": "Which mug would you like me to get, the white coffee mug or the blue mug?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_011",
+    "instruction": "Move the towel to the rack",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Move the wet blue towel (draped over the bathroom door) to the rack",
+      "Move the dry white towel (folded on the bathroom counter) to the rack"
+    ],
+    "clarifying_question": "Which towel would you like to move to the rack: the wet blue towel on the door or the dry white towel on the counter?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_012",
+    "instruction": "Take the jacket from the hall tree and put it away",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      {
+        "source": "hall tree",
+        "item": "black jacket",
+        "destination": "master bedroom wardrobe right side rail"
+      }
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(hall tree)",
+      "pick_up(black jacket)",
+      "walk_to(master bedroom wardrobe)",
+      "place(black jacket, right side rail)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_ref_013",
+    "instruction": "Turn on something in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Turn on the coffee maker in the kitchen",
+      "Turn on the microwave in the kitchen"
+    ],
+    "clarifying_question": "Which appliance would you like me to turn on, the coffee maker or the microwave?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_014",
+    "instruction": "Close something on the desk",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Close the top drawer of the desk",
+      "Close the notebook on the desk surface"
+    ],
+    "clarifying_question": "Do you want me to close the top drawer or the notebook?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_015",
+    "instruction": "Turn something off in the living room",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Turn off the ceiling fan",
+      "Turn off the television"
+    ],
+    "clarifying_question": "Do you want to turn off the ceiling fan or the television?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_ref_016",
+    "instruction": "Turn something on in the study room",
+    "category": "ambiguous",
+    "ambiguity_type": "referential",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Turn on the lamp in the study room.",
+      "Turn on the desktop computer in the study room."
+    ],
+    "clarifying_question": "Which device would you like me to turn on in the study room: the lamp or the desktop computer?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_goal_001",
+    "instruction": "Do the laundry",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Load the clothes from the laundry basket into the washing machine, add detergent, close the washing machine door, and start the washing machine."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(laundry basket)",
+      "pick_up(laundry basket)",
+      "walk_to(washing machine)",
+      "place(laundry basket, washing machine)",
+      "walk_to(detergent bottle)",
+      "pick_up(detergent bottle)",
+      "walk_to(washing machine)",
+      "pour(detergent bottle, washing machine)",
+      "close(washing machine)",
+      "switch_on(washing machine)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_002",
+    "instruction": "Deal with the clothes in the dryer",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Remove the clothes from the dryer and leave them there (just take them out).",
+      "Remove the clothes from the dryer and place them on the clear space to the left of the double bed."
+    ],
+    "clarifying_question": "Do you want me to simply take the clothes out of the dryer, or also place them on the clear space to the left of the double bed?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_goal_003",
+    "instruction": "Clean the living room",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Move the vacuum cleaner from the master bedroom to the living room and turn it on to clean the living room floor."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(vacuum cleaner)",
+      "pick_up(vacuum cleaner)",
+      "walk_to(living room)",
+      "place(vacuum cleaner, living room floor)",
+      "switch_on(vacuum cleaner)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_004",
+    "instruction": "Sort out the wardrobe in the master bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Take the three coats hanging inside the wardrobe and place them into the open brown cardboard box on the floor of the master bedroom."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(wardrobe)",
+      "pick_up(coat1)",
+      "walk_to(brown cardboard box)",
+      "place(coat1, brown cardboard box)",
+      "walk_to(wardrobe)",
+      "pick_up(coat2)",
+      "walk_to(brown cardboard box)",
+      "place(coat2, brown cardboard box)",
+      "walk_to(wardrobe)",
+      "pick_up(coat3)",
+      "walk_to(brown cardboard box)",
+      "place(coat3, brown cardboard box)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_005",
+    "instruction": "Tidy up the bookcase",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the three books from the floor and place them on the empty top shelf of the bookcase."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      {
+        "action": "walk_to",
+        "object": "book1"
+      },
+      {
+        "action": "pick_up",
+        "object": "book1"
+      },
+      {
+        "action": "walk_to",
+        "object": "top_shelf"
+      },
+      {
+        "action": "place",
+        "object": "book1",
+        "location": "top_shelf"
+      },
+      {
+        "action": "walk_to",
+        "object": "book2"
+      },
+      {
+        "action": "pick_up",
+        "object": "book2"
+      },
+      {
+        "action": "walk_to",
+        "object": "top_shelf"
+      },
+      {
+        "action": "place",
+        "object": "book2",
+        "location": "top_shelf"
+      },
+      {
+        "action": "walk_to",
+        "object": "book3"
+      },
+      {
+        "action": "pick_up",
+        "object": "book3"
+      },
+      {
+        "action": "walk_to",
+        "object": "top_shelf"
+      },
+      {
+        "action": "place",
+        "object": "book3",
+        "location": "top_shelf"
+      }
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_006",
+    "instruction": "Deal with the mess on the dining table",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the empty pizza box from the dining table and place it into the recycling bin."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(pizza box)",
+      "pick_up(pizza box)",
+      "walk_to(recycling bin)",
+      "place(pizza box, recycling bin)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_007",
+    "instruction": "Change the bedding in the master bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Wash the bed sheet and both pillow covers in the washing machine, then put the cleaned items back on the bed."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(bed)",
+      "pick_up(bed sheet)",
+      "pick_up(pillow cover 1)",
+      "pick_up(pillow cover 2)",
+      "walk_to(washing machine)",
+      "open(washing machine)",
+      "place(bed sheet, washing machine)",
+      "place(pillow cover 1, washing machine)",
+      "place(pillow cover 2, washing machine)",
+      "close(washing machine)",
+      "switch_on(washing machine)",
+      "open(washing machine)",
+      "pick_up(bed sheet)",
+      "pick_up(pillow cover 1)",
+      "pick_up(pillow cover 2)",
+      "walk_to(bed)",
+      "place(bed sheet, bed)",
+      "place(pillow cover 1, pillow 1)",
+      "place(pillow cover 2, pillow 2)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_008",
+    "instruction": "Prepare the apple in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Place the apple on the white plate on the counter.",
+      "Move the apple onto the cutting board (where the knife is) to prepare it for cutting."
+    ],
+    "clarifying_question": "Do you want the apple placed on the plate, or moved to the cutting board for cutting?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_goal_009",
+    "instruction": "Clean up the master bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the empty water bottle and the crumpled piece of paper from the master bedroom floor and place both into the black trash bin located under the kitchen counter."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(empty water bottle)",
+      "pick_up(empty water bottle)",
+      "walk_to(crumpled piece of paper)",
+      "pick_up(crumpled piece of paper)",
+      "walk_to(black trash bin)",
+      "place(empty water bottle, black trash bin)",
+      "place(crumpled piece of paper, black trash bin)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_010",
+    "instruction": "Put away the groceries",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Store the two grocery bags on the refrigerator's second shelf."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(refrigerator)",
+      "open(refrigerator)",
+      "pick_up(grocery bag 1)",
+      "place(grocery bag 1, refrigerator second shelf)",
+      "pick_up(grocery bag 2)",
+      "place(grocery bag 2, refrigerator second shelf)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_011",
+    "instruction": "Tidy up the living room",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the brown cushion from the floor and place it on the empty space on the right side of the sofa."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(cushion)",
+      "pick_up(cushion)",
+      "walk_to(sofa)",
+      "place(cushion, sofa_right_side)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_goal_012",
+    "instruction": "Sort out the kitchen cabinet",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Close the cabinet door after organizing.",
+      "Remove the cereal box from the cabinet and place it on the kitchen counter to the right of the toaster."
+    ],
+    "clarifying_question": "Should I close the cabinet door, or take the cereal box out of the cabinet and put it on the counter next to the toaster?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_goal_013",
+    "instruction": "Put away the cleaning equipment",
+    "category": "ambiguous",
+    "ambiguity_type": "goal",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Move the vacuum cleaner from the master bedroom to the storage unit in the hallway and store it there."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(vacuum cleaner)",
+      "pick_up(vacuum cleaner)",
+      "walk_to(storage unit)",
+      "place(vacuum cleaner, storage unit)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_imp_001",
+    "instruction": "Get me my usual drink from the fridge",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Pick up the orange juice carton from the fridge and place it on the kitchen counter.",
+      "Pick up the milk carton from the fridge and place it on the kitchen counter."
+    ],
+    "clarifying_question": "Do you want the orange juice or the milk?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_imp_002",
+    "instruction": "Get me my usual snack from the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Pick up the green apple from the kitchen counter",
+      "Pick up the banana from the kitchen counter"
+    ],
+    "clarifying_question": "Do you want the green apple or the banana as your usual snack?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_imp_003",
+    "instruction": "Put the fruit where it belongs",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 6,
+    "interpretations": [
+      "Place the banana in the refrigerator",
+      "Place the apple in the refrigerator",
+      "Place both the banana and the apple in the refrigerator",
+      "Place the banana in a cabinet",
+      "Place the apple in a cabinet",
+      "Place both the banana and the apple in a cabinet"
+    ],
+    "clarifying_question": "Which fruit (banana, apple, or both) should be moved and to which location (refrigerator or cabinet) should it be placed?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_imp_004",
+    "instruction": "Set the lighting how I like it in the bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Turn on the ceiling light",
+      "Leave the ceiling light off"
+    ],
+    "clarifying_question": "Would you like the bedroom light turned on or off?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_imp_005",
+    "instruction": "Put the towel where it goes",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "place(towel, towel_rack)",
+      "place(towel, towel_hook)"
+    ],
+    "clarifying_question": "Should I put the towel on the towel rack or on the towel hook?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_imp_006",
+    "instruction": "Take care of the vase the way you did before",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 0,
+    "interpretations": [],
+    "clarifying_question": "What specific action would you like me to perform with the vase (e.g., clean it, fill it with water, move it, etc.)?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_imp_007",
+    "instruction": "Move the laundry to the next step",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Transfer the clothes from the washing machine to the dryer for drying."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(washing machine)",
+      "open(washing machine)",
+      "pick_up(clothes)",
+      "walk_to(dryer)",
+      "place(clothes, dryer)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_imp_008",
+    "instruction": "Bring me my usual bedtime drink",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 0,
+    "interpretations": [],
+    "clarifying_question": "What is your usual bedtime drink?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_imp_009",
+    "instruction": "Pack up my things on the right wall of the bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Open the top drawer of the bedside table, pick up the phone charger from the socket on the right wall, place the charger inside the drawer, and close the drawer.",
+      "Pick up the phone charger from the socket on the right wall and place it on the top surface of the bedside table."
+    ],
+    "clarifying_question": "Where would you like me to store the phone charger from the right wall of the bedroom?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_imp_010",
+    "instruction": "Make the bed the way I like it",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Use the blue bed linen from the storage cabinet on the second floor to make the master bedroom double bed on the first floor."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(storage cabinet)",
+      "open(storage cabinet)",
+      "pick_up(blue bed linen)",
+      "close(storage cabinet)",
+      "walk_to(master bedroom double bed)",
+      "place(blue bed linen, master bedroom double bed)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_imp_011",
+    "instruction": "Put my jacket away where it belongs",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Pick up the black jacket from the hall tree and place it on the empty space on the right side rail of the master bedroom wardrobe."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(hall tree)",
+      "pick_up(black jacket)",
+      "walk_to(master bedroom wardrobe)",
+      "place(black jacket, right side rail)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_imp_012",
+    "instruction": "Run the trash disposal the usual way",
+    "category": "ambiguous",
+    "ambiguity_type": "implicit",
+    "parsed": true,
+    "action": "execute",
+    "num_interpretations": 1,
+    "interpretations": [
+      "Turn on the trash disposal using the wall switch."
+    ],
+    "clarifying_question": null,
+    "plan": [
+      "walk_to(switch)",
+      "switch_on(switch)"
+    ],
+    "outcome": "incorrect"
+  },
+  {
+    "id": "amb_spatial_001",
+    "instruction": "Put the lamp somewhere in the living room",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Place the floor lamp on the floor somewhere in the living room (e.g., away from the couch).",
+      "Place the floor lamp on the couch in the living room.",
+      "Place the floor lamp on another surface (e.g., a table or shelf) in the living room."
+    ],
+    "clarifying_question": "Where would you like the lamp placed in the living room? For example, on the floor, on the couch, or on another surface?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_002",
+    "instruction": "Put the black pen in one of the dresser drawers",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Put the black pen in the top drawer of the dresser",
+      "Put the black pen in the middle drawer of the dresser",
+      "Put the black pen in the bottom drawer of the dresser"
+    ],
+    "clarifying_question": "Which of the three dresser drawers (top, middle, or bottom) should I put the black pen in?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_003",
+    "instruction": "Put the plate somewhere in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Place the white plate on the kitchen counter.",
+      "Place the white plate in the kitchen sink.",
+      "Place the white plate inside a kitchen cabinet."
+    ],
+    "clarifying_question": "Where in the kitchen would you like the plate placed: on the counter, in the sink, or inside a cabinet?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_004",
+    "instruction": "Put the coffee maker somewhere accessible in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Move the coffee maker to a free space on the left side of the counter near the microwave.",
+      "Move the coffee maker to a free space in the middle of the counter.",
+      "Move the coffee maker onto an available cabinet surface."
+    ],
+    "clarifying_question": "Where would you like the coffee maker placed? For example, on the left side of the counter, in the middle of the counter, or on a cabinet surface.",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_005",
+    "instruction": "Turn off the light somewhere in the bathroom",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Turn off the light using the wall switch to the right of the door",
+      "Turn off the light using the switch on the mirror cabinet"
+    ],
+    "clarifying_question": "Do you want me to turn off the light using the wall switch or the mirror cabinet switch?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_006",
+    "instruction": "Leave the pen somewhere convenient on the desk",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 4,
+    "interpretations": [
+      "Pick up the black pen and place it on a clear area of the desk.",
+      "Pick up the black pen and place it inside the pencil holder.",
+      "Pick up the red pen and place it on a clear area of the desk.",
+      "Pick up the red pen and place it inside the pencil holder."
+    ],
+    "clarifying_question": "Which pen (black or red) would you like me to leave, and would you prefer it on the desk surface or inside the pencil holder?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_007",
+    "instruction": "Put the remote somewhere nearby",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Place the remote on a side table",
+      "Place the remote on a shelf",
+      "Place the remote on a sofa armrest"
+    ],
+    "clarifying_question": "Where would you like the remote placed: on a side table, a shelf, or a sofa armrest?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_008",
+    "instruction": "Put the cereal box somewhere in the kitchen",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 0,
+    "interpretations": [],
+    "clarifying_question": "Where is the cereal box currently located?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_009",
+    "instruction": "Leave the vacuum somewhere on the ground floor",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Leave the vacuum in a room on the ground floor",
+      "Leave the vacuum in a closet on the ground floor",
+      "Leave the vacuum in a hallway storage area on the ground floor"
+    ],
+    "clarifying_question": "Which specific location on the ground floor would you like the vacuum to be left (e.g., a particular room, closet, or hallway storage area)?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_010",
+    "instruction": "Turn on the water somewhere in the bathroom",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Turn on the sink's hot tap",
+      "Turn on the sink's cold tap",
+      "Turn on the shower tap"
+    ],
+    "clarifying_question": "Which water source would you like to turn on: the sink's hot tap, the sink's cold tap, or the shower tap?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_011",
+    "instruction": "Open a door somewhere downstairs",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Open the front door",
+      "Open the kitchen door",
+      "Open the living room door"
+    ],
+    "clarifying_question": "Which door would you like me to open: the front door, the kitchen door, or the living room door?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_012",
+    "instruction": "Leave the lamp somewhere in the study room",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Leave the lamp where it currently is on the desk in the study room.",
+      "Pick up the lamp and place it on another surface or floor area somewhere in the study room."
+    ],
+    "clarifying_question": "Would you like me to move the lamp to a different location in the study room, or keep it where it is?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_spatial_013",
+    "instruction": "Put the vacuum somewhere on the first floor",
+    "category": "ambiguous",
+    "ambiguity_type": "spatial",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Place the vacuum cleaner in the storage unit located in the hallway.",
+      "Leave the vacuum cleaner where it currently is in the master bedroom (since it is already on the first floor)."
+    ],
+    "clarifying_question": "Which specific location on the first floor would you like the vacuum to be placed?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_001",
+    "instruction": "Put that away somewhere safe",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 9,
+    "interpretations": [
+      "Put the red cup on a shelf",
+      "Put the red cup in a cabinet",
+      "Put the red cup in a drawer",
+      "Put the blue book on a shelf",
+      "Put the blue book in a cabinet",
+      "Put the blue book in a drawer",
+      "Put the remote control on a shelf",
+      "Put the remote control in a cabinet",
+      "Put the remote control in a drawer"
+    ],
+    "clarifying_question": "Which item would you like me to put away, and in which storage location (shelf, cabinet, or drawer) should I place it?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_002",
+    "instruction": "Get me something to drink and leave it nearby",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 18,
+    "interpretations": [
+      "Pick up orange juice, pour into empty glass, place glass on kitchen counter.",
+      "Pick up orange juice, pour into empty mug, place mug on kitchen counter.",
+      "Pick up orange juice, pour into empty glass, place glass on dining table.",
+      "Pick up orange juice, pour into empty mug, place mug on dining table.",
+      "Pick up orange juice, pour into empty glass, place glass on coffee table.",
+      "Pick up orange juice, pour into empty mug, place mug on coffee table.",
+      "Pick up milk, pour into empty glass, place glass on kitchen counter.",
+      "Pick up milk, pour into empty mug, place mug on kitchen counter.",
+      "Pick up milk, pour into empty glass, place glass on dining table.",
+      "Pick up milk, pour into empty mug, place mug on dining table.",
+      "Pick up milk, pour into empty glass, place glass on coffee table.",
+      "Pick up milk, pour into empty mug, place mug on coffee table.",
+      "Pick up orange juice carton, place it on kitchen counter.",
+      "Pick up orange juice carton, place it on dining table.",
+      "Pick up orange juice carton, place it on coffee table.",
+      "Pick up milk carton, place it on kitchen counter.",
+      "Pick up milk carton, place it on dining table.",
+      "Pick up milk carton, place it on coffee table."
+    ],
+    "clarifying_question": "Would you like orange juice or milk, and should I serve it in a glass or mug, and where would you like it placed (kitchen counter, dining table, or coffee table)?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_003",
+    "instruction": "Move the laundry somewhere convenient when it is done",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "When the washing machine finishes, move the laundry from the washing machine to the dryer.",
+      "When the dryer finishes, move the laundry from the dryer to the master bedroom.",
+      "When the dryer finishes, move the laundry from the dryer to the living room."
+    ],
+    "clarifying_question": "Should I move the laundry after the washing cycle finishes (e.g., to the dryer) or after the drying cycle finishes, and to which location (dryer, master bedroom, or living room) would you like it placed?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_004",
+    "instruction": "Put my things somewhere tidy in the bedroom",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 4,
+    "interpretations": [
+      "Place the jacket on a tidy surface in the bedroom.",
+      "Place the book on a tidy surface in the bedroom.",
+      "Place both the jacket and the book on tidy surfaces in the bedroom.",
+      "Place the phone charger on a tidy surface in the bedroom."
+    ],
+    "clarifying_question": "Which of the items (jacket, book, phone charger) would you like me to put somewhere tidy, and should I place them all together or separately?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_005",
+    "instruction": "Deal with the stuff on the kitchen counter and put it where it belongs",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 4,
+    "interpretations": [
+      "Place the cereal box in a cabinet, the butter pack in the refrigerator, the apple in the fruit bowl, and the book in a cabinet.",
+      "Place the cereal box in a cabinet, the butter pack in a cabinet, the apple in the fruit bowl, and the book in a cabinet.",
+      "Place the cereal box in a cabinet, the butter pack in the refrigerator, the apple in the refrigerator, and the book in a cabinet.",
+      "Place the cereal box in a cabinet, the butter pack in a cabinet, the apple in the refrigerator, and the book in a cabinet."
+    ],
+    "clarifying_question": "Should the butter pack be stored in the refrigerator or a cabinet, and should the apple be placed in the fruit bowl or the refrigerator?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_006",
+    "instruction": "Tidy up a bit and leave things somewhere accessible",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 4,
+    "interpretations": [
+      "Pick up the cushion from the floor and place it on the sofa; leave the book on the sofa and the glass on the coffee table.",
+      "Pick up the cushion from the floor and place it on the sofa, then pick up the book from the sofa and place it on a nearby shelf; leave the glass on the coffee table.",
+      "Pick up the cushion from the floor and place it on the sofa, pick up the book from the sofa and place it on a shelf, and pick up the empty glass from the coffee table and place it in a cabinet or other storage area.",
+      "Pick up all three items (cushion, book, glass) and place each in an appropriate storage area (e.g., cushion in a basket, book on a shelf, glass in a cabinet) so that everything is out of the way but still accessible."
+    ],
+    "clarifying_question": "Would you like me to move just the cushion, move the cushion and book, move all items to storage, or some other specific arrangement for each item?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_007",
+    "instruction": "Sort out the bedroom the way I like it",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 4,
+    "interpretations": [
+      "Pick up the jacket from the floor and store it in the wardrobe.",
+      "Pick up the jacket from the floor and store it in a drawer.",
+      "Turn on the lamp on the desk.",
+      "Turn off the lamp on the desk."
+    ],
+    "clarifying_question": "Would you like me to pick up the jacket and put it in the wardrobe or a drawer, and should I turn the lamp on or off?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_008",
+    "instruction": "Get the thing from the shelf and put it over there",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 3,
+    "interpretations": [
+      "Pick up the blue book from the top shelf and place it on a surface in the room.",
+      "Pick up the red book from the top shelf and place it on a surface in the room.",
+      "Pick up the small plant from the top shelf and place it on a surface in the room."
+    ],
+    "clarifying_question": "Which item from the shelf would you like me to get, and where should I put it?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_009",
+    "instruction": "Prepare my usual drink and leave it somewhere I can find it",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 6,
+    "interpretations": [
+      "Prepare coffee using the coffee maker, pour it into the empty glass, and place the glass on the kitchen counter.",
+      "Prepare coffee using the coffee maker, pour it into the empty glass, and place the glass on a surface in the living room.",
+      "Prepare tea using the kettle (boil water), pour it into the empty glass, and place the glass on the kitchen counter.",
+      "Prepare tea using the kettle (boil water), pour it into the empty glass, and place the glass on a surface in the living room.",
+      "Pour orange juice from the refrigerator into the empty glass, and place the glass on the kitchen counter.",
+      "Pour orange juice from the refrigerator into the empty glass, and place the glass on a surface in the living room."
+    ],
+    "clarifying_question": "Which drink would you like me to prepare (coffee, tea, or orange juice) and where should I leave it (e.g., kitchen counter or a surface in the living room)?",
+    "plan": null,
+    "outcome": "correct"
+  },
+  {
+    "id": "amb_mixed_010",
+    "instruction": "Handle the washing and put it away properly when ready",
+    "category": "ambiguous",
+    "ambiguity_type": "mixed",
+    "parsed": true,
+    "action": "clarify",
+    "num_interpretations": 2,
+    "interpretations": [
+      "Take the washed clothes from the washing machine, put them into the dryer, start the dryer, and after they are dry, put the clothes away in the bedroom wardrobe or shelves.",
+      "Take the washed clothes directly from the washing machine and put them away in the bedroom wardrobe or shelves without using the dryer."
+    ],
+    "clarifying_question": "Should I move the washed clothes to the dryer before putting them away, or should I put the washed clothes away directly?",
+    "plan": null,
+    "outcome": "correct"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "method": "no_help (never asks; no model call)",
+    "total": 114,
+    "unparsed": 0,
+    "scored": 114,
+    "accuracy": 0.4386,
+    "correct": 50,
+    "ask_rate_on_clear": 0.0,
+    "asked_on_clear": "0/50",
+    "ask_rate_on_ambiguous": 0.0,
+    "asked_on_ambiguous": "0/64",
+    "ask_rate_by_ambiguity_type": {
+      "goal": "0/13",
+      "implicit": "0/12",
+      "mixed": "0/10",
+      "referential": "0/16",
+      "spatial": "0/13"
+    }
+  },
+  {
+    "method": "binary (AmbiK-style, Groq)",
+    "total": 114,
+    "unparsed": 0,
+    "scored": 114,
+    "accuracy": 0.5263,
+    "correct": 60,
+    "ask_rate_on_clear": 0.0,
+    "asked_on_clear": "0/50",
+    "ask_rate_on_ambiguous": 0.1562,
+    "asked_on_ambiguous": "10/64",
+    "ask_rate_by_ambiguity_type": {
+      "goal": "0/13",
+      "implicit": "4/12",
+      "mixed": "2/10",
+      "referential": "3/16",
+      "spatial": "1/13"
+    }
+  },
+  {
+    "method": "intervention planner (saved pilot run)",
+    "total": 114,
+    "unparsed": 1,
+    "scored": 113,
+    "accuracy": 0.823,
+    "correct": 93,
+    "ask_rate_on_clear": 0.102,
+    "asked_on_clear": "5/49",
+    "ask_rate_on_ambiguous": 0.7656,
+    "asked_on_ambiguous": "49/64",
+    "ask_rate_by_ambiguity_type": {
+      "goal": "3/13",
+      "implicit": "8/12",
+      "mixed": "10/10",
+      "referential": "15/16",
+      "spatial": "13/13"
+    }
+  }
+]
