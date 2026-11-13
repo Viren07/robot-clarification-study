@@ -1,8 +1,7 @@
 """Convert AmbiK's ambik_test_900.csv into this repo's instruction format.
 Each AmbiK row gives two items: the clear task (unambiguous_direct) and the ambiguous task.
 ambik_should_ask follows AmbiK's own rule: only Preferences ambiguity should trigger a question.
-Outputs (data/ambik/): ambik_all1800_instructions.json (all rows) and
-ambik_sample200_instructions.json (100 pairs = 200 instructions, seeded, stratified by type,
+Output (data/ambik/): ambik_sample200_instructions.json (100 pairs = 200 instructions, seeded, stratified by type,
 shuffled so a run cut short is still a fair mix)."""
 import pandas as pd, json, random
 from pathlib import Path
@@ -13,20 +12,29 @@ tmap = {"preferences": "preferences", "common_sense_knowledge": "common_sense", 
 def scene(env):
     return "You are a robot in a kitchen. The kitchen contains: " + str(env).strip().rstrip(".") + "."
 
+def steps(plan):
+    return [x.strip() for x in str(plan).split("\n") if x.strip()]
+
 def build(sub):
     out = []
     for _, r in sub.iterrows():
         n = int(r["Unnamed: 0"]); t = tmap[r["ambiguity_type"]]
-        base = {"pair_id": f"ambik_{n:04d}", "ambik_type": t, "scene_context": scene(r["environment_full"])}
+        base = {"pair_id": f"ambik_{n:04d}", "ambik_type": t, "scene_context": scene(r["environment_full"]),
+                "ambiguity_step": int(r["end_of_ambiguity"]),  # plan step where the ambiguity matters
+                # AmbiK's own ground truth: user_intent names the referent the user actually wanted,
+                # in their is_similar format (", " = all must appear, leading "-" = must not appear).
+                # This replaces an LLM judge, so the true option comes from the dataset as KnowNo intends.
+                "user_intent": str(r["user_intent"]), "variants": str(r.get("variants", ""))}
         out.append({**base, "id": f"ambik_{n:04d}_clear", "instruction": str(r["unambiguous_direct"]).strip(),
-                    "category": "unambiguous", "ambiguity_type": None, "ambik_should_ask": False})
+                    "category": "unambiguous", "ambiguity_type": None, "ambik_should_ask": False,
+                    "plan_steps": steps(r["plan_for_clear_task"])})
         out.append({**base, "id": f"ambik_{n:04d}_amb", "instruction": str(r["ambiguous_task"]).strip(),
-                    "category": "ambiguous", "ambiguity_type": t, "ambik_should_ask": t == "preferences"})
+                    "category": "ambiguous", "ambiguity_type": t, "ambik_should_ask": t == "preferences",
+                    "plan_steps": steps(r["plan_for_amb_task"])})
     return out
 
 if __name__ == "__main__":
     out = ROOT / "data/ambik"
-    (out / "ambik_all1800_instructions.json").write_text(json.dumps(build(d), indent=1), encoding="utf-8")
     parts = [d[d.ambiguity_type == k].sample(n=m, random_state=0)
              for k, m in [("preferences", 40), ("common_sense_knowledge", 40), ("safety", 20)]]
     s = build(pd.concat(parts))
@@ -37,4 +45,4 @@ if __name__ == "__main__":
     random.Random(0).shuffle(ids)
     s = [x for i in ids for x in sorted(by_pair[i], key=lambda r: r["category"] == "ambiguous")]
     (out / "ambik_sample200_instructions.json").write_text(json.dumps(s, indent=1), encoding="utf-8")
-    print(len(build(d)), "items in full file;", len(s), "in sample")
+    print(len(s), "items in sample")

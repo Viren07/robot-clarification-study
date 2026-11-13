@@ -1,0 +1,40 @@
+{
+  "method": "knowno (Ren et al. 2023), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "dataset": "batch2",
+  "calibration_set": "own_calib100_instructions",
+  "eps": 0.2,
+  "calibration_items_used": 100,
+  "quantile_level": 0.81,
+  "qhat": 0.92497,
+  "keep_if_p_at_least": 0.07503,
+  "mc_temperature": 5.0,
+  "items": 19,
+  "failed": 0,
+  "asked_on_clear": "0/0",
+  "asked_on_clear_ci95": null,
+  "asked_on_ambiguous": "9/19",
+  "asked_on_ambiguous_ci95": [
+    0.273,
+    0.683
+  ],
+  "empirical_coverage_on_test": 0.947,
+  "target_coverage": 0.8,
+  "ask_rate_by_ambiguity_type": {
+    "A6": "9/19"
+  },
+  "auroc_ambiguous_vs_clear": {
+    "all_ambiguous": {
+      "n": 19,
+      "auroc": null
+    },
+    "A6": {
+      "n": 19,
+      "auroc": null
+    }
+  },
+  "truth_source": "intent",
+  "calibration_items_with_no_matching_option": "26/100",
+  "calibration_mean_true_options": 1.69
+}

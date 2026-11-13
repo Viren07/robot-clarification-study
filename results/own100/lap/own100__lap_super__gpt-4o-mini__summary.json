@@ -1,0 +1,82 @@
+{
+  "method": "LAP (super) (Mullen and Manocha 2024), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "dataset": "own100",
+  "calibration_set": "own_calib100_instructions__gpt-4o-mini",
+  "eps": 0.2,
+  "calibration_items_used": 100,
+  "quantile_level": 0.81,
+  "qhat": 0.959095,
+  "keep_if_p_at_least": 0.040905,
+  "mc_temperature": "pre-scaled by caller",
+  "items": 100,
+  "failed": 0,
+  "asked_on_clear": "30/50",
+  "asked_on_clear_ci95": [
+    0.462,
+    0.724
+  ],
+  "asked_on_ambiguous": "38/50",
+  "asked_on_ambiguous_ci95": [
+    0.626,
+    0.857
+  ],
+  "empirical_coverage_on_test": 0.74,
+  "target_coverage": 0.8,
+  "balanced_accuracy": 0.58,
+  "balanced_accuracy_ci95": [
+    0.49,
+    0.67
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "A1": "10/12",
+    "A2": "8/10",
+    "A3": "10/12",
+    "A4": "6/10",
+    "A5": "4/6"
+  },
+  "balanced_accuracy_ambik_rule": 0.58,
+  "auroc_ambiguous_vs_clear": {
+    "all_ambiguous": {
+      "n": 50,
+      "auroc": 0.5416
+    },
+    "A1": {
+      "n": 12,
+      "auroc": 0.6233
+    },
+    "A2": {
+      "n": 10,
+      "auroc": 0.528
+    },
+    "A3": {
+      "n": 12,
+      "auroc": 0.525
+    },
+    "A4": {
+      "n": 10,
+      "auroc": 0.552
+    },
+    "A5": {
+      "n": 6,
+      "auroc": 0.4167
+    }
+  },
+  "variant": "super",
+  "mc_temperature_of_p_star": 5.0,
+  "note": "generation and p* reused from the KnowNo run so both methods see identical options",
+  "true_options_source": "inherited from own_calib100_instructions__knowno_v3__gpt-4o-mini__calib.jsonl",
+  "calib_options_with_a_c_zero": "53/400",
+  "calib_items_where_every_option_infeasible": "1/100",
+  "calib_items_where_true_option_scored_zero": "4/100",
+  "calib_a_pr_mean": 0.9299,
+  "calib_a_pr_below_0.5": "27/400",
+  "test_options_with_a_c_zero": "55/400",
+  "test_items_where_every_option_infeasible": "1/100",
+  "test_items_where_true_option_scored_zero": "4/100",
+  "test_a_pr_mean": 0.8996,
+  "test_a_pr_below_0.5": "40/400",
+  "true_options_labelled_by": "judge",
+  "corrected_2026_11_12": "This summary previously claimed truth_source=intent. The KnowNo rows it inherits carry a judge response on 100/100 calibration items, so the labelling is 'judge'. The cause was a stale cache: KnowNo's cache filename did not include the truth source, so an intent run reused judge-labelled rows. Fixed in run_knowno_v3.py."
+}

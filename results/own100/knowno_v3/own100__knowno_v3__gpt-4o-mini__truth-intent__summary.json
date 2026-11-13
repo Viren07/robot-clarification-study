@@ -1,0 +1,72 @@
+{
+  "method": "knowno (Ren et al. 2023), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "dataset": "own100",
+  "calibration_set": "own_calib100_instructions",
+  "eps": 0.2,
+  "calibration_items_used": 100,
+  "quantile_level": 0.81,
+  "qhat": 0.977976,
+  "keep_if_p_at_least": 0.022024,
+  "mc_temperature": 5.0,
+  "items": 100,
+  "failed": 0,
+  "asked_on_clear": "31/50",
+  "asked_on_clear_ci95": [
+    0.482,
+    0.741
+  ],
+  "asked_on_ambiguous": "43/50",
+  "asked_on_ambiguous_ci95": [
+    0.738,
+    0.93
+  ],
+  "empirical_coverage_on_test": 0.71,
+  "target_coverage": 0.8,
+  "balanced_accuracy": 0.62,
+  "balanced_accuracy_ci95": [
+    0.54,
+    0.7
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "A1": "10/12",
+    "A2": "10/10",
+    "A3": "11/12",
+    "A4": "7/10",
+    "A5": "5/6"
+  },
+  "balanced_accuracy_ambik_rule": 0.62,
+  "auroc_ambiguous_vs_clear": {
+    "all_ambiguous": {
+      "n": 50,
+      "auroc": 0.6536
+    },
+    "A1": {
+      "n": 12,
+      "auroc": 0.7317
+    },
+    "A2": {
+      "n": 10,
+      "auroc": 0.674
+    },
+    "A3": {
+      "n": 12,
+      "auroc": 0.6667
+    },
+    "A4": {
+      "n": 10,
+      "auroc": 0.59
+    },
+    "A5": {
+      "n": 6,
+      "auroc": 0.5433
+    }
+  },
+  "truth_source_requested": "intent",
+  "truth_source_actually_used": "intent",
+  "rows_carry_a_judge_response": "100/100",
+  "rescored_offline": "labels and arithmetic recomputed from cached options and probs; no API calls",
+  "calibration_items_with_no_matching_option": "29/100",
+  "calibration_mean_true_options": 1.25
+}

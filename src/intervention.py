@@ -19,7 +19,7 @@ if LLM_PROVIDER == "groq":
     MODEL_NAME = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 else:
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    MODEL_NAME = "gpt-4o"
+    MODEL_NAME = os.environ.get("OPENAI_MODEL", "gpt-4o")  # set OPENAI_MODEL=gpt-4o-mini in .env to match the other methods
 
 SYSTEM_PROMPT = """You are a robot task planner operating
 in a household environment. Given a natural language

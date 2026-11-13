@@ -1,0 +1,38 @@
+{
+  "method": "knowno (Ren et al. 2023), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "dataset": "batch2",
+  "calibration_set": "own_calib100_instructions__replanned__knowno_v3__gpt-4o-mini__calib",
+  "eps": 0.2,
+  "calibration_items_used": 90,
+  "quantile_level": 0.8111,
+  "qhat": 0.938776,
+  "keep_if_p_at_least": 0.061224,
+  "mc_temperature": 5.0,
+  "items": 19,
+  "failed": 0,
+  "asked_on_clear": "0/0",
+  "asked_on_clear_ci95": null,
+  "asked_on_ambiguous": "14/19",
+  "asked_on_ambiguous_ci95": [
+    0.512,
+    0.882
+  ],
+  "empirical_coverage_on_test": 0.737,
+  "target_coverage": 0.8,
+  "ask_rate_by_ambiguity_type": {
+    "A6": "14/19"
+  },
+  "auroc_ambiguous_vs_clear": {
+    "all_ambiguous": {
+      "n": 19,
+      "auroc": null
+    },
+    "A6": {
+      "n": 19,
+      "auroc": null
+    }
+  },
+  "note": "KnowNo's help rule applied as released: not-a-singleton OR contains option E. Rescored offline at option temperature 5."
+}

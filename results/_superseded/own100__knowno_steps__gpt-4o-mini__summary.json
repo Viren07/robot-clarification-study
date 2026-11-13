@@ -1,0 +1,99 @@
+[
+  {
+    "by_ambik_type_asked_total_correct": {
+      "?": "0/48 asked, 48/48 right",
+      "preferences": "0/50 asked, 0/50 right"
+    },
+    "correct_help_rate": 0.4898,
+    "method": "knowno, released cutoff (gpt-4o-mini)",
+    "total": 100,
+    "unparsed": 2,
+    "scored": 98,
+    "accuracy": 0.4898,
+    "correct": 48,
+    "ask_rate_on_clear": 0.0,
+    "asked_on_clear": "0/48",
+    "ask_rate_on_ambiguous": 0.0,
+    "asked_on_ambiguous": "0/50",
+    "ask_rate_by_ambiguity_type": {
+      "A1": "0/12",
+      "A2": "0/10",
+      "A3": "0/12",
+      "A4": "0/10",
+      "A5": "0/6"
+    }
+  },
+  {
+    "by_ambik_type_asked_total_correct": {
+      "?": "0/48 asked, 48/48 right",
+      "preferences": "17/50 asked, 17/50 right"
+    },
+    "correct_help_rate": 0.6633,
+    "method": "knowno, standard cutoff (gpt-4o-mini)",
+    "total": 100,
+    "unparsed": 2,
+    "scored": 98,
+    "accuracy": 0.6633,
+    "correct": 65,
+    "ask_rate_on_clear": 0.0,
+    "asked_on_clear": "0/48",
+    "ask_rate_on_ambiguous": 0.34,
+    "asked_on_ambiguous": "17/50",
+    "ask_rate_by_ambiguity_type": {
+      "A1": "9/12",
+      "A2": "1/10",
+      "A3": "0/12",
+      "A4": "2/10",
+      "A5": "5/6"
+    }
+  },
+  {
+    "failed_items": 2,
+    "items": 100
+  },
+  {
+    "cutoff_free_check": {
+      "unsure_score": "1 - probability of the top option",
+      "clear_instructions": 48,
+      "auroc_ambiguous_vs_clear": {
+        "all_ambiguous": {
+          "n": 50,
+          "auroc": 0.69
+        },
+        "A1": {
+          "n": 12,
+          "auroc": 0.9167
+        },
+        "A2": {
+          "n": 10,
+          "auroc": 0.55
+        },
+        "A3": {
+          "n": 12,
+          "auroc": 0.5
+        },
+        "A4": {
+          "n": 10,
+          "auroc": 0.6
+        },
+        "A5": {
+          "n": 6,
+          "auroc": 1.0
+        }
+      }
+    }
+  },
+  {
+    "calibration": {
+      "model": "gpt-4o-mini",
+      "utc": "2026-11-05T19:31:32+00:00",
+      "calibration_items": 100,
+      "items_without_correct_option": 37,
+      "n_success_probs": 96,
+      "eps": 0.2,
+      "q_level": 0.8125,
+      "released_cp_keep_if_p_greater_than": 1.0,
+      "standard_keep_if_p_at_least": 7.73438164625162e-08
+    }
+  }
+]

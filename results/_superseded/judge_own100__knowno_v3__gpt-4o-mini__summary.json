@@ -1,0 +1,67 @@
+{
+  "method": "knowno (Ren et al. 2023), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "dataset": "own100",
+  "calibration_set": "own_calib100_instructions__replanned__knowno_v3__gpt-4o-mini__calib",
+  "eps": 0.2,
+  "calibration_items_used": 90,
+  "quantile_level": 0.8111,
+  "qhat": 0.938776,
+  "keep_if_p_at_least": 0.061224,
+  "mc_temperature": 5.0,
+  "items": 100,
+  "failed": 0,
+  "asked_on_clear": "12/50",
+  "asked_on_clear_ci95": [
+    0.143,
+    0.374
+  ],
+  "asked_on_ambiguous": "23/50",
+  "asked_on_ambiguous_ci95": [
+    0.33,
+    0.596
+  ],
+  "empirical_coverage_on_test": 0.83,
+  "target_coverage": 0.8,
+  "balanced_accuracy": 0.61,
+  "balanced_accuracy_ci95": [
+    0.51,
+    0.7
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "A1": "5/12",
+    "A2": "5/10",
+    "A3": "5/12",
+    "A4": "3/10",
+    "A5": "5/6"
+  },
+  "balanced_accuracy_ambik_rule": 0.61,
+  "auroc_ambiguous_vs_clear": {
+    "all_ambiguous": {
+      "n": 50,
+      "auroc": 0.6478
+    },
+    "A1": {
+      "n": 12,
+      "auroc": 0.64
+    },
+    "A2": {
+      "n": 10,
+      "auroc": 0.76
+    },
+    "A3": {
+      "n": 12,
+      "auroc": 0.48
+    },
+    "A4": {
+      "n": 10,
+      "auroc": 0.662
+    },
+    "A5": {
+      "n": 6,
+      "auroc": 0.7883
+    }
+  },
+  "note": "KnowNo's help rule applied as released: not-a-singleton OR contains option E. Rescored offline at option temperature 5."
+}

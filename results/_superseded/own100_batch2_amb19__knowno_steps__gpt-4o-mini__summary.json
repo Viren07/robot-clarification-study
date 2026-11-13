@@ -1,0 +1,73 @@
+[
+  {
+    "by_ambik_type_asked_total_correct": {
+      "preferences": "0/19 asked, 0/19 right"
+    },
+    "correct_help_rate": 0.0,
+    "method": "knowno, released cutoff (gpt-4o-mini)",
+    "total": 19,
+    "unparsed": 0,
+    "scored": 19,
+    "accuracy": 0.0,
+    "correct": 0,
+    "ask_rate_on_clear": null,
+    "asked_on_clear": "0/0",
+    "ask_rate_on_ambiguous": 0.0,
+    "asked_on_ambiguous": "0/19",
+    "ask_rate_by_ambiguity_type": {
+      "A6": "0/19"
+    }
+  },
+  {
+    "by_ambik_type_asked_total_correct": {
+      "preferences": "3/19 asked, 3/19 right"
+    },
+    "correct_help_rate": 0.1579,
+    "method": "knowno, standard cutoff (gpt-4o-mini)",
+    "total": 19,
+    "unparsed": 0,
+    "scored": 19,
+    "accuracy": 0.1579,
+    "correct": 3,
+    "ask_rate_on_clear": null,
+    "asked_on_clear": "0/0",
+    "ask_rate_on_ambiguous": 0.1579,
+    "asked_on_ambiguous": "3/19",
+    "ask_rate_by_ambiguity_type": {
+      "A6": "3/19"
+    }
+  },
+  {
+    "failed_items": 0,
+    "items": 19
+  },
+  {
+    "cutoff_free_check": {
+      "unsure_score": "1 - probability of the top option",
+      "clear_instructions": 0,
+      "auroc_ambiguous_vs_clear": {
+        "all_ambiguous": {
+          "n": 19,
+          "auroc": null
+        },
+        "A6": {
+          "n": 19,
+          "auroc": null
+        }
+      }
+    }
+  },
+  {
+    "calibration": {
+      "model": "gpt-4o-mini",
+      "utc": "2026-11-05T19:31:32+00:00",
+      "calibration_items": 100,
+      "items_without_correct_option": 37,
+      "n_success_probs": 96,
+      "eps": 0.2,
+      "q_level": 0.8125,
+      "released_cp_keep_if_p_greater_than": 1.0,
+      "standard_keep_if_p_at_least": 7.73438164625162e-08
+    }
+  }
+]

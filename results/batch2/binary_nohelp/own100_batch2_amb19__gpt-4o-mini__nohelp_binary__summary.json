@@ -1,0 +1,42 @@
+[
+  {
+    "by_ambik_type_asked_total_correct": {
+      "preferences": "0/19 asked, 0/19 right"
+    },
+    "correct_help_rate": 0.0,
+    "method": "no_help (never asks; no model call)",
+    "total": 19,
+    "unparsed": 0,
+    "scored": 19,
+    "balanced_accuracy": null,
+    "plain_accuracy_not_comparable_across_datasets": 0.0,
+    "correct": 0,
+    "ask_rate_on_clear": null,
+    "asked_on_clear": "0/0",
+    "ask_rate_on_ambiguous": 0.0,
+    "asked_on_ambiguous": "0/19",
+    "ask_rate_by_ambiguity_type": {
+      "A6": "0/19"
+    }
+  },
+  {
+    "by_ambik_type_asked_total_correct": {
+      "preferences": "0/19 asked, 0/19 right"
+    },
+    "correct_help_rate": 0.0,
+    "method": "binary (AmbiK-style)",
+    "total": 19,
+    "unparsed": 0,
+    "scored": 19,
+    "balanced_accuracy": null,
+    "plain_accuracy_not_comparable_across_datasets": 0.0,
+    "correct": 0,
+    "ask_rate_on_clear": null,
+    "asked_on_clear": "0/0",
+    "ask_rate_on_ambiguous": 0.0,
+    "asked_on_ambiguous": "0/19",
+    "ask_rate_by_ambiguity_type": {
+      "A6": "0/19"
+    }
+  }
+]

@@ -4,9 +4,12 @@ __pycache__/
 .venv/
 venv/
 
-# AmbiK data and results derived from it: not redistributed until the AmbiK dataset license is checked
+# AmbiK data and anything derived from it: not redistributed until the
+# AmbiK dataset licence is checked.
 data/ambik/
-results/ambik_*
-# dry-run test outputs
+results/ambik/
+results/_superseded/*ambik*
+
+# dry-run outputs
 results/DRYRUN/
-results/*DRYRUN*
+*DRYRUN*

@@ -1,0 +1,486 @@
+[
+ {
+  "id": "amb_b6_001",
+  "instruction": "Put the saucepan of leftover soup in the fridge, then wipe down the stovetop.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a toaster, a coffee machine with a full pot of fresh coffee, an electric kettle, a microwave, a stovetop, an oven, a fridge, a sink, a sponge, dish soap, a kitchen table, a cupboard, sliced white bread, sliced whole wheat bread, a stick of butter, slices of cheddar cheese, strawberry jam, a jar of honey in the cupboard, a jar of honey on the kitchen table, a jar of honey on the counter, peanut butter, six eggs, a frying pan, a saucepan, a spatula, a whisk, a mixing bowl, a red mug, a blue mug, a green mug with a chipped handle, a white mug of black coffee on the kitchen table, two clean drinking glasses, four clean white plates, a dirty plate with crumbs, a dirty fork and a dirty drinking glass on the kitchen table, a plate of leftover pancakes, a saucepan of leftover soup, a glass food container, a plastic food container, a spoon, a knife, a cutting board.",
+  "paired_with": null,
+  "why_ambiguous": "PRECONDITIONAL: the soup is in a saucepan off the stove. Cooling it first, or not, is a real fork.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the saucepan of leftover soup in the fridge.",
+   "Wipe down the stovetop."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "cool",
+  "scene_id": "S1"
+ },
+ {
+  "id": "amb_b6_002",
+  "instruction": "Take the nonstick baking sheet out of the oven and put it on the wire cooling rack.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: an oven, a stand mixer, a fridge, a counter, a sink, a cupboard, a bag of all-purpose flour, a bag of whole wheat flour, a bag of white sugar on the counter, a bag of white sugar in the cupboard, a bag of white sugar on the top shelf of the fridge, a bag of brown sugar, powdered sugar, baking soda, baking powder, a carton of eggs, salted butter, unsalted butter, milk, vanilla extract, chocolate chips, walnuts, cinnamon, a bowl of cookie dough, a springform pan, a plain round cake pan, a square baking dish, a muffin tray, a nonstick baking sheet, a rusty baking sheet, a rolling pin, a whisk, a spatula, a large mixing bowl, a small bowl, measuring cups, measuring spoons, a wire cooling rack, oven mitts, a timer, parchment paper, a baked cake on the cooling rack, a tub of vanilla frosting.",
+  "paired_with": null,
+  "why_ambiguous": "PRECONDITIONAL: the sheet is hot and oven mitts are in the scene, but the instruction does not mention them.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Take the nonstick baking sheet out of the oven.",
+   "Put it on the wire cooling rack."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "mitts",
+  "scene_id": "S3"
+ },
+ {
+  "id": "amb_b6_003",
+  "instruction": "Put the glass jar with the screw-top lid in the recycling bin, then wipe the counter with the spray cleaner.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a sink, a dishwasher with eco, normal and intensive cycles, a counter, a kitchen table, a cupboard, a fridge, a trash can, a recycling bin, a compost bin, a sponge, a scrub brush, dish soap, dishwasher tablets, a dish towel, paper towels, spray cleaner, a floor mop, a broom, a dustpan, a dirty frying pan in the sink, a dirty saucepan, four dirty bowls, a dirty mug on the counter, a dirty mug on the kitchen table, a dirty mug in the sink, dirty cutlery, a glass jar with a screw-top lid, a glass jar with a clip lid, two empty cans, an empty pizza box, an empty milk carton, a plate of food scraps, a dirty cutting board, a dirty knife, a wooden spoon.",
+  "paired_with": null,
+  "why_ambiguous": "PRECONDITIONAL: rinsing a jar before recycling it, or not, is a real fork the user did not state.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the glass jar with the screw-top lid in the recycling bin.",
+   "Wipe the counter with the spray cleaner."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "rinse",
+  "scene_id": "S7"
+ },
+ {
+  "id": "amb_b6_004",
+  "instruction": "Put the cherry tomatoes in the large salad bowl, then toss the salad with the tongs.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a sink, a counter, a kitchen table, a cupboard, a chef's knife, a paring knife, a serrated knife, a wooden cutting board, a plastic cutting board, a salad spinner, a large salad bowl containing a mixed salad, two small bowls, a colander, a grater, a peeler, a head of lettuce, spinach, kale, cherry tomatoes, a cucumber, carrots, a red onion, an avocado, a bell pepper, a jar of olives, feta cheese, croutons, olive oil, balsamic vinegar, lemon juice, a bottle of ranch dressing on the counter, a bottle of ranch dressing in the fridge, a bottle of ranch dressing in the cupboard, Caesar dressing, salt, pepper, tongs, two serving spoons.",
+  "paired_with": null,
+  "why_ambiguous": "PRECONDITIONAL: rinsing the tomatoes first, or not, is a real fork and the sink is in the scene.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the cherry tomatoes in the large salad bowl.",
+   "Toss the salad with the tongs."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "rinse|wash",
+  "scene_id": "S6"
+ },
+ {
+  "id": "amb_b6_005",
+  "instruction": "Put the tub of chocolate ice cream back in the freezer, then wipe the counter.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a freezer, a counter, a kitchen table, a cupboard, a sink, a microwave, a blender, a tub of vanilla ice cream in the top freezer drawer, a tub of vanilla ice cream in the bottom freezer drawer, a tub of vanilla ice cream in the freezer door, a tub of chocolate ice cream, a tub of strawberry ice cream, chocolate sauce, caramel sauce, sprinkles, whipped cream, bananas, strawberries, blueberries, a red tin of cookies, a blue tin of crackers, brownies, a pie, a cake, a bag of microwave popcorn, a bag of chips, a bag of pretzels, sliced cheese, a glass bowl, a plastic bowl, a ceramic bowl, a paper bowl, a ceramic plate, a paper plate, a glass plate, four matching dinner plates on the shelf, four spoons, napkins, an ice cream scoop, a cake knife.",
+  "paired_with": null,
+  "why_ambiguous": "PRECONDITIONAL: putting the lid on before it goes back, or not, is a real fork.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the tub of chocolate ice cream back in the freezer.",
+   "Wipe the counter."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "lid",
+  "scene_id": "S8"
+ },
+ {
+  "id": "amb_b6_006",
+  "instruction": "Put the cheese in the fridge, then put the canned beans in the pantry cupboard.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a freezer, a pantry cupboard, a counter, a kitchen table, a glass bowl, a wooden bowl, a metal bowl, a shopping bag on the kitchen table, a shopping bag on the counter, a shopping bag on the floor, a carton of milk, a carton of eggs, butter, yogurt, cheese, raw chicken breasts, raw ground beef, frozen peas, ice cream, a loaf of bread, apples, bananas, potatoes, onions, canned beans, a bag of rice with a green label, a bag of rice with a red label, pasta, a box of cereal, cookies, olive oil, paper towels, a bag of flour, freezer bags, a plastic food container, aluminum foil, a marker.",
+  "paired_with": null,
+  "why_ambiguous": "PRECONDITIONAL: wrapping the cheese first is a real fork; foil and freezer bags are in the scene.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the cheese in the fridge.",
+   "Put the canned beans in the pantry cupboard."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "foil|wrap|container",
+  "scene_id": "S9"
+ },
+ {
+  "id": "amb_b6_007",
+  "instruction": "Preheat the oven, then put the nonstick baking sheet of cookie dough in it and set the timer.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: an oven, a stand mixer, a fridge, a counter, a sink, a cupboard, a bag of all-purpose flour, a bag of whole wheat flour, a bag of white sugar on the counter, a bag of white sugar in the cupboard, a bag of white sugar on the top shelf of the fridge, a bag of brown sugar, powdered sugar, baking soda, baking powder, a carton of eggs, salted butter, unsalted butter, milk, vanilla extract, chocolate chips, walnuts, cinnamon, a bowl of cookie dough, a springform pan, a plain round cake pan, a square baking dish, a muffin tray, a nonstick baking sheet, a rusty baking sheet, a rolling pin, a whisk, a spatula, a large mixing bowl, a small bowl, measuring cups, measuring spoons, a wire cooling rack, oven mitts, a timer, parchment paper, a baked cake on the cooling rack, a tub of vanilla frosting.",
+  "paired_with": null,
+  "why_ambiguous": "PARAMETRIC: no temperature is given.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Preheat the oven.",
+   "Put the nonstick baking sheet of cookie dough in it.",
+   "Set the timer."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "325",
+  "scene_id": "S3"
+ },
+ {
+  "id": "amb_b6_008",
+  "instruction": "Boil the water in the large pot, add the spaghetti, and cook it.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a stovetop, an oven, a fridge, a sink, a counter, a kitchen table, a cupboard, a large pot, a medium pot with a glass lid, a pot of tomato sauce simmering on the stovetop, a colander, a frying pan, a wooden spoon, a ladle, a knife, a cutting board, a box of spaghetti in the cupboard, a box of penne on the counter, a box of fusilli on top of the fridge, a jar of tomato sauce, a jar of alfredo sauce, a jar of pesto, grated parmesan, mozzarella, olive oil, vegetable oil, salt, black pepper, chili flakes, garlic, onions, red bell peppers, mushrooms, ground beef, chicken breasts, canned tomatoes, two pasta bowls, two dinner plates, two forks.",
+  "paired_with": null,
+  "why_ambiguous": "PARAMETRIC: no cooking time is given.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Boil the water in the large pot.",
+   "Add the spaghetti.",
+   "Cook it."
+  ],
+  "ambiguity_step": 2,
+  "user_intent": "seven",
+  "scene_id": "S4"
+ },
+ {
+  "id": "amb_b6_009",
+  "instruction": "Put the dirty cutlery in the dishwasher, add one dishwasher tablet, and start it.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a sink, a dishwasher with eco, normal and intensive cycles, a counter, a kitchen table, a cupboard, a fridge, a trash can, a recycling bin, a compost bin, a sponge, a scrub brush, dish soap, dishwasher tablets, a dish towel, paper towels, spray cleaner, a floor mop, a broom, a dustpan, a dirty frying pan in the sink, a dirty saucepan, four dirty bowls, a dirty mug on the counter, a dirty mug on the kitchen table, a dirty mug in the sink, dirty cutlery, a glass jar with a screw-top lid, a glass jar with a clip lid, two empty cans, an empty pizza box, an empty milk carton, a plate of food scraps, a dirty cutting board, a dirty knife, a wooden spoon.",
+  "paired_with": null,
+  "why_ambiguous": "PARAMETRIC: the dishwasher has eco, normal and intensive cycles and none is named.",
+  "candidate_readings": 3,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the dirty cutlery in the dishwasher.",
+   "Add one dishwasher tablet.",
+   "Start it."
+  ],
+  "ambiguity_step": 2,
+  "user_intent": "eco",
+  "scene_id": "S7"
+ },
+ {
+  "id": "amb_b6_010",
+  "instruction": "Scramble two eggs in the frying pan, then slide them onto a clean white plate.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a toaster, a coffee machine with a full pot of fresh coffee, an electric kettle, a microwave, a stovetop, an oven, a fridge, a sink, a sponge, dish soap, a kitchen table, a cupboard, sliced white bread, sliced whole wheat bread, a stick of butter, slices of cheddar cheese, strawberry jam, a jar of honey in the cupboard, a jar of honey on the kitchen table, a jar of honey on the counter, peanut butter, six eggs, a frying pan, a saucepan, a spatula, a whisk, a mixing bowl, a red mug, a blue mug, a green mug with a chipped handle, a white mug of black coffee on the kitchen table, two clean drinking glasses, four clean white plates, a dirty plate with crumbs, a dirty fork and a dirty drinking glass on the kitchen table, a plate of leftover pancakes, a saucepan of leftover soup, a glass food container, a plastic food container, a spoon, a knife, a cutting board.",
+  "paired_with": null,
+  "why_ambiguous": "PARAMETRIC: no heat level is given and the stovetop is in the scene.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Scramble two eggs in the frying pan.",
+   "Slide them onto a clean white plate."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "low",
+  "scene_id": "S1"
+ },
+ {
+  "id": "amb_b6_011",
+  "instruction": "Warm the brownies in the microwave, then put them on the ceramic plate.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a freezer, a counter, a kitchen table, a cupboard, a sink, a microwave, a blender, a tub of vanilla ice cream in the top freezer drawer, a tub of vanilla ice cream in the bottom freezer drawer, a tub of vanilla ice cream in the freezer door, a tub of chocolate ice cream, a tub of strawberry ice cream, chocolate sauce, caramel sauce, sprinkles, whipped cream, bananas, strawberries, blueberries, a red tin of cookies, a blue tin of crackers, brownies, a pie, a cake, a bag of microwave popcorn, a bag of chips, a bag of pretzels, sliced cheese, a glass bowl, a plastic bowl, a ceramic bowl, a paper bowl, a ceramic plate, a paper plate, a glass plate, four matching dinner plates on the shelf, four spoons, napkins, an ice cream scoop, a cake knife.",
+  "paired_with": null,
+  "why_ambiguous": "PARAMETRIC: no warming time is given.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Warm the brownies in the microwave.",
+   "Put them on the ceramic plate."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "forty",
+  "scene_id": "S8"
+ },
+ {
+  "id": "amb_b6_012",
+  "instruction": "Put a chamomile tea bag in the white mug, pour hot water from the electric kettle over it, and let it steep.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a sink, a counter, a kitchen table, a cupboard, a blender, an electric kettle, a coffee grinder, a French press, black tea bags, green tea bags, chamomile tea bags, coffee beans, whole milk, a carton of oat milk on the counter, a carton of oat milk in the fridge, a carton of oat milk in the cupboard, almond milk, orange juice, apple juice, a lemon, a lime, three oranges, a banana, strawberries, an ice tray, an ice bucket, a sugar bowl, a jar of honey, mint leaves, a tall glass, two short glasses, a wine glass, a red mug, a blue mug, a white mug, a pitcher, a spoon, a box of straws, a bottle of sparkling water, a bottle of still water.",
+  "paired_with": null,
+  "why_ambiguous": "PARAMETRIC: no steeping time is given.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put a chamomile tea bag in the white mug.",
+   "Pour hot water from the electric kettle over it.",
+   "Let it steep."
+  ],
+  "ambiguity_step": 2,
+  "user_intent": "five",
+  "scene_id": "S5"
+ },
+ {
+  "id": "amb_b6_013",
+  "instruction": "Slice the raw chicken breasts and then the onions on the cutting board, and add both to the frying pan.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a stovetop, an oven, a fridge, a sink, a counter, a kitchen table, a cupboard, a large pot, a medium pot with a glass lid, a pot of tomato sauce simmering on the stovetop, a colander, a frying pan, a wooden spoon, a ladle, a knife, a cutting board, a box of spaghetti in the cupboard, a box of penne on the counter, a box of fusilli on top of the fridge, a jar of tomato sauce, a jar of alfredo sauce, a jar of pesto, grated parmesan, mozzarella, olive oil, vegetable oil, salt, black pepper, chili flakes, garlic, onions, red bell peppers, mushrooms, ground beef, chicken breasts, canned tomatoes, two pasta bowls, two dinner plates, two forks.",
+  "paired_with": null,
+  "why_ambiguous": "SEQUENTIAL: raw chicken before onions on one board needs the board washed between, which is not stated.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Slice the raw chicken breasts and then the onions on the cutting board.",
+   "Add both to the frying pan."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "wash|rinse",
+  "scene_id": "S4"
+ },
+ {
+  "id": "amb_b6_014",
+  "instruction": "Peel the carrots and then slice the cucumber on the wooden cutting board, and put both in the large salad bowl.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a sink, a counter, a kitchen table, a cupboard, a chef's knife, a paring knife, a serrated knife, a wooden cutting board, a plastic cutting board, a salad spinner, a large salad bowl containing a mixed salad, two small bowls, a colander, a grater, a peeler, a head of lettuce, spinach, kale, cherry tomatoes, a cucumber, carrots, a red onion, an avocado, a bell pepper, a jar of olives, feta cheese, croutons, olive oil, balsamic vinegar, lemon juice, a bottle of ranch dressing on the counter, a bottle of ranch dressing in the fridge, a bottle of ranch dressing in the cupboard, Caesar dressing, salt, pepper, tongs, two serving spoons.",
+  "paired_with": null,
+  "why_ambiguous": "SEQUENTIAL: whether the board is rinsed between the two is a real fork and is not stated.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Peel the carrots and then slice the cucumber on the wooden cutting board.",
+   "Put both in the large salad bowl."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "rinse|wash",
+  "scene_id": "S6"
+ },
+ {
+  "id": "amb_b6_015",
+  "instruction": "Wash the dirty frying pan and then the four dirty bowls in the sink, and leave them on the counter.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a sink, a dishwasher with eco, normal and intensive cycles, a counter, a kitchen table, a cupboard, a fridge, a trash can, a recycling bin, a compost bin, a sponge, a scrub brush, dish soap, dishwasher tablets, a dish towel, paper towels, spray cleaner, a floor mop, a broom, a dustpan, a dirty frying pan in the sink, a dirty saucepan, four dirty bowls, a dirty mug on the counter, a dirty mug on the kitchen table, a dirty mug in the sink, dirty cutlery, a glass jar with a screw-top lid, a glass jar with a clip lid, two empty cans, an empty pizza box, an empty milk carton, a plate of food scraps, a dirty cutting board, a dirty knife, a wooden spoon.",
+  "paired_with": null,
+  "why_ambiguous": "SEQUENTIAL: whether the water is changed between the greasy pan and the bowls is a real fork.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Wash the dirty frying pan and then the four dirty bowls in the sink.",
+   "Leave them on the counter."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "fresh|change the water|refill",
+  "scene_id": "S7"
+ },
+ {
+  "id": "amb_b6_016",
+  "instruction": "Whisk two eggs in the mixing bowl and then pour them into the frying pan.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a toaster, a coffee machine with a full pot of fresh coffee, an electric kettle, a microwave, a stovetop, an oven, a fridge, a sink, a sponge, dish soap, a kitchen table, a cupboard, sliced white bread, sliced whole wheat bread, a stick of butter, slices of cheddar cheese, strawberry jam, a jar of honey in the cupboard, a jar of honey on the kitchen table, a jar of honey on the counter, peanut butter, six eggs, a frying pan, a saucepan, a spatula, a whisk, a mixing bowl, a red mug, a blue mug, a green mug with a chipped handle, a white mug of black coffee on the kitchen table, two clean drinking glasses, four clean white plates, a dirty plate with crumbs, a dirty fork and a dirty drinking glass on the kitchen table, a plate of leftover pancakes, a saucepan of leftover soup, a glass food container, a plastic food container, a spoon, a knife, a cutting board.",
+  "paired_with": null,
+  "why_ambiguous": "SEQUENTIAL: whether the pan is heated before the eggs go in is a real fork and is not stated.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Whisk two eggs in the mixing bowl.",
+   "Pour them into the frying pan."
+  ],
+  "ambiguity_step": 1,
+  "user_intent": "heat|preheat|hot",
+  "scene_id": "S1"
+ },
+ {
+  "id": "amb_b6_017",
+  "instruction": "Put the tub of strawberry ice cream in the freezer, then put the whipped cream in the fridge.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a freezer, a counter, a kitchen table, a cupboard, a sink, a microwave, a blender, a tub of vanilla ice cream in the top freezer drawer, a tub of vanilla ice cream in the bottom freezer drawer, a tub of vanilla ice cream in the freezer door, a tub of chocolate ice cream, a tub of strawberry ice cream, chocolate sauce, caramel sauce, sprinkles, whipped cream, bananas, strawberries, blueberries, a red tin of cookies, a blue tin of crackers, brownies, a pie, a cake, a bag of microwave popcorn, a bag of chips, a bag of pretzels, sliced cheese, a glass bowl, a plastic bowl, a ceramic bowl, a paper bowl, a ceramic plate, a paper plate, a glass plate, four matching dinner plates on the shelf, four spoons, napkins, an ice cream scoop, a cake knife.",
+  "paired_with": null,
+  "why_ambiguous": "SPATIAL: the freezer has a top drawer, a bottom drawer and a door, and none is named.",
+  "candidate_readings": 3,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the tub of strawberry ice cream in the freezer.",
+   "Put the whipped cream in the fridge."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "top",
+  "scene_id": "S8"
+ },
+ {
+  "id": "amb_b6_018",
+  "instruction": "Put the glass water bottle in the fridge, then put the juice boxes in the cupboard.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a counter, a kitchen table, a cupboard, a sink, a red lunch box, a blue lunch box, a green lunch box, a steel water bottle on the counter, a plastic water bottle on the kitchen table, a glass water bottle in the fridge door, a thermos, one ice pack, sandwich bags, aluminum foil, cling wrap, snack bags, sliced bread, peanut butter, jelly, cheese sticks, a yogurt cup with a strawberry label, a yogurt cup with a vanilla label, a yogurt cup with a blueberry label, crackers, carrots, grapes, an apple, an oat granola bar, a chocolate granola bar, juice boxes, napkins, a butter knife, a spoon, a backpack.",
+  "paired_with": null,
+  "why_ambiguous": "SPATIAL: the fridge door is where the glass bottle lives, but the instruction says only 'the fridge'.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the glass water bottle in the fridge.",
+   "Put the juice boxes in the cupboard."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "door",
+  "scene_id": "S10"
+ },
+ {
+  "id": "amb_b6_019",
+  "instruction": "Put the bag of white sugar in the fridge, then put the bag of brown sugar in the cupboard.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: an oven, a stand mixer, a fridge, a counter, a sink, a cupboard, a bag of all-purpose flour, a bag of whole wheat flour, a bag of white sugar on the counter, a bag of white sugar in the cupboard, a bag of white sugar on the top shelf of the fridge, a bag of brown sugar, powdered sugar, baking soda, baking powder, a carton of eggs, salted butter, unsalted butter, milk, vanilla extract, chocolate chips, walnuts, cinnamon, a bowl of cookie dough, a springform pan, a plain round cake pan, a square baking dish, a muffin tray, a nonstick baking sheet, a rusty baking sheet, a rolling pin, a whisk, a spatula, a large mixing bowl, a small bowl, measuring cups, measuring spoons, a wire cooling rack, oven mitts, a timer, parchment paper, a baked cake on the cooling rack, a tub of vanilla frosting.",
+  "paired_with": null,
+  "why_ambiguous": "SPATIAL: the scene puts white sugar on the top shelf of the fridge; the instruction names no shelf.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the bag of white sugar in the fridge.",
+   "Put the bag of brown sugar in the cupboard."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "top shelf|top",
+  "scene_id": "S3"
+ },
+ {
+  "id": "amb_b6_020",
+  "instruction": "Put the butter away, then put the potatoes in the pantry cupboard.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a freezer, a pantry cupboard, a counter, a kitchen table, a glass bowl, a wooden bowl, a metal bowl, a shopping bag on the kitchen table, a shopping bag on the counter, a shopping bag on the floor, a carton of milk, a carton of eggs, butter, yogurt, cheese, raw chicken breasts, raw ground beef, frozen peas, ice cream, a loaf of bread, apples, bananas, potatoes, onions, canned beans, a bag of rice with a green label, a bag of rice with a red label, pasta, a box of cereal, cookies, olive oil, paper towels, a bag of flour, freezer bags, a plastic food container, aluminum foil, a marker.",
+  "paired_with": null,
+  "why_ambiguous": "SPATIAL: the fridge and the counter are both plausible for butter and neither is named.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Put the butter away.",
+   "Put the potatoes in the pantry cupboard."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "counter",
+  "scene_id": "S9"
+ },
+ {
+  "id": "amb_b6_021",
+  "instruction": "Stir the pot of tomato sauce, then taste it and add salt.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a stovetop, an oven, a fridge, a sink, a counter, a kitchen table, a cupboard, a large pot, a medium pot with a glass lid, a pot of tomato sauce simmering on the stovetop, a colander, a frying pan, a wooden spoon, a ladle, a knife, a cutting board, a box of spaghetti in the cupboard, a box of penne on the counter, a box of fusilli on top of the fridge, a jar of tomato sauce, a jar of alfredo sauce, a jar of pesto, grated parmesan, mozzarella, olive oil, vegetable oil, salt, black pepper, chili flakes, garlic, onions, red bell peppers, mushrooms, ground beef, chicken breasts, canned tomatoes, two pasta bowls, two dinner plates, two forks.",
+  "paired_with": null,
+  "why_ambiguous": "INSTRUMENTAL: the wooden spoon and the ladle are both in the scene and neither is named.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Stir the pot of tomato sauce.",
+   "Taste it and add salt."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "ladle",
+  "scene_id": "S4"
+ },
+ {
+  "id": "amb_b6_022",
+  "instruction": "Beat two eggs in the mixing bowl, then pour them into the frying pan.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a toaster, a coffee machine with a full pot of fresh coffee, an electric kettle, a microwave, a stovetop, an oven, a fridge, a sink, a sponge, dish soap, a kitchen table, a cupboard, sliced white bread, sliced whole wheat bread, a stick of butter, slices of cheddar cheese, strawberry jam, a jar of honey in the cupboard, a jar of honey on the kitchen table, a jar of honey on the counter, peanut butter, six eggs, a frying pan, a saucepan, a spatula, a whisk, a mixing bowl, a red mug, a blue mug, a green mug with a chipped handle, a white mug of black coffee on the kitchen table, two clean drinking glasses, four clean white plates, a dirty plate with crumbs, a dirty fork and a dirty drinking glass on the kitchen table, a plate of leftover pancakes, a saucepan of leftover soup, a glass food container, a plastic food container, a spoon, a knife, a cutting board.",
+  "paired_with": null,
+  "why_ambiguous": "INSTRUMENTAL: the whisk, the spatula and the spoon are all in the scene and none is named.",
+  "candidate_readings": 3,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Beat two eggs in the mixing bowl.",
+   "Pour them into the frying pan."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "spatula",
+  "scene_id": "S1"
+ },
+ {
+  "id": "amb_b6_023",
+  "instruction": "Wipe the counter, then put the dish towel back on the rail.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a sink, a dishwasher with eco, normal and intensive cycles, a counter, a kitchen table, a cupboard, a fridge, a trash can, a recycling bin, a compost bin, a sponge, a scrub brush, dish soap, dishwasher tablets, a dish towel, paper towels, spray cleaner, a floor mop, a broom, a dustpan, a dirty frying pan in the sink, a dirty saucepan, four dirty bowls, a dirty mug on the counter, a dirty mug on the kitchen table, a dirty mug in the sink, dirty cutlery, a glass jar with a screw-top lid, a glass jar with a clip lid, two empty cans, an empty pizza box, an empty milk carton, a plate of food scraps, a dirty cutting board, a dirty knife, a wooden spoon.",
+  "paired_with": null,
+  "why_ambiguous": "INSTRUMENTAL: the sponge, the paper towels, the dish towel and the spray cleaner are all in the scene.",
+  "candidate_readings": 4,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Wipe the counter.",
+   "Put the dish towel back on the rail."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "paper towel|paper towels",
+  "scene_id": "S7"
+ },
+ {
+  "id": "amb_b6_024",
+  "instruction": "Toss the mixed salad, then serve it in the two small bowls.",
+  "category": "ambiguous",
+  "ambiguity_type": "A7",
+  "instruction_type": "A7: generic term with a strong scene default, intent is the non-default",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a sink, a counter, a kitchen table, a cupboard, a chef's knife, a paring knife, a serrated knife, a wooden cutting board, a plastic cutting board, a salad spinner, a large salad bowl containing a mixed salad, two small bowls, a colander, a grater, a peeler, a head of lettuce, spinach, kale, cherry tomatoes, a cucumber, carrots, a red onion, an avocado, a bell pepper, a jar of olives, feta cheese, croutons, olive oil, balsamic vinegar, lemon juice, a bottle of ranch dressing on the counter, a bottle of ranch dressing in the fridge, a bottle of ranch dressing in the cupboard, Caesar dressing, salt, pepper, tongs, two serving spoons.",
+  "paired_with": null,
+  "why_ambiguous": "INSTRUMENTAL: the tongs and the two serving spoons are both in the scene and neither is named.",
+  "candidate_readings": 2,
+  "ambik_type": "preferences",
+  "ambik_should_ask": true,
+  "plan_steps": [
+   "Toss the mixed salad.",
+   "Serve it in the two small bowls."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "serving spoon|serving spoons",
+  "scene_id": "S6"
+ }
+]

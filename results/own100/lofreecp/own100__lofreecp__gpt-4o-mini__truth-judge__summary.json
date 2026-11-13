@@ -1,0 +1,107 @@
+{
+  "method": "LofreeCP (Su et al. 2024), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "embedder": "openai",
+  "dataset": "own100",
+  "calibration_set": "own_calib100_instructions__lofreecp__gpt-4o-mini__truth-judge__calib",
+  "m_samples": 20,
+  "temperature": 1.0,
+  "eps": 0.2,
+  "formula": "paper",
+  "truth_source": "judge model gpt-4o",
+  "lambda1": 0.15,
+  "lambda2": 0.1,
+  "qhat": -0.219195,
+  "keep_if_nonconformity_at_most": -0.219195,
+  "calibration_items_used": 50,
+  "calibration_items_whose_true_answer_was_absent": "5/100",
+  "items": 100,
+  "failed": 0,
+  "mean_distinct_responses": 4.22,
+  "mean_prediction_set_size": 1.45,
+  "asked_on_clear": "21/50",
+  "asked_on_clear_ci95": [
+    0.294,
+    0.558
+  ],
+  "asked_on_ambiguous": "25/50",
+  "asked_on_ambiguous_ci95": [
+    0.366,
+    0.634
+  ],
+  "empirical_coverage_on_test": 0.78,
+  "target_coverage": 0.8,
+  "prediction_set_collapsed": false,
+  "prediction_set_collapsed_note": "qhat finite; the prediction set is a genuine subset of the sampled responses.",
+  "test_items_whose_true_answer_was_absent": "4/100",
+  "empty_prediction_sets": "0 clear, 8 ambiguous",
+  "decision_and_correctness_rule": "AmbiK's own metrics.py: help_rate = len(set) > 1; correct_help_rate = len(set) == 1 on a clear item and len(set) > 1 on an ambiguous one. An empty set is therefore scored wrong on both, which is why balanced accuracy is not simply 1 - ask rate on the clear half.",
+  "correct_on_clear": "29/50",
+  "correct_on_ambiguous": "25/50",
+  "balanced_accuracy": 0.54,
+  "balanced_accuracy_ci95": [
+    0.44,
+    0.64
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "A1": "4/12",
+    "A2": "7/10",
+    "A3": "8/12",
+    "A4": "3/10",
+    "A5": "3/6"
+  },
+  "balanced_accuracy_ambik_rule": 0.54,
+  "auroc_by_one_minus_top_frequency": {
+    "all_ambiguous": {
+      "n": 50,
+      "auroc": 0.7842
+    },
+    "A1": {
+      "n": 12,
+      "auroc": 0.8708
+    },
+    "A2": {
+      "n": 10,
+      "auroc": 0.867
+    },
+    "A3": {
+      "n": 12,
+      "auroc": 0.7533
+    },
+    "A4": {
+      "n": 10,
+      "auroc": 0.619
+    },
+    "A5": {
+      "n": 6,
+      "auroc": 0.81
+    }
+  },
+  "auroc_by_normalized_entropy": {
+    "all_ambiguous": {
+      "n": 50,
+      "auroc": 0.825
+    },
+    "A1": {
+      "n": 12,
+      "auroc": 0.915
+    },
+    "A2": {
+      "n": 10,
+      "auroc": 0.915
+    },
+    "A3": {
+      "n": 12,
+      "auroc": 0.7658
+    },
+    "A4": {
+      "n": 10,
+      "auroc": 0.658
+    },
+    "A5": {
+      "n": 6,
+      "auroc": 0.8917
+    }
+  }
+}

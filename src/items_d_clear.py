@@ -1,0 +1,70 @@
+"""Batch 2 clear twins. Each is a MINIMAL PAIR with the amb_b2_* item of the same index:
+same scene, same sentence, same plan, same scored step. The only change is that the one
+under-specified noun phrase is pinned to a single scene object.
+
+This is the control the ambiguous half needs. Pairing batch 2 with own100's existing clear
+half would not work: batch 2 instructions run 32 words against own100's 12.5, so every
+method would get a free length cue. A minimal pair removes length, vocabulary, scene and
+structure as explanations, leaving only specification.
+
+Tuple: (scene_no, instruction, why, candidate_readings, plan_steps, scored_step_0based)
+"""
+B2_CLEAR = [
+ (1, "Take two slices of the whole wheat bread, toast them in the toaster until golden, spread a thin layer of butter on both slices with the knife, and put them on a clean white plate on the kitchen table.",
+  "The bread is named, so exactly one reading is supported.", 1,
+  ["Take two slices of the whole wheat bread.", "Toast them in the toaster until golden.", "Spread a thin layer of butter on both slices with the knife.", "Put them on a clean white plate on the kitchen table."], 0),
+ (1, "Take the green mug, fill it with coffee from the pot on the coffee machine, stir it with the spoon, and put it on the kitchen table next to a clean white plate.",
+  "The mug is named, so exactly one reading is supported.", 1,
+  ["Take the green mug.", "Fill it with coffee from the pot.", "Stir it with the spoon.", "Put it on the kitchen table next to a clean white plate."], 0),
+ (1, "Put the leftover pancakes on a clean white plate, warm them in the microwave for one minute, then top them with a pat of butter and a spoonful of honey from the jar in the cupboard and carry the plate to the kitchen table.",
+  "The honey jar is located, so exactly one of the three jars is meant.", 1,
+  ["Put the leftover pancakes on a clean white plate.", "Warm the plate in the microwave for one minute.", "Top the pancakes with a pat of butter.", "Add a spoonful of honey from the jar in the cupboard.", "Carry the plate to the kitchen table."], 3),
+ (5, "Boil water in the electric kettle, put a chamomile tea bag in the white mug, pour the hot water over it, let it steep for three minutes, and take the mug to the kitchen table.",
+  "The tea is named, so exactly one reading is supported.", 1,
+  ["Boil water in the electric kettle.", "Put a chamomile tea bag in the white mug.", "Pour the hot water over it.", "Let it steep for three minutes.", "Take the mug to the kitchen table."], 1),
+ (5, "Fill the tall glass with ice from the ice bucket, pour apple juice over the ice, add a straw, stir once with the spoon, and put the glass on the kitchen table.",
+  "The juice is named, so exactly one reading is supported.", 1,
+  ["Fill the tall glass with ice from the ice bucket.", "Pour apple juice over the ice.", "Add a straw.", "Stir once with the spoon.", "Put the glass on the kitchen table."], 1),
+ (5, "Put the banana and the strawberries in the blender with a cup of almond milk, blend until smooth, pour the smoothie into the tall glass, and put the glass on the kitchen table.",
+  "The milk is named, so exactly one reading is supported.", 1,
+  ["Put the banana and the strawberries in the blender.", "Add a cup of almond milk.", "Blend until smooth.", "Pour the smoothie into the tall glass.", "Put the glass on the kitchen table."], 1),
+ (5, "Slice the lemon, squeeze it into the pitcher, stir in a spoonful of sugar from the sugar bowl, fill the pitcher with sparkling water, stir with the spoon, and put the pitcher in the fridge.",
+  "The water is named, so exactly one reading is supported.", 1,
+  ["Slice the lemon.", "Squeeze it into the pitcher.", "Stir in a spoonful of sugar from the sugar bowl.", "Fill the pitcher with sparkling water.", "Stir with the spoon.", "Put the pitcher in the fridge."], 3),
+ (6, "Slice the cucumber and the red onion on the wooden cutting board with the chef's knife, put the slices in the large salad bowl, pour Caesar dressing over the salad, and toss it with the tongs.",
+  "The dressing is named, so exactly one reading is supported.", 1,
+  ["Slice the cucumber and the red onion on the wooden cutting board with the chef's knife.", "Put the slices in the large salad bowl.", "Pour Caesar dressing over the salad.", "Toss it with the tongs."], 2),
+ (6, "Take the serrated knife, slice the avocado on the wooden cutting board, scoop the pieces onto the salad in the large salad bowl, and sprinkle on a pinch of salt and pepper.",
+  "The knife is named, so exactly one reading is supported.", 1,
+  ["Take the serrated knife.", "Slice the avocado on the wooden cutting board.", "Scoop the pieces onto the salad in the large salad bowl.", "Sprinkle on a pinch of salt and pepper."], 0),
+ (7, "Pick up the dirty frying pan from the sink, scrub it clean with the scrub brush and dish soap, rinse it under the tap, dry it with the dish towel, and put it in the cupboard.",
+  "The scrubbing tool is named, so exactly one reading is supported.", 1,
+  ["Pick up the dirty frying pan from the sink.", "Scrub it clean with the scrub brush and dish soap.", "Rinse it under the tap.", "Dry it with the dish towel.", "Put it in the cupboard."], 1),
+ (7, "Put the four dirty bowls in the dishwasher, add one dishwasher tablet, close the door, and start the dishwasher on the normal cycle.",
+  "The cycle is named, so exactly one reading is supported.", 1,
+  ["Put the four dirty bowls in the dishwasher.", "Add one dishwasher tablet.", "Close the door.", "Start the dishwasher on the normal cycle."], 3),
+ (7, "Take the plate of food scraps, empty it into the trash can, wash the plate with the sponge and dish soap, rinse it, and put it on the counter.",
+  "The bin is named, so exactly one reading is supported.", 1,
+  ["Take the plate of food scraps.", "Empty it into the trash can.", "Wash the plate with the sponge and dish soap.", "Rinse it.", "Put it on the counter."], 1),
+ (8, "Take the ceramic bowl, put two scoops of chocolate ice cream in it with the ice cream scoop, drizzle on caramel sauce, and carry the bowl to the kitchen table.",
+  "The sauce is named, so exactly one reading is supported.", 1,
+  ["Take the ceramic bowl.", "Put two scoops of chocolate ice cream in it with the ice cream scoop.", "Drizzle on caramel sauce.", "Carry the bowl to the kitchen table."], 2),
+ (8, "Cut a slice of the cake with the cake knife, put it on the paper plate, add a scoop of chocolate ice cream beside it with the ice cream scoop, and serve it on the kitchen table.",
+  "Both the plate and the ice cream are named, so exactly one reading is supported.", 1,
+  ["Cut a slice of the cake with the cake knife.", "Put it on the paper plate.", "Add a scoop of chocolate ice cream beside it with the ice cream scoop.", "Serve it on the kitchen table."], 1),
+ (8, "Put the brownies on the glass plate, warm them in the microwave for twenty seconds, then drizzle on caramel sauce and add a spoonful of whipped cream and carry the plate to the kitchen table.",
+  "Both the plate and the sauce are named, so exactly one reading is supported.", 1,
+  ["Put the brownies on the glass plate.", "Warm them in the microwave for twenty seconds.", "Drizzle on caramel sauce.", "Add a spoonful of whipped cream.", "Carry the plate to the kitchen table."], 0),
+ (9, "Wash the apples in the sink, dry them with a paper towel, put them in the metal bowl, and place the bowl on the kitchen table.",
+  "The bowl is named, so exactly one reading is supported.", 1,
+  ["Wash the apples in the sink.", "Dry them with a paper towel.", "Put them in the metal bowl.", "Place the bowl on the kitchen table."], 2),
+ (9, "Pour two cups of rice from the bag with the red label into the metal bowl, rinse it twice in the sink, drain the water, and leave the bowl on the counter.",
+  "The bag of rice is named, so exactly one reading is supported.", 1,
+  ["Pour two cups of rice from the bag with the red label into the metal bowl.", "Rinse it twice in the sink.", "Drain the water.", "Leave the bowl on the counter."], 0),
+ (10, "Put the yogurt cup with the vanilla label, a spoon and a napkin into the blue lunch box, close the box, and put it in the backpack.",
+  "The yogurt is named, so exactly one reading is supported.", 1,
+  ["Put the yogurt cup with the vanilla label into the blue lunch box.", "Add a spoon and a napkin.", "Close the box.", "Put it in the backpack."], 0),
+ (10, "Wash the grapes in the sink, put them in a snack bag, add the oat granola bar, and place the snack bag in the green lunch box.",
+  "The granola bar is named, so exactly one reading is supported.", 1,
+  ["Wash the grapes in the sink.", "Put them in a snack bag.", "Add the oat granola bar.", "Place the snack bag in the green lunch box."], 2),
+]

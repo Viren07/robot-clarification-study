@@ -2,7 +2,7 @@
 Runs the intervention planner several times on an instruction file and keeps
 every run in its own file, so run-to-run variation can be measured and reported.
 
-Why: run_planner_pilot.py overwrites results/own114__planner__pilot_per_item.json each time, so the
+Why: a single planner run cannot show run-to-run variation, so this
 file on disk is only the latest run. Two saved runs of this planner disagreed
 (95/113 = 84.07% vs 93/113 = 82.30%) and there was no record of which was which.
 This script never overwrites an earlier run.
@@ -83,8 +83,23 @@ def main():
         out_dir = RESULTS / "DRYRUN"
     else:
         import intervention
-        from run_planner_pilot import call_with_retry
+        from intervention import plan_task
+
+        def call_with_retry(instruction, scene_context, max_retries=3):
+            """Was in run_planner_pilot.py, which is gone; same behaviour, same backoff."""
+            for attempt in range(1, max_retries + 1):
+                try:
+                    return plan_task(instruction, scene_context)
+                except Exception as e:
+                    print(f"  ! Error on attempt {attempt}/{max_retries}: {e}")
+                    if attempt == max_retries:
+                        return {"interpretations": [], "num_interpretations": None, "action": None,
+                                "plan": None, "clarifying_question": None,
+                                "raw": f"EXCEPTION: {e}", "parsed": False}
+                    time.sleep(5 * attempt)
         provider, model = intervention.LLM_PROVIDER, intervention.MODEL_NAME
+        if provider == "openai":  # keep OpenAI runs apart from the Groq runs
+            tag += "__" + model.replace("/", "-")
         prompt_hash = hashlib.sha256(intervention.SYSTEM_PROMPT.encode("utf-8")).hexdigest()[:12]
         retry = call_with_retry
         out_dir = RESULTS

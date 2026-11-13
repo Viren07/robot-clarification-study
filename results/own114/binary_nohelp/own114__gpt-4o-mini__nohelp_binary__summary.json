@@ -1,0 +1,42 @@
+[
+  {
+    "method": "no_help (never asks; no model call)",
+    "total": 114,
+    "unparsed": 0,
+    "scored": 114,
+    "balanced_accuracy": 0.5,
+    "plain_accuracy_not_comparable_across_datasets": 0.4386,
+    "correct": 50,
+    "ask_rate_on_clear": 0.0,
+    "asked_on_clear": "0/50",
+    "ask_rate_on_ambiguous": 0.0,
+    "asked_on_ambiguous": "0/64",
+    "ask_rate_by_ambiguity_type": {
+      "goal": "0/13",
+      "implicit": "0/12",
+      "mixed": "0/10",
+      "referential": "0/16",
+      "spatial": "0/13"
+    }
+  },
+  {
+    "method": "binary (AmbiK-style)",
+    "total": 114,
+    "unparsed": 0,
+    "scored": 114,
+    "balanced_accuracy": 0.5625,
+    "plain_accuracy_not_comparable_across_datasets": 0.5088,
+    "correct": 58,
+    "ask_rate_on_clear": 0.0,
+    "asked_on_clear": "0/50",
+    "ask_rate_on_ambiguous": 0.125,
+    "asked_on_ambiguous": "8/64",
+    "ask_rate_by_ambiguity_type": {
+      "goal": "1/13",
+      "implicit": "3/12",
+      "mixed": "1/10",
+      "referential": "2/16",
+      "spatial": "1/13"
+    }
+  }
+]

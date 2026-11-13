@@ -16,8 +16,10 @@ Methods
            Uncertain means ask. Certain means act.
 
 Deviations from AmbiK's released code (report these in the paper)
-  1. The unit is the whole instruction, not one plan step. AmbiK feeds the plan
-     step where the ambiguity starts. This dataset has no plans.
+  1. The unit: --plan-steps scores one plan step, as AmbiK's plans variant does and as
+     KnowNo, LAP and LofreeCP all do here. Without the flag the whole instruction is
+     scored, which is AmbiK's noplans variant. Use --plan-steps for any comparison
+     against the other methods.
   2. The scene is this dataset's prose scene_context, not an object list.
   3. The model is a chat model (Groq gpt-oss-120b), so the completion-style
      few-shot prompt is wrapped in a short instruction to continue the transcript
@@ -54,7 +56,6 @@ from collections import defaultdict
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "own114" / "own114_instructions.json"
 RESULTS = ROOT / "results"
-INTERVENTION = RESULTS / "own114__planner__pilot_per_item.json"  # older planner run, own114 only
 
 # Few-shot examples copied from AmbiK noplans_binary/prompts/uncertainty_detection.txt
 FEWSHOT = """We: You are a robot operating in an office kitchen. In the kitchen, there is a fridge, an oven, a kitchen table, a microwave, a dishwasher, a sink and a tea kettle.
@@ -84,18 +85,35 @@ FEWSHOT_NO_LABELS = "\n".join(
 )
 
 
-def item_block(scene, instruction):
-    return (f"We: The scene is described as follows: {scene}\n"
-            f"We: {instruction}\n")
+def item_block(scene, instruction, step=None):
+    """Without `step`, the unit is the whole instruction (AmbiK's noplans_binary).
+    With `step`, it is one plan step with the steps already done, which is what AmbiK's
+    plans variant does and what KnowNo, LAP and LofreeCP are all shown. Keeping Binary on
+    the same unit as the other three is the only way the comparison between them is fair."""
+    out = f"We: The scene is described as follows: {scene}\n"
+    if step is None:
+        return out + f"We: {instruction}\n"
+    prefix, action, _ = step
+    return out + f"We: You have received the task \u201c{instruction}\u201d {prefix}\n{action}\n"
 
 
-def prompt_generate(scene, instruction):
-    return FEWSHOT_NO_LABELS + "\n" + item_block(scene, instruction) + "You: I will"
+def prompt_generate(scene, instruction, step=None):
+    return FEWSHOT_NO_LABELS + "\n" + item_block(scene, instruction, step) + "You: I will"
 
 
-def prompt_uncertainty(scene, instruction, action_text):
-    return (FEWSHOT + "\n" + item_block(scene, instruction)
+def prompt_uncertainty(scene, instruction, action_text, step=None):
+    return (FEWSHOT + "\n" + item_block(scene, instruction, step)
             + f"You: I will {action_text}\nCertain/Uncertain:")
+
+
+def step_of(item):
+    """(prefix, action, done) for the plan step this item's ambiguity turns on."""
+    from run_knowno_v3 import prefix_and_action
+    plan = item.get("plan_steps")
+    if not plan:
+        raise SystemExit(f"{item['id']} has no plan_steps. Use a __replanned.json file, or drop "
+                         f"--plan-steps to score the whole instruction instead.")
+    return prefix_and_action(plan, item.get("ambiguity_step", 0))
 
 
 LABEL_RE = re.compile(r"\b(uncertain|certain)\b", re.IGNORECASE)
@@ -114,12 +132,28 @@ def make_client():
     from dotenv import load_dotenv
     from openai import OpenAI
     load_dotenv(ROOT / ".env")
+    if os.environ.get("LLM_PROVIDER", "groq").lower() == "openai":
+        if not os.environ.get("OPENAI_API_KEY"):
+            raise SystemExit("OPENAI_API_KEY is not set (check .env).")
+        return OpenAI(), os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
     key = os.environ.get("GROQ_API_KEY")
     if not key:
         raise SystemExit("GROQ_API_KEY is not set (check .env).")
     client = OpenAI(api_key=key, base_url="https://api.groq.com/openai/v1")
     model = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
     return client, model
+
+
+def provider_suffix():
+    """OpenAI runs get the model in the file name, so they never overwrite the Groq results."""
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(ROOT / ".env")
+    except ImportError:  # dry runs on a machine without python-dotenv
+        pass
+    if os.environ.get("LLM_PROVIDER", "groq").lower() == "openai":
+        return "__" + os.environ.get("OPENAI_MODEL", "gpt-4o-mini").replace("/", "-")
+    return ""
 
 
 def chat(client, model, prompt, retries=6):
@@ -164,7 +198,7 @@ def is_correct(category, asked):
     return asked if category == "ambiguous" else (not asked)
 
 
-def summarize(rows, name):
+def summarize(rows, name, unit="NOT RECORDED"):
     """rows: dicts with category, ambiguity_type, asked (True/False/None)."""
     scored = [r for r in rows if r["asked"] is not None]
     clear = [r for r in scored if r["category"] == "unambiguous"]
@@ -185,13 +219,23 @@ def summarize(rows, name):
             t[k][2] += int(bool(r["asked"]) == bool(r["should_ask"]))
         extra["by_ambik_type_asked_total_correct"] = {k: f"{v[0]}/{v[1]} asked, {v[2]}/{v[1]} right" for k, v in sorted(t.items())}
         extra["correct_help_rate"] = round(sum(v[2] for v in t.values()) / len(scored), 4)
+    # Balanced decision accuracy is the project's metric. Plain accuracy is also reported, but it
+    # depends on how many clear vs ambiguous items a dataset holds, so it is NOT comparable across
+    # datasets: No Help scores 0.50 balanced on every dataset but 50/114 plain on own114.
+    bal = None
+    if clear and amb:
+        bal = round(((1 - sum(r["asked"] for r in clear) / len(clear))
+                     + sum(r["asked"] for r in amb) / len(amb)) / 2, 4)
     return {
         **extra,
         "method": name,
+        "scored_unit": unit,
+        "comparable_to_knowno_lap_lofreecp": unit == "one plan step",
         "total": len(rows),
         "unparsed": len(rows) - len(scored),
         "scored": len(scored),
-        "accuracy": round(correct / len(scored), 4) if scored else None,
+        "balanced_accuracy": bal,
+        "plain_accuracy_not_comparable_across_datasets": round(correct / len(scored), 4) if scored else None,
         "correct": correct,
         "ask_rate_on_clear": round(sum(r["asked"] for r in clear) / len(clear), 4) if clear else None,
         "asked_on_clear": f"{sum(r['asked'] for r in clear)}/{len(clear)}",
@@ -210,12 +254,17 @@ def main():
                     help="re-parse the saved raw answers and rebuild the summary; no API calls")
     ap.add_argument("--data", default=None,
                     help="instruction file to run, e.g. data/ambik/ambik_sample200_instructions.json")
+    ap.add_argument("--plan-steps", action="store_true",
+                    help="score one plan step, the same unit KnowNo, LAP and LofreeCP see "
+                         "(AmbiK's plans variant). Needs a __replanned.json file.")
     ap.add_argument("--tag", default="",
                     help="dataset name used in output file names (default: taken from the data file name)")
     args = ap.parse_args()
 
     data_path = Path(args.data) if args.data else DATA
-    tag = args.tag or data_path.stem.removesuffix("_instructions")
+    tag = (args.tag or data_path.stem.removesuffix("_instructions")) + provider_suffix()
+    if args.plan_steps:
+        tag += "__planstep"
     RESULTS.mkdir(exist_ok=True)
     out_jsonl = RESULTS / f"{tag}__binary__per_item.jsonl"
     out_summary = RESULTS / f"{tag}__nohelp_binary__summary.json"
@@ -244,7 +293,7 @@ def main():
     client = model = None
     if not args.dry_run and not args.rescore:
         client, model = make_client()
-        print(f"Using Groq model: {model}")
+        print(f"Using model: {model}")
 
     with out_path.open("a", encoding="utf-8") as f:
         for i, item in enumerate(data, 1):
@@ -253,11 +302,12 @@ def main():
             if item["id"] in done:
                 continue
             scene, instr = item["scene_context"], item["instruction"]
-            p1 = prompt_generate(scene, instr)
+            step = step_of(item) if args.plan_steps else None
+            p1 = prompt_generate(scene, instr, step)
             a = mock_chat(p1) if args.dry_run else chat(client, model, p1)
             action_text = a.strip().split("\n")[0].strip()
             action_text = re.sub(r"^(you:\s*)?(i will\s*)", "", action_text, flags=re.IGNORECASE)
-            p2 = prompt_uncertainty(scene, instr, action_text)
+            p2 = prompt_uncertainty(scene, instr, action_text, step)
             raw = mock_chat(p2) if args.dry_run else chat(client, model, p2)
             label = parse_label(raw)
             rec = {
@@ -278,24 +328,16 @@ def main():
             done[item["id"]] = rec
 
     recs = [done[x["id"]] for x in data if x["id"] in done]
+    unit = "one plan step" if args.plan_steps else "the whole instruction"
     summaries = []
     summaries.append(summarize(
         [{"category": r["category"], "ambiguity_type": r["ambiguity_type"], "asked": False,
           "ambik_type": r.get("ambik_type"), "should_ask": r.get("should_ask")} for r in recs],
-        "no_help (never asks; no model call)"))
+        "no_help (never asks; no model call)", unit))
     summaries.append(summarize(
         [{"category": r["category"], "ambiguity_type": r["ambiguity_type"], "asked": r["binary_asked"],
           "ambik_type": r.get("ambik_type"), "should_ask": r.get("should_ask")} for r in recs],
-        "binary (AmbiK-style, Groq)"))
-
-    if INTERVENTION.exists() and tag == "own114":
-        iv = {r["id"]: r for r in json.loads(INTERVENTION.read_text(encoding="utf-8"))}
-        rows = []
-        for r in recs:
-            a = iv.get(r["id"], {}).get("action")
-            rows.append({"category": r["category"], "ambiguity_type": r["ambiguity_type"],
-                         "asked": None if a not in ("clarify", "execute") else (a == "clarify")})
-        summaries.append(summarize(rows, "intervention planner (saved pilot run)"))
+        "binary (AmbiK-style)", unit))
 
     print("\n" + json.dumps(summaries, indent=2))
     if not args.dry_run:

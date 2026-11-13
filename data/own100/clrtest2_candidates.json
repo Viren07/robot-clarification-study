@@ -1,0 +1,170 @@
+[
+ {
+  "id": "unamb_c2_001",
+  "instruction": "Rinse the cherry tomatoes and put them in the large salad bowl, then put the croutons and the feta cheese in the bowl too.",
+  "category": "unambiguous",
+  "ambiguity_type": null,
+  "instruction_type": "C2: one of several interchangeable sub-actions",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a sink, a counter, a kitchen table, a cupboard, a chef's knife, a paring knife, a serrated knife, a wooden cutting board, a plastic cutting board, a salad spinner, a large salad bowl containing a mixed salad, two small bowls, a colander, a grater, a peeler, a head of lettuce, spinach, kale, cherry tomatoes, a cucumber, carrots, a red onion, an avocado, a bell pepper, a jar of olives, feta cheese, croutons, olive oil, balsamic vinegar, lemon juice, a bottle of ranch dressing on the counter, a bottle of ranch dressing in the fridge, a bottle of ranch dressing in the cupboard, Caesar dressing, salt, pepper, tongs, two serving spoons.",
+  "paired_with": null,
+  "why_ambiguous": "A: precondition folded into step 0, put-verb, three same-kind objects.",
+  "candidate_readings": 1,
+  "ambik_type": "unambiguous_direct",
+  "ambik_should_ask": false,
+  "plan_steps": [
+   "Rinse the cherry tomatoes and put them in the large salad bowl.",
+   "Put the croutons in the large salad bowl.",
+   "Put the feta cheese in the large salad bowl."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "cherry tomatoes|tomatoes, salad bowl",
+  "scene_id": "S6"
+ },
+ {
+  "id": "unamb_c2_002",
+  "instruction": "Let the saucepan of leftover soup cool and put it in the fridge, then put the plate of leftover pancakes and the slices of cheddar cheese in the fridge too.",
+  "category": "unambiguous",
+  "ambiguity_type": null,
+  "instruction_type": "C2: one of several interchangeable sub-actions",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a toaster, a coffee machine with a full pot of fresh coffee, an electric kettle, a microwave, a stovetop, an oven, a fridge, a sink, a sponge, dish soap, a kitchen table, a cupboard, sliced white bread, sliced whole wheat bread, a stick of butter, slices of cheddar cheese, strawberry jam, a jar of honey in the cupboard, a jar of honey on the kitchen table, a jar of honey on the counter, peanut butter, six eggs, a frying pan, a saucepan, a spatula, a whisk, a mixing bowl, a red mug, a blue mug, a green mug with a chipped handle, a white mug of black coffee on the kitchen table, two clean drinking glasses, four clean white plates, a dirty plate with crumbs, a dirty fork and a dirty drinking glass on the kitchen table, a plate of leftover pancakes, a saucepan of leftover soup, a glass food container, a plastic food container, a spoon, a knife, a cutting board.",
+  "paired_with": null,
+  "why_ambiguous": "A: precondition folded into step 0, put-verb, three same-kind objects.",
+  "candidate_readings": 1,
+  "ambik_type": "unambiguous_direct",
+  "ambik_should_ask": false,
+  "plan_steps": [
+   "Let the saucepan of leftover soup cool and put it in the fridge.",
+   "Put the plate of leftover pancakes in the fridge.",
+   "Put the slices of cheddar cheese in the fridge."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "saucepan|soup, fridge",
+  "scene_id": "S1"
+ },
+ {
+  "id": "unamb_c2_003",
+  "instruction": "Rinse the glass jar with the screw-top lid and put it in the recycling bin, then put the two empty cans and the empty milk carton in the bin too.",
+  "category": "unambiguous",
+  "ambiguity_type": null,
+  "instruction_type": "C2: one of several interchangeable sub-actions",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a sink, a dishwasher with eco, normal and intensive cycles, a counter, a kitchen table, a cupboard, a fridge, a trash can, a recycling bin, a compost bin, a sponge, a scrub brush, dish soap, dishwasher tablets, a dish towel, paper towels, spray cleaner, a floor mop, a broom, a dustpan, a dirty frying pan in the sink, a dirty saucepan, four dirty bowls, a dirty mug on the counter, a dirty mug on the kitchen table, a dirty mug in the sink, dirty cutlery, a glass jar with a screw-top lid, a glass jar with a clip lid, two empty cans, an empty pizza box, an empty milk carton, a plate of food scraps, a dirty cutting board, a dirty knife, a wooden spoon.",
+  "paired_with": null,
+  "why_ambiguous": "A: precondition folded into step 0, put-verb, three same-kind objects.",
+  "candidate_readings": 1,
+  "ambik_type": "unambiguous_direct",
+  "ambik_should_ask": false,
+  "plan_steps": [
+   "Rinse the glass jar with the screw-top lid and put it in the recycling bin.",
+   "Put the two empty cans in the recycling bin.",
+   "Put the empty milk carton in the recycling bin."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "jar, recycling",
+  "scene_id": "S7"
+ },
+ {
+  "id": "unamb_c2_004",
+  "instruction": "Wrap the cheese in the aluminium foil and put it in the fridge, then put the carton of milk and the yogurt in the fridge too.",
+  "category": "unambiguous",
+  "ambiguity_type": null,
+  "instruction_type": "C2: one of several interchangeable sub-actions",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a freezer, a pantry cupboard, a counter, a kitchen table, a glass bowl, a wooden bowl, a metal bowl, a shopping bag on the kitchen table, a shopping bag on the counter, a shopping bag on the floor, a carton of milk, a carton of eggs, butter, yogurt, cheese, raw chicken breasts, raw ground beef, frozen peas, ice cream, a loaf of bread, apples, bananas, potatoes, onions, canned beans, a bag of rice with a green label, a bag of rice with a red label, pasta, a box of cereal, cookies, olive oil, paper towels, a bag of flour, freezer bags, a plastic food container, aluminum foil, a marker.",
+  "paired_with": null,
+  "why_ambiguous": "A: precondition folded into step 0, put-verb, three same-kind objects.",
+  "candidate_readings": 1,
+  "ambik_type": "unambiguous_direct",
+  "ambik_should_ask": false,
+  "plan_steps": [
+   "Wrap the cheese in the aluminium foil and put it in the fridge.",
+   "Put the carton of milk in the fridge.",
+   "Put the yogurt in the fridge."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "cheese, fridge",
+  "scene_id": "S9"
+ },
+ {
+  "id": "unamb_c2_005",
+  "instruction": "Refill the sink with fresh water and wash the four dirty bowls, then wash the dirty cutlery and the dirty saucepan.",
+  "category": "unambiguous",
+  "ambiguity_type": null,
+  "instruction_type": "C2: one of several interchangeable sub-actions",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a sink, a dishwasher with eco, normal and intensive cycles, a counter, a kitchen table, a cupboard, a fridge, a trash can, a recycling bin, a compost bin, a sponge, a scrub brush, dish soap, dishwasher tablets, a dish towel, paper towels, spray cleaner, a floor mop, a broom, a dustpan, a dirty frying pan in the sink, a dirty saucepan, four dirty bowls, a dirty mug on the counter, a dirty mug on the kitchen table, a dirty mug in the sink, dirty cutlery, a glass jar with a screw-top lid, a glass jar with a clip lid, two empty cans, an empty pizza box, an empty milk carton, a plate of food scraps, a dirty cutting board, a dirty knife, a wooden spoon.",
+  "paired_with": null,
+  "why_ambiguous": "B: precondition folded into step 0, destination-free verb, three same-kind objects.",
+  "candidate_readings": 1,
+  "ambik_type": "unambiguous_direct",
+  "ambik_should_ask": false,
+  "plan_steps": [
+   "Refill the sink with fresh water and wash the four dirty bowls.",
+   "Wash the dirty cutlery.",
+   "Wash the dirty saucepan."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "bowls",
+  "scene_id": "S7"
+ },
+ {
+  "id": "unamb_c2_006",
+  "instruction": "Rinse the grater and grate the feta cheese into the large salad bowl, then grate the carrots and the red onion in as well.",
+  "category": "unambiguous",
+  "ambiguity_type": null,
+  "instruction_type": "C2: one of several interchangeable sub-actions",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a sink, a counter, a kitchen table, a cupboard, a chef's knife, a paring knife, a serrated knife, a wooden cutting board, a plastic cutting board, a salad spinner, a large salad bowl containing a mixed salad, two small bowls, a colander, a grater, a peeler, a head of lettuce, spinach, kale, cherry tomatoes, a cucumber, carrots, a red onion, an avocado, a bell pepper, a jar of olives, feta cheese, croutons, olive oil, balsamic vinegar, lemon juice, a bottle of ranch dressing on the counter, a bottle of ranch dressing in the fridge, a bottle of ranch dressing in the cupboard, Caesar dressing, salt, pepper, tongs, two serving spoons.",
+  "paired_with": null,
+  "why_ambiguous": "B: precondition folded into step 0, destination-free verb, three same-kind objects.",
+  "candidate_readings": 1,
+  "ambik_type": "unambiguous_direct",
+  "ambik_should_ask": false,
+  "plan_steps": [
+   "Rinse the grater and grate the feta cheese into the large salad bowl.",
+   "Grate the carrots into the large salad bowl.",
+   "Grate the red onion into the large salad bowl."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "feta, salad bowl|bowl",
+  "scene_id": "S6"
+ },
+ {
+  "id": "unamb_c2_007",
+  "instruction": "Rinse the ice cream scoop and scoop the chocolate ice cream into the ceramic bowl, then scoop the strawberry ice cream and the vanilla ice cream in too.",
+  "category": "unambiguous",
+  "ambiguity_type": null,
+  "instruction_type": "C2: one of several interchangeable sub-actions",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a freezer, a counter, a kitchen table, a cupboard, a sink, a microwave, a blender, a tub of vanilla ice cream in the top freezer drawer, a tub of vanilla ice cream in the bottom freezer drawer, a tub of vanilla ice cream in the freezer door, a tub of chocolate ice cream, a tub of strawberry ice cream, chocolate sauce, caramel sauce, sprinkles, whipped cream, bananas, strawberries, blueberries, a red tin of cookies, a blue tin of crackers, brownies, a pie, a cake, a bag of microwave popcorn, a bag of chips, a bag of pretzels, sliced cheese, a glass bowl, a plastic bowl, a ceramic bowl, a paper bowl, a ceramic plate, a paper plate, a glass plate, four matching dinner plates on the shelf, four spoons, napkins, an ice cream scoop, a cake knife.",
+  "paired_with": null,
+  "why_ambiguous": "B: precondition folded into step 0, destination-free verb, three same-kind objects.",
+  "candidate_readings": 1,
+  "ambik_type": "unambiguous_direct",
+  "ambik_should_ask": false,
+  "plan_steps": [
+   "Rinse the ice cream scoop and scoop the chocolate ice cream into the ceramic bowl.",
+   "Scoop the strawberry ice cream into the ceramic bowl.",
+   "Scoop the vanilla ice cream into the ceramic bowl."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "chocolate, ceramic bowl|bowl",
+  "scene_id": "S8"
+ },
+ {
+  "id": "unamb_c2_008",
+  "instruction": "Rinse the wooden cutting board and slice the cucumber on it, then slice the red onion and the avocado on the board too.",
+  "category": "unambiguous",
+  "ambiguity_type": null,
+  "instruction_type": "C2: one of several interchangeable sub-actions",
+  "scene_context": "You are a robot in a kitchen. The kitchen contains: a fridge, a sink, a counter, a kitchen table, a cupboard, a chef's knife, a paring knife, a serrated knife, a wooden cutting board, a plastic cutting board, a salad spinner, a large salad bowl containing a mixed salad, two small bowls, a colander, a grater, a peeler, a head of lettuce, spinach, kale, cherry tomatoes, a cucumber, carrots, a red onion, an avocado, a bell pepper, a jar of olives, feta cheese, croutons, olive oil, balsamic vinegar, lemon juice, a bottle of ranch dressing on the counter, a bottle of ranch dressing in the fridge, a bottle of ranch dressing in the cupboard, Caesar dressing, salt, pepper, tongs, two serving spoons.",
+  "paired_with": null,
+  "why_ambiguous": "B: precondition folded into step 0, destination-free verb, three same-kind objects.",
+  "candidate_readings": 1,
+  "ambik_type": "unambiguous_direct",
+  "ambik_should_ask": false,
+  "plan_steps": [
+   "Rinse the wooden cutting board and slice the cucumber on it.",
+   "Slice the red onion on the wooden cutting board.",
+   "Slice the avocado on the wooden cutting board."
+  ],
+  "ambiguity_step": 0,
+  "user_intent": "cucumber, cutting board|board",
+  "scene_id": "S6"
+ }
+]

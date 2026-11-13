@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "prompt_sha256_12": "555c8229896d"
+  },
+  "runs": [
+    {
+      "total": 100,
+      "malformed": 0,
+      "correct": 77,
+      "scored": 100,
+      "accuracy": 0.77,
+      "asked_on_clear": "21/50",
+      "asked_on_ambiguous": "48/50"
+    },
+    {
+      "total": 100,
+      "malformed": 1,
+      "correct": 75,
+      "scored": 99,
+      "accuracy": 0.7576,
+      "asked_on_clear": "22/49",
+      "asked_on_ambiguous": "48/50"
+    },
+    {
+      "total": 100,
+      "malformed": 0,
+      "correct": 79,
+      "scored": 100,
+      "accuracy": 0.79,
+      "asked_on_clear": "19/50",
+      "asked_on_ambiguous": "48/50"
+    }
+  ],
+  "accuracy_mean": 0.7725,
+  "accuracy_min": 0.7576,
+  "accuracy_max": 0.79,
+  "items_whose_decision_changed_between_runs": 8,
+  "changed_ids": [
+    "unamb_v2_007",
+    "unamb_v2_014",
+    "unamb_v2_023",
+    "unamb_v2_034",
+    "unamb_v2_038",
+    "unamb_v2_050",
+    "amb_a4_003",
+    "amb_a5_005"
+  ]
+}

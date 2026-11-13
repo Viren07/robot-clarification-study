@@ -1,0 +1,52 @@
+[
+  {
+    "by_ambik_type_asked_total_correct": {
+      "?": "0/50 asked, 50/50 right",
+      "preferences": "0/50 asked, 0/50 right"
+    },
+    "correct_help_rate": 0.5,
+    "method": "no_help (never asks; no model call)",
+    "total": 100,
+    "unparsed": 0,
+    "scored": 100,
+    "balanced_accuracy": 0.5,
+    "plain_accuracy_not_comparable_across_datasets": 0.5,
+    "correct": 50,
+    "ask_rate_on_clear": 0.0,
+    "asked_on_clear": "0/50",
+    "ask_rate_on_ambiguous": 0.0,
+    "asked_on_ambiguous": "0/50",
+    "ask_rate_by_ambiguity_type": {
+      "A1": "0/12",
+      "A2": "0/10",
+      "A3": "0/12",
+      "A4": "0/10",
+      "A5": "0/6"
+    }
+  },
+  {
+    "by_ambik_type_asked_total_correct": {
+      "?": "2/50 asked, 48/50 right",
+      "preferences": "5/50 asked, 5/50 right"
+    },
+    "correct_help_rate": 0.53,
+    "method": "binary (AmbiK-style)",
+    "total": 100,
+    "unparsed": 0,
+    "scored": 100,
+    "balanced_accuracy": 0.53,
+    "plain_accuracy_not_comparable_across_datasets": 0.53,
+    "correct": 53,
+    "ask_rate_on_clear": 0.04,
+    "asked_on_clear": "2/50",
+    "ask_rate_on_ambiguous": 0.1,
+    "asked_on_ambiguous": "5/50",
+    "ask_rate_by_ambiguity_type": {
+      "A1": "3/12",
+      "A2": "2/10",
+      "A3": "0/12",
+      "A4": "0/10",
+      "A5": "0/6"
+    }
+  }
+]

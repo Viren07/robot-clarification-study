@@ -1,0 +1,55 @@
+{
+  "method": "knowno (Ren et al. 2023), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "dataset": "pilot68",
+  "calibration_set": "own_calib100_instructions",
+  "eps": 0.2,
+  "calibration_items_used": 100,
+  "quantile_level": 0.81,
+  "qhat": 0.92497,
+  "keep_if_p_at_least": 0.07503,
+  "mc_temperature": 5.0,
+  "items": 68,
+  "failed": 0,
+  "asked_on_clear": "17/34",
+  "asked_on_clear_ci95": [
+    0.341,
+    0.659
+  ],
+  "asked_on_ambiguous": "10/34",
+  "asked_on_ambiguous_ci95": [
+    0.168,
+    0.462
+  ],
+  "empirical_coverage_on_test": 0.941,
+  "target_coverage": 0.8,
+  "balanced_accuracy": 0.3971,
+  "balanced_accuracy_ci95": [
+    0.279,
+    0.515
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "preconditional": "7/17",
+    "sequential": "3/17"
+  },
+  "balanced_accuracy_ambik_rule": 0.3971,
+  "auroc_ambiguous_vs_clear": {
+    "all_ambiguous": {
+      "n": 34,
+      "auroc": 0.3945
+    },
+    "preconditional": {
+      "n": 17,
+      "auroc": 0.3815
+    },
+    "sequential": {
+      "n": 17,
+      "auroc": 0.4074
+    }
+  },
+  "truth_source_requested": "judge",
+  "truth_source_actually_used": "judge",
+  "calibration_items_with_no_matching_option": "26/100",
+  "calibration_mean_true_options": 1.69
+}

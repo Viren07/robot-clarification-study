@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "prompt_sha256_12": "555c8229896d"
+  },
+  "runs": [
+    {
+      "total": 114,
+      "malformed": 0,
+      "correct": 103,
+      "scored": 114,
+      "accuracy": 0.9035,
+      "asked_on_clear": "4/50",
+      "asked_on_ambiguous": "57/64"
+    }
+  ],
+  "accuracy_mean": 0.9035,
+  "accuracy_min": 0.9035,
+  "accuracy_max": 0.9035,
+  "items_whose_decision_changed_between_runs": 0,
+  "changed_ids": []
+}

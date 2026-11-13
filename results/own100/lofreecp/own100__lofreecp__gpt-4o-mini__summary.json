@@ -1,0 +1,100 @@
+{
+  "method": "LofreeCP (Su et al. 2024), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "embedder": "openai",
+  "dataset": "own100",
+  "calibration_set": "own_calib100_instructions",
+  "m_samples": 20,
+  "temperature": 1.0,
+  "eps": 0.2,
+  "formula": "paper",
+  "truth_source": "dataset user_intent (is_similar match)",
+  "lambda1": 0.0,
+  "lambda2": 0.0,
+  "qhat": 1000000.0,
+  "keep_if_nonconformity_at_most": 1000000.0,
+  "calibration_items_used": 50,
+  "calibration_items_whose_true_answer_was_absent": "28/100",
+  "items": 100,
+  "failed": 0,
+  "mean_distinct_responses": 4.24,
+  "mean_prediction_set_size": 4.24,
+  "asked_on_clear": "35/50",
+  "asked_on_clear_ci95": [
+    0.562,
+    0.809
+  ],
+  "asked_on_ambiguous": "47/50",
+  "asked_on_ambiguous_ci95": [
+    0.838,
+    0.979
+  ],
+  "empirical_coverage_on_test": 0.68,
+  "target_coverage": 0.8,
+  "balanced_accuracy": 0.62,
+  "balanced_accuracy_ci95": [
+    0.55,
+    0.69
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "A1": "12/12",
+    "A2": "10/10",
+    "A3": "11/12",
+    "A4": "8/10",
+    "A5": "6/6"
+  },
+  "balanced_accuracy_ambik_rule": 0.62,
+  "auroc_by_one_minus_top_frequency": {
+    "all_ambiguous": {
+      "n": 50,
+      "auroc": 0.7602
+    },
+    "A1": {
+      "n": 12,
+      "auroc": 0.8892
+    },
+    "A2": {
+      "n": 10,
+      "auroc": 0.792
+    },
+    "A3": {
+      "n": 12,
+      "auroc": 0.6867
+    },
+    "A4": {
+      "n": 10,
+      "auroc": 0.639
+    },
+    "A5": {
+      "n": 6,
+      "auroc": 0.7983
+    }
+  },
+  "auroc_by_normalized_entropy": {
+    "all_ambiguous": {
+      "n": 50,
+      "auroc": 0.811
+    },
+    "A1": {
+      "n": 12,
+      "auroc": 0.97
+    },
+    "A2": {
+      "n": 10,
+      "auroc": 0.851
+    },
+    "A3": {
+      "n": 12,
+      "auroc": 0.7192
+    },
+    "A4": {
+      "n": 10,
+      "auroc": 0.673
+    },
+    "A5": {
+      "n": 6,
+      "auroc": 0.84
+    }
+  }
+}

@@ -1,2 +1,10 @@
 openai>=1.0.0
 python-dotenv>=1.0.0
+numpy
+pandas
+# tiktoken: resolves the option-letter token ids for logit_bias, which KnowNo and LAP need
+# for forced-choice scoring. Without it they fall back to natural logprobs; report that.
+tiktoken
+# gensim: only for `run_lofreecp.py --embedder fasttext`, which reproduces the paper's
+# FastText similarity term. The default OpenAI embedder needs nothing extra.
+gensim

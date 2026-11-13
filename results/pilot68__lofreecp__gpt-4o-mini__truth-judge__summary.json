@@ -1,0 +1,80 @@
+{
+  "method": "LofreeCP (Su et al. 2024), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "embedder": "openai",
+  "dataset": "pilot68",
+  "calibration_set": "own_calib100_instructions",
+  "m_samples": 20,
+  "temperature": 1.0,
+  "eps": 0.2,
+  "formula": "paper",
+  "truth_source": "judge model gpt-4o",
+  "lambda1": 0.15,
+  "lambda2": 0.1,
+  "qhat": -0.219195,
+  "keep_if_nonconformity_at_most": -0.219195,
+  "calibration_items_used": 50,
+  "calibration_items_whose_true_answer_was_absent": "5/100",
+  "items": 68,
+  "failed": 0,
+  "mean_distinct_responses": 3.59,
+  "mean_prediction_set_size": 1.28,
+  "asked_on_clear": "10/34",
+  "asked_on_clear_ci95": [
+    0.168,
+    0.462
+  ],
+  "asked_on_ambiguous": "11/34",
+  "asked_on_ambiguous_ci95": [
+    0.191,
+    0.492
+  ],
+  "empirical_coverage_on_test": 0.676,
+  "target_coverage": 0.8,
+  "prediction_set_collapsed": false,
+  "prediction_set_collapsed_note": "qhat finite; the prediction set is a genuine subset of the sampled responses.",
+  "test_items_whose_true_answer_was_absent": "2/68",
+  "empty_prediction_sets": "3 clear, 0 ambiguous",
+  "decision_and_correctness_rule": "AmbiK's own metrics.py: help_rate = len(set) > 1; correct_help_rate = len(set) == 1 on a clear item and len(set) > 1 on an ambiguous one. An empty set is therefore scored wrong on both, which is why balanced accuracy is not simply 1 - ask rate on the clear half.",
+  "correct_on_clear": "21/34",
+  "correct_on_ambiguous": "11/34",
+  "balanced_accuracy": 0.4706,
+  "balanced_accuracy_ci95": [
+    0.353,
+    0.574
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "preconditional": "8/17",
+    "sequential": "3/17"
+  },
+  "balanced_accuracy_ambik_rule": 0.4706,
+  "auroc_by_one_minus_top_frequency": {
+    "all_ambiguous": {
+      "n": 34,
+      "auroc": 0.3914
+    },
+    "preconditional": {
+      "n": 17,
+      "auroc": 0.4844
+    },
+    "sequential": {
+      "n": 17,
+      "auroc": 0.2984
+    }
+  },
+  "auroc_by_normalized_entropy": {
+    "all_ambiguous": {
+      "n": 34,
+      "auroc": 0.4018
+    },
+    "preconditional": {
+      "n": 17,
+      "auroc": 0.4792
+    },
+    "sequential": {
+      "n": 17,
+      "auroc": 0.3244
+    }
+  }
+}

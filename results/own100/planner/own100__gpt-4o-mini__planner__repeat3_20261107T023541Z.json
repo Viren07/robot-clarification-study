@@ -1,0 +1,820 @@
+{
+  "meta": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "system_prompt_sha256_12": "555c8229896d",
+    "utc": "20261107T023541Z"
+  },
+  "summary": {
+    "total": 100,
+    "malformed": 0,
+    "correct": 79,
+    "scored": 100,
+    "accuracy": 0.79,
+    "asked_on_clear": "19/50",
+    "asked_on_ambiguous": "48/50"
+  },
+  "rows": [
+    {
+      "id": "unamb_v2_001",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_002",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_003",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_004",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_005",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 0
+    },
+    {
+      "id": "unamb_v2_006",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_007",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_008",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_009",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_010",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_011",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_012",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_013",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_014",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_015",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_016",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_017",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_018",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_019",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_020",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_021",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_022",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_023",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_024",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_025",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_026",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_027",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_028",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_029",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_030",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_031",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_032",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_033",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_034",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_035",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_036",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_037",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_038",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_039",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_040",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_041",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_042",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_043",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "unamb_v2_044",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_045",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_046",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_047",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_048",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 3
+    },
+    {
+      "id": "unamb_v2_049",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "unamb_v2_050",
+      "category": "unambiguous",
+      "ambiguity_type": null,
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "amb_a1_001",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 5
+    },
+    {
+      "id": "amb_a1_002",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 4
+    },
+    {
+      "id": "amb_a1_003",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a1_004",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a1_005",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a1_006",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 4
+    },
+    {
+      "id": "amb_a1_007",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 24
+    },
+    {
+      "id": "amb_a1_008",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a1_009",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 4
+    },
+    {
+      "id": "amb_a1_010",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 5
+    },
+    {
+      "id": "amb_a1_011",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a1_012",
+      "category": "ambiguous",
+      "ambiguity_type": "A1",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a2_001",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 0
+    },
+    {
+      "id": "amb_a2_002",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a2_003",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 0
+    },
+    {
+      "id": "amb_a2_004",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 10
+    },
+    {
+      "id": "amb_a2_005",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a2_006",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 10
+    },
+    {
+      "id": "amb_a2_007",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 0
+    },
+    {
+      "id": "amb_a2_008",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 0
+    },
+    {
+      "id": "amb_a2_009",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 0
+    },
+    {
+      "id": "amb_a2_010",
+      "category": "ambiguous",
+      "ambiguity_type": "A2",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 0
+    },
+    {
+      "id": "amb_a3_001",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a3_002",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a3_003",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 5
+    },
+    {
+      "id": "amb_a3_004",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a3_005",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a3_006",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a3_007",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a3_008",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a3_009",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a3_010",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a3_011",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a3_012",
+      "category": "ambiguous",
+      "ambiguity_type": "A3",
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 10
+    },
+    {
+      "id": "amb_a4_001",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a4_002",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a4_003",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "execute",
+      "num_interpretations": 1
+    },
+    {
+      "id": "amb_a4_004",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 4
+    },
+    {
+      "id": "amb_a4_005",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a4_006",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a4_007",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a4_008",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a4_009",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a4_010",
+      "category": "ambiguous",
+      "ambiguity_type": "A4",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a5_001",
+      "category": "ambiguous",
+      "ambiguity_type": "A5",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 4
+    },
+    {
+      "id": "amb_a5_002",
+      "category": "ambiguous",
+      "ambiguity_type": "A5",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 5
+    },
+    {
+      "id": "amb_a5_003",
+      "category": "ambiguous",
+      "ambiguity_type": "A5",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 3
+    },
+    {
+      "id": "amb_a5_004",
+      "category": "ambiguous",
+      "ambiguity_type": "A5",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    },
+    {
+      "id": "amb_a5_005",
+      "category": "ambiguous",
+      "ambiguity_type": "A5",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 7
+    },
+    {
+      "id": "amb_a5_006",
+      "category": "ambiguous",
+      "ambiguity_type": "A5",
+      "parsed": true,
+      "action": "clarify",
+      "num_interpretations": 2
+    }
+  ]
+}
