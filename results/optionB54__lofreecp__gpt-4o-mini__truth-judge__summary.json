@@ -1,0 +1,116 @@
+{
+  "method": "LofreeCP (Su et al. 2024), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "embedder": "openai",
+  "dataset": "optionB54",
+  "calibration_set": "optionB_calib27",
+  "m_samples": 20,
+  "temperature": 1.0,
+  "eps": 0.2,
+  "formula": "paper",
+  "truth_source": "judge model gpt-4o",
+  "lambda1": 0.0,
+  "lambda2": 1.05,
+  "qhat": -0.969601,
+  "keep_if_nonconformity_at_most": -0.969601,
+  "calibration_items_used": 27,
+  "calibration_items_whose_true_answer_was_absent": "3/54",
+  "items": 108,
+  "failed": 0,
+  "mean_distinct_responses": 3.86,
+  "mean_prediction_set_size": 2.06,
+  "asked_on_clear": "25/54",
+  "asked_on_clear_ci95": [
+    0.337,
+    0.594
+  ],
+  "asked_on_ambiguous": "28/54",
+  "asked_on_ambiguous_ci95": [
+    0.389,
+    0.646
+  ],
+  "empirical_coverage_on_test": 0.815,
+  "target_coverage": 0.8,
+  "prediction_set_collapsed": false,
+  "prediction_set_collapsed_note": "qhat finite; the prediction set is a genuine subset of the sampled responses.",
+  "test_items_whose_true_answer_was_absent": "1/108",
+  "empty_prediction_sets": "5 clear, 1 ambiguous",
+  "decision_and_correctness_rule": "AmbiK's own metrics.py: help_rate = len(set) > 1; correct_help_rate = len(set) == 1 on a clear item and len(set) > 1 on an ambiguous one. An empty set is therefore scored wrong on both, which is why balanced accuracy is not simply 1 - ask rate on the clear half.",
+  "correct_on_clear": "24/54",
+  "correct_on_ambiguous": "28/54",
+  "balanced_accuracy": 0.4815,
+  "balanced_accuracy_ci95": [
+    0.389,
+    0.583
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "instrumental": "4/11",
+    "parametric": "3/9",
+    "preconditional": "7/9",
+    "referential": "5/7",
+    "sequential": "3/9",
+    "spatial": "6/9"
+  },
+  "balanced_accuracy_ambik_rule": 0.4815,
+  "auroc_by_one_minus_top_frequency": {
+    "all_ambiguous": {
+      "n": 54,
+      "auroc": 0.5111
+    },
+    "referential": {
+      "n": 7,
+      "auroc": 0.6111
+    },
+    "instrumental": {
+      "n": 11,
+      "auroc": 0.4815
+    },
+    "parametric": {
+      "n": 9,
+      "auroc": 0.4907
+    },
+    "spatial": {
+      "n": 9,
+      "auroc": 0.5844
+    },
+    "sequential": {
+      "n": 9,
+      "auroc": 0.3663
+    },
+    "preconditional": {
+      "n": 9,
+      "auroc": 0.5617
+    }
+  },
+  "auroc_by_normalized_entropy": {
+    "all_ambiguous": {
+      "n": 54,
+      "auroc": 0.5225
+    },
+    "referential": {
+      "n": 7,
+      "auroc": 0.6138
+    },
+    "instrumental": {
+      "n": 11,
+      "auroc": 0.468
+    },
+    "parametric": {
+      "n": 9,
+      "auroc": 0.5247
+    },
+    "spatial": {
+      "n": 9,
+      "auroc": 0.5977
+    },
+    "sequential": {
+      "n": 9,
+      "auroc": 0.3837
+    },
+    "preconditional": {
+      "n": 9,
+      "auroc": 0.5792
+    }
+  }
+}

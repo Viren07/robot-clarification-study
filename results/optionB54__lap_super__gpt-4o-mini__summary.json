@@ -1,0 +1,89 @@
+{
+  "method": "LAP (super) (Mullen and Manocha 2024), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "dataset": "optionB54",
+  "calibration_set": "optionB_calib27__gpt-4o-mini__truth-judge",
+  "eps": 0.2,
+  "calibration_items_used": 54,
+  "quantile_level": 0.8148,
+  "qhat": 0.921848,
+  "keep_if_p_at_least": 0.078152,
+  "mc_temperature": "pre-scaled by caller",
+  "items": 108,
+  "failed": 0,
+  "asked_on_clear": "24/54",
+  "asked_on_clear_ci95": [
+    0.32,
+    0.576
+  ],
+  "asked_on_ambiguous": "21/54",
+  "asked_on_ambiguous_ci95": [
+    0.27,
+    0.522
+  ],
+  "empirical_coverage_on_test": 0.898,
+  "target_coverage": 0.8,
+  "balanced_accuracy": 0.4722,
+  "balanced_accuracy_ci95": [
+    0.38,
+    0.565
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "instrumental": "5/11",
+    "parametric": "4/9",
+    "preconditional": "2/9",
+    "referential": "3/7",
+    "sequential": "2/9",
+    "spatial": "5/9"
+  },
+  "balanced_accuracy_ambik_rule": 0.4722,
+  "auroc_ambiguous_vs_clear": {
+    "all_ambiguous": {
+      "n": 54,
+      "auroc": 0.4438
+    },
+    "referential": {
+      "n": 7,
+      "auroc": 0.4735
+    },
+    "instrumental": {
+      "n": 11,
+      "auroc": 0.4562
+    },
+    "parametric": {
+      "n": 9,
+      "auroc": 0.5617
+    },
+    "spatial": {
+      "n": 9,
+      "auroc": 0.4897
+    },
+    "sequential": {
+      "n": 9,
+      "auroc": 0.428
+    },
+    "preconditional": {
+      "n": 9,
+      "auroc": 0.2572
+    }
+  },
+  "variant": "super",
+  "mc_temperature_of_p_star": 5.0,
+  "note": "generation and p* reused from the KnowNo run so both methods see identical options",
+  "a_perc_not_run": "The paper's third affordance, perception-based a_perc (CLIP or ViLD over camera images), cannot run on text-only instruction data. This LAP is therefore a_pr x a_c only, which is weaker than the paper's full method. Report as a deviation.",
+  "true_options_source": "inherited from optionB_calib27__knowno_v3__gpt-4o-mini__truth-judge__calib.jsonl (truth_source=judge)",
+  "true_options_labelled_by": "judge",
+  "calib_options_with_a_c_zero": "26/216",
+  "calib_items_where_every_option_infeasible": "1/54",
+  "calib_items_where_true_option_scored_zero": "3/54",
+  "calib_a_pr_mean": 0.9145,
+  "calib_a_pr_below_0.5": "19/216",
+  "calib_items_where_a_pr_is_flat_across_options": "19/54",
+  "test_options_with_a_c_zero": "54/432",
+  "test_items_where_every_option_infeasible": "1/108",
+  "test_items_where_true_option_scored_zero": "2/108",
+  "test_a_pr_mean": 0.9062,
+  "test_a_pr_below_0.5": "40/432",
+  "test_items_where_a_pr_is_flat_across_options": "30/108"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "by_ambik_type_asked_total_correct": {
+      "preferences": "0/54 asked, 0/54 right",
+      "unambiguous_direct": "0/54 asked, 54/54 right"
+    },
+    "correct_help_rate": 0.5,
+    "method": "no_help (never asks; no model call)",
+    "scored_unit": "one plan step",
+    "comparable_to_knowno_lap_lofreecp": true,
+    "total": 108,
+    "unparsed": 0,
+    "scored": 108,
+    "balanced_accuracy": 0.5,
+    "plain_accuracy_not_comparable_across_datasets": 0.5,
+    "correct": 54,
+    "ask_rate_on_clear": 0.0,
+    "asked_on_clear": "0/54",
+    "ask_rate_on_ambiguous": 0.0,
+    "asked_on_ambiguous": "0/54",
+    "ask_rate_by_ambiguity_type": {
+      "instrumental": "0/11",
+      "parametric": "0/9",
+      "preconditional": "0/9",
+      "referential": "0/7",
+      "sequential": "0/9",
+      "spatial": "0/9"
+    }
+  },
+  {
+    "by_ambik_type_asked_total_correct": {
+      "preferences": "1/54 asked, 1/54 right",
+      "unambiguous_direct": "1/54 asked, 53/54 right"
+    },
+    "correct_help_rate": 0.5,
+    "method": "binary (AmbiK-style)",
+    "scored_unit": "one plan step",
+    "comparable_to_knowno_lap_lofreecp": true,
+    "total": 108,
+    "unparsed": 0,
+    "scored": 108,
+    "balanced_accuracy": 0.5,
+    "plain_accuracy_not_comparable_across_datasets": 0.5,
+    "correct": 54,
+    "ask_rate_on_clear": 0.0185,
+    "asked_on_clear": "1/54",
+    "ask_rate_on_ambiguous": 0.0185,
+    "asked_on_ambiguous": "1/54",
+    "ask_rate_by_ambiguity_type": {
+      "instrumental": "0/11",
+      "parametric": "0/9",
+      "preconditional": "1/9",
+      "referential": "0/7",
+      "sequential": "0/9",
+      "spatial": "0/9"
+    }
+  }
+]
