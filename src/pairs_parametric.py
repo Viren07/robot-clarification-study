@@ -8,3 +8,7 @@ from pairs_group2 import PAIRS as _TEST
 from pairs_group2_calib import PAIRS as _CALIB
 
 PAIRS = [p for p in _TEST + _CALIB if p["sub"] == "parametric"]
+
+# Expansion to 34 pairs per group; families chosen to not repeat the ones above.
+from pairs_group2_more import PAIRS as _MORE
+PAIRS = PAIRS + [p for p in _MORE if p["sub"] == "parametric"]

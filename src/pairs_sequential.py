@@ -112,3 +112,7 @@ PAIRS = [
    c='Wipe the cake knife after the cake and cut a slice of the pie, then cut the brownies and the sliced cheese with it too.',
    cp=['Wipe the cake knife after the cake and cut a slice of the pie.', 'Cut the brownies with the cake knife.', 'Cut the sliced cheese with the cake knife.'], ci=0, cintent='pie, cake knife|knife'),
 ]
+
+# Group 3 expansion: 8 more test pairs, families chosen to not repeat the ones above.
+from pairs_group3_more import PAIRS as _MORE
+PAIRS = PAIRS + [p for p in _MORE if p["sub"] == "sequential"]

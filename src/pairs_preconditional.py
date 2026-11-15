@@ -38,8 +38,8 @@ PAIRS = [
    a="Put the cheese in the fridge, then put the canned beans in the pantry cupboard.",
    ap=["Put the cheese in the fridge.", "Put the canned beans in the pantry cupboard."], ai=0,
    intent="foil|wrap|container",
-   c='Wrap the cheese in the aluminium foil and put it in the fridge, then put the carton of milk and the yogurt in the fridge too.',
-   cp=['Wrap the cheese in the aluminium foil and put it in the fridge.', 'Put the carton of milk in the fridge.', 'Put the yogurt in the fridge.'], ci=0, cintent='cheese, fridge'),
+   c='Wrap the cheese in the aluminum foil and put it in the fridge, then put the carton of milk and the yogurt in the fridge too.',
+   cp=['Wrap the cheese in the aluminum foil and put it in the fridge.', 'Put the carton of milk in the fridge.', 'Put the yogurt in the fridge.'], ci=0, cintent='cheese, fridge'),
  dict(sc=2, why="letting the soup cool before it goes in a plastic thermos",
    a="Pour the tomato soup from the pot into the plastic thermos, then put the thermos in the lunch box.",
    ap=["Pour the tomato soup from the pot into the plastic thermos.",
@@ -105,3 +105,7 @@ PAIRS = [
    c='Put the sliced ham in the zip bag and put the bag in the fridge, then put the jar of mayonnaise and the sliced Swiss cheese in the fridge.',
    cp=['Put the sliced ham in the zip bag and put the bag in the fridge.', 'Put the jar of mayonnaise in the fridge.', 'Put the sliced swiss cheese in the fridge.'], ci=0, cintent='ham, fridge'),
 ]
+
+# Group 3 expansion: 8 more test pairs, families chosen to not repeat the ones above.
+from pairs_group3_more import PAIRS as _MORE
+PAIRS = PAIRS + [p for p in _MORE if p["sub"] == "preconditional"]

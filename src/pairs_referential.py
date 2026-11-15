@@ -8,3 +8,7 @@ from pairs_group1 import PAIRS as _TEST
 from pairs_group1_calib import PAIRS as _CALIB
 
 PAIRS = [p for p in _TEST + _CALIB if p["sub"] == "referential"]
+
+# Expansion to 34 pairs per group; families chosen to not repeat the ones above.
+from pairs_group1_more import PAIRS as _MORE
+PAIRS = PAIRS + [p for p in _MORE if p["sub"] == "referential"]
