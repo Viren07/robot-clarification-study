@@ -1,0 +1,75 @@
+{
+  "method": "knowno (Ren et al. 2023), split conformal",
+  "backbone": "gpt-4o-mini",
+  "judge_model": "gpt-4o",
+  "dataset": "final102",
+  "calibration_set": "final_calib27",
+  "eps": 0.2,
+  "calibration_items_used": 54,
+  "quantile_level": 0.8148,
+  "qhat": 0.84855,
+  "keep_if_p_at_least": 0.15145,
+  "mc_temperature": 5.0,
+  "items": 204,
+  "failed": 0,
+  "asked_on_clear": "44/102",
+  "asked_on_clear_ci95": [
+    0.339,
+    0.528
+  ],
+  "asked_on_ambiguous": "35/102",
+  "asked_on_ambiguous_ci95": [
+    0.258,
+    0.439
+  ],
+  "empirical_coverage_on_test": 0.824,
+  "target_coverage": 0.8,
+  "balanced_accuracy": 0.4559,
+  "balanced_accuracy_ci95": [
+    0.397,
+    0.529
+  ],
+  "ask_rate_by_ambiguity_type": {
+    "instrumental": "6/17",
+    "parametric": "6/17",
+    "preconditional": "6/17",
+    "referential": "7/17",
+    "sequential": "3/17",
+    "spatial": "7/17"
+  },
+  "balanced_accuracy_ambik_rule": 0.4559,
+  "auroc_ambiguous_vs_clear": {
+    "all_ambiguous": {
+      "n": 102,
+      "auroc": 0.439
+    },
+    "referential": {
+      "n": 17,
+      "auroc": 0.4815
+    },
+    "instrumental": {
+      "n": 17,
+      "auroc": 0.4619
+    },
+    "parametric": {
+      "n": 17,
+      "auroc": 0.4204
+    },
+    "spatial": {
+      "n": 17,
+      "auroc": 0.5254
+    },
+    "sequential": {
+      "n": 17,
+      "auroc": 0.357
+    },
+    "preconditional": {
+      "n": 17,
+      "auroc": 0.3878
+    }
+  },
+  "truth_source_requested": "judge",
+  "truth_source_actually_used": "judge",
+  "calibration_items_with_no_matching_option": "15/54",
+  "calibration_mean_true_options": 1.37
+}
